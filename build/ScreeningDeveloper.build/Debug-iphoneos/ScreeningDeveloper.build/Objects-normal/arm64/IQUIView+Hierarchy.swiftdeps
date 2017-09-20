@@ -1,0 +1,1240 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6UIView", ""]
+- ["CSo8NSObject", ""]
+- ["CSo6UIView", "viewController"]
+- ["CSo6UIView", "topMostController"]
+- ["CSo6UIView", "superviewOfClassType"]
+- ["CSo6UIView", "responderSiblings"]
+- ["CSo6UIView", "deepResponderViews"]
+- ["CSo6UIView", "isSearchBarTextField"]
+- ["CSo6UIView", "isAlertViewTextField"]
+- ["CSo6UIView", "convertTransformToView"]
+- ["CSo8NSObject", "_IQDescription"]
+provides-dynamic-lookup:
+- "_IQDescription"
+- "convertTransformToView"
+- "deepResponderViews"
+- "isAlertViewTextField"
+- "isSearchBarTextField"
+- "responderSiblings"
+- "superviewOfClassType"
+- "topMostController"
+- "viewController"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGAffineTransform"
+- "CastingPrecedence"
+- !private "Int"
+- "NSObject"
+- !private "NSStringFromClass"
+- "String"
+- !private "StringLiteralType"
+- !private "UIAlertController"
+- !private "UIResponder"
+- !private "UIScrollView"
+- !private "UISearchBar"
+- !private "UITableView"
+- !private "UITableViewCell"
+- !private "UITextField"
+- !private "UITextView"
+- "UIView"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+depends-member:
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "NSStringFromClass"]
+- !private ["Ps9AnyObject", "UIAlertController"]
+- !private ["Ps9AnyObject", "UIScrollView"]
+- !private ["Ps9AnyObject", "UISearchBar"]
+- !private ["Ps9AnyObject", "UITableView"]
+- !private ["Ps9AnyObject", "UITableViewCell"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "UIViewController"]
+- !private ["Ps9AnyObject", "Unmanaged"]
+- !private ["Ps9AnyObject", "_IQcanBecomeFirstResponder"]
+- !private ["Ps9AnyObject", "alpha"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "convert"]
+- !private ["Ps9AnyObject", "convertTransformToView"]
+- !private ["Ps9AnyObject", "deepResponderViews"]
+- !private ["Ps9AnyObject", "depth"]
+- !private ["Ps9AnyObject", "hasPrefix"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isAlertViewTextField"]
+- !private ["Ps9AnyObject", "isEditable"]
+- !private ["Ps9AnyObject", "isEnabled"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "isKind"]
+- !private ["Ps9AnyObject", "isSearchBarTextField"]
+- !private ["Ps9AnyObject", "isUserInteractionEnabled"]
+- !private ["Ps9AnyObject", "next"]
+- !private ["Ps9AnyObject", "presentedViewController"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "subviews"]
+- !private ["Ps9AnyObject", "superview"]
+- !private ["Ps9AnyObject", "transform"]
+- !private ["Ps9AnyObject", "viewController"]
+- !private ["Ps9AnyObject", "window"]
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "sorted"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "contains"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "sorted"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "CGAffineTransform"]
+- !private ["PSo15CALayerDelegate", "NSStringFromClass"]
+- !private ["PSo15CALayerDelegate", "UIAlertController"]
+- !private ["PSo15CALayerDelegate", "UIScrollView"]
+- !private ["PSo15CALayerDelegate", "UISearchBar"]
+- !private ["PSo15CALayerDelegate", "UITableView"]
+- !private ["PSo15CALayerDelegate", "UITableViewCell"]
+- !private ["PSo15CALayerDelegate", "UIView"]
+- !private ["PSo15CALayerDelegate", "UIViewController"]
+- !private ["PSo15CALayerDelegate", "_IQcanBecomeFirstResponder"]
+- !private ["PSo15CALayerDelegate", "alpha"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "convert"]
+- !private ["PSo15CALayerDelegate", "convertTransformToView"]
+- !private ["PSo15CALayerDelegate", "deepResponderViews"]
+- !private ["PSo15CALayerDelegate", "depth"]
+- !private ["PSo15CALayerDelegate", "isAlertViewTextField"]
+- !private ["PSo15CALayerDelegate", "isEditable"]
+- !private ["PSo15CALayerDelegate", "isEnabled"]
+- !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "isKind"]
+- !private ["PSo15CALayerDelegate", "isSearchBarTextField"]
+- !private ["PSo15CALayerDelegate", "isUserInteractionEnabled"]
+- !private ["PSo15CALayerDelegate", "next"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["PSo15CALayerDelegate", "subviews"]
+- !private ["PSo15CALayerDelegate", "superview"]
+- !private ["PSo15CALayerDelegate", "transform"]
+- !private ["PSo15CALayerDelegate", "viewController"]
+- !private ["PSo15CALayerDelegate", "window"]
+- !private ["VSC17CGAffineTransform", "concatenating"]
+- !private ["VSC17CGAffineTransform", "identity"]
+- !private ["VSC17CGAffineTransform", "inverted"]
+- !private ["VSC6CGRect", "minX"]
+- !private ["VSC6CGRect", "minY"]
+- !private ["Ps7CVarArg", "CGAffineTransform"]
+- !private ["Ps7CVarArg", "NSStringFromClass"]
+- !private ["Ps7CVarArg", "UIAlertController"]
+- !private ["Ps7CVarArg", "UIScrollView"]
+- !private ["Ps7CVarArg", "UISearchBar"]
+- !private ["Ps7CVarArg", "UITableView"]
+- !private ["Ps7CVarArg", "UITableViewCell"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "UIViewController"]
+- !private ["Ps7CVarArg", "Unmanaged"]
+- !private ["Ps7CVarArg", "_IQcanBecomeFirstResponder"]
+- !private ["Ps7CVarArg", "alpha"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "contains"]
+- !private ["Ps7CVarArg", "convert"]
+- !private ["Ps7CVarArg", "convertTransformToView"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "deepResponderViews"]
+- !private ["Ps7CVarArg", "depth"]
+- !private ["Ps7CVarArg", "hasPrefix"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isAlertViewTextField"]
+- !private ["Ps7CVarArg", "isEditable"]
+- !private ["Ps7CVarArg", "isEnabled"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "isKind"]
+- !private ["Ps7CVarArg", "isSearchBarTextField"]
+- !private ["Ps7CVarArg", "isUserInteractionEnabled"]
+- !private ["Ps7CVarArg", "next"]
+- !private ["Ps7CVarArg", "presentedViewController"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "sorted"]
+- !private ["Ps7CVarArg", "subviews"]
+- !private ["Ps7CVarArg", "superview"]
+- !private ["Ps7CVarArg", "transform"]
+- !private ["Ps7CVarArg", "viewController"]
+- !private ["Ps7CVarArg", "window"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "contains"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "sorted"]
+- !private ["Ps10Comparable", "hasPrefix"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransform"]
+- !private ["Ps28CustomDebugStringConvertible", "NSStringFromClass"]
+- !private ["Ps28CustomDebugStringConvertible", "UIAlertController"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScrollView"]
+- !private ["Ps28CustomDebugStringConvertible", "UISearchBar"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableView"]
+- !private ["Ps28CustomDebugStringConvertible", "UITableViewCell"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "UIViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "Unmanaged"]
+- !private ["Ps28CustomDebugStringConvertible", "_IQcanBecomeFirstResponder"]
+- !private ["Ps28CustomDebugStringConvertible", "alpha"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "convert"]
+- !private ["Ps28CustomDebugStringConvertible", "convertTransformToView"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "deepResponderViews"]
+- !private ["Ps28CustomDebugStringConvertible", "depth"]
+- !private ["Ps28CustomDebugStringConvertible", "hasPrefix"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isAlertViewTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "isEditable"]
+- !private ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "isKind"]
+- !private ["Ps28CustomDebugStringConvertible", "isSearchBarTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "minX"]
+- !private ["Ps28CustomDebugStringConvertible", "minY"]
+- !private ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps28CustomDebugStringConvertible", "presentedViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "sorted"]
+- !private ["Ps28CustomDebugStringConvertible", "subviews"]
+- !private ["Ps28CustomDebugStringConvertible", "superview"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- !private ["Ps28CustomDebugStringConvertible", "viewController"]
+- !private ["Ps28CustomDebugStringConvertible", "window"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hasPrefix"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "minX"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "minY"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "hasPrefix"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "minX"]
+- !private ["Ps17CustomReflectable", "minY"]
+- !private ["Ps17CustomReflectable", "sorted"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransform"]
+- !private ["Ps23CustomStringConvertible", "NSStringFromClass"]
+- !private ["Ps23CustomStringConvertible", "UIAlertController"]
+- !private ["Ps23CustomStringConvertible", "UIScrollView"]
+- !private ["Ps23CustomStringConvertible", "UISearchBar"]
+- !private ["Ps23CustomStringConvertible", "UITableView"]
+- !private ["Ps23CustomStringConvertible", "UITableViewCell"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "UIViewController"]
+- !private ["Ps23CustomStringConvertible", "Unmanaged"]
+- !private ["Ps23CustomStringConvertible", "_IQcanBecomeFirstResponder"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "alpha"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "convert"]
+- !private ["Ps23CustomStringConvertible", "convertTransformToView"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "deepResponderViews"]
+- !private ["Ps23CustomStringConvertible", "depth"]
+- !private ["Ps23CustomStringConvertible", "hasPrefix"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isAlertViewTextField"]
+- !private ["Ps23CustomStringConvertible", "isEditable"]
+- !private ["Ps23CustomStringConvertible", "isEnabled"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "isKind"]
+- !private ["Ps23CustomStringConvertible", "isSearchBarTextField"]
+- !private ["Ps23CustomStringConvertible", "isUserInteractionEnabled"]
+- !private ["Ps23CustomStringConvertible", "next"]
+- !private ["Ps23CustomStringConvertible", "presentedViewController"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "sorted"]
+- !private ["Ps23CustomStringConvertible", "subviews"]
+- !private ["Ps23CustomStringConvertible", "superview"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- !private ["Ps23CustomStringConvertible", "viewController"]
+- !private ["Ps23CustomStringConvertible", "window"]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- !private ["Ps9Equatable", "NSStringFromClass"]
+- !private ["Ps9Equatable", "UIAlertController"]
+- !private ["Ps9Equatable", "UIScrollView"]
+- !private ["Ps9Equatable", "UISearchBar"]
+- !private ["Ps9Equatable", "UITableView"]
+- !private ["Ps9Equatable", "UITableViewCell"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "UIViewController"]
+- !private ["Ps9Equatable", "Unmanaged"]
+- !private ["Ps9Equatable", "_IQcanBecomeFirstResponder"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "alpha"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "concatenating"]
+- !private ["Ps9Equatable", "convert"]
+- !private ["Ps9Equatable", "convertTransformToView"]
+- !private ["Ps9Equatable", "deepResponderViews"]
+- !private ["Ps9Equatable", "depth"]
+- !private ["Ps9Equatable", "hasPrefix"]
+- !private ["Ps9Equatable", "identity"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "inverted"]
+- !private ["Ps9Equatable", "isAlertViewTextField"]
+- !private ["Ps9Equatable", "isEditable"]
+- !private ["Ps9Equatable", "isEnabled"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "isKind"]
+- !private ["Ps9Equatable", "isSearchBarTextField"]
+- !private ["Ps9Equatable", "isUserInteractionEnabled"]
+- !private ["Ps9Equatable", "minX"]
+- !private ["Ps9Equatable", "minY"]
+- !private ["Ps9Equatable", "next"]
+- !private ["Ps9Equatable", "presentedViewController"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "subviews"]
+- !private ["Ps9Equatable", "superview"]
+- !private ["Ps9Equatable", "transform"]
+- !private ["Ps9Equatable", "viewController"]
+- !private ["Ps9Equatable", "window"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "sorted"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hasPrefix"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "hasPrefix"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hasPrefix"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CGAffineTransform"]
+- !private ["Ps8Hashable", "NSStringFromClass"]
+- !private ["Ps8Hashable", "UIAlertController"]
+- !private ["Ps8Hashable", "UIScrollView"]
+- !private ["Ps8Hashable", "UISearchBar"]
+- !private ["Ps8Hashable", "UITableView"]
+- !private ["Ps8Hashable", "UITableViewCell"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "UIViewController"]
+- !private ["Ps8Hashable", "Unmanaged"]
+- !private ["Ps8Hashable", "_IQcanBecomeFirstResponder"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "alpha"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "convert"]
+- !private ["Ps8Hashable", "convertTransformToView"]
+- !private ["Ps8Hashable", "deepResponderViews"]
+- !private ["Ps8Hashable", "depth"]
+- !private ["Ps8Hashable", "hasPrefix"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isAlertViewTextField"]
+- !private ["Ps8Hashable", "isEditable"]
+- !private ["Ps8Hashable", "isEnabled"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "isKind"]
+- !private ["Ps8Hashable", "isSearchBarTextField"]
+- !private ["Ps8Hashable", "isUserInteractionEnabled"]
+- !private ["Ps8Hashable", "next"]
+- !private ["Ps8Hashable", "presentedViewController"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "subviews"]
+- !private ["Ps8Hashable", "superview"]
+- !private ["Ps8Hashable", "transform"]
+- !private ["Ps8Hashable", "viewController"]
+- !private ["Ps8Hashable", "window"]
+- !private ["P10Kingfisher20KingfisherCompatible", "hasPrefix"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "hasPrefix"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hasPrefix"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "contains"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "sorted"]
+- !private ["PSo8NSCoding", "CGAffineTransform"]
+- !private ["PSo8NSCoding", "NSStringFromClass"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "UIScrollView"]
+- !private ["PSo8NSCoding", "UISearchBar"]
+- !private ["PSo8NSCoding", "UITableView"]
+- !private ["PSo8NSCoding", "UITableViewCell"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "UIViewController"]
+- !private ["PSo8NSCoding", "_IQcanBecomeFirstResponder"]
+- !private ["PSo8NSCoding", "alpha"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "convert"]
+- !private ["PSo8NSCoding", "convertTransformToView"]
+- !private ["PSo8NSCoding", "deepResponderViews"]
+- !private ["PSo8NSCoding", "depth"]
+- !private ["PSo8NSCoding", "hasPrefix"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isAlertViewTextField"]
+- !private ["PSo8NSCoding", "isEditable"]
+- !private ["PSo8NSCoding", "isEnabled"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "isKind"]
+- !private ["PSo8NSCoding", "isSearchBarTextField"]
+- !private ["PSo8NSCoding", "isUserInteractionEnabled"]
+- !private ["PSo8NSCoding", "next"]
+- !private ["PSo8NSCoding", "presentedViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "subviews"]
+- !private ["PSo8NSCoding", "superview"]
+- !private ["PSo8NSCoding", "transform"]
+- !private ["PSo8NSCoding", "viewController"]
+- !private ["PSo8NSCoding", "window"]
+- !private ["PSo9NSCopying", "hasPrefix"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "presentedViewController"]
+- !private ["PSo16NSMutableCopying", "hasPrefix"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGAffineTransform"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSStringFromClass"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- !private ["CSo8NSObject", "UIResponder"]
+- !private ["CSo8NSObject", "UIScrollView"]
+- !private ["CSo8NSObject", "UISearchBar"]
+- !private ["CSo8NSObject", "UITableView"]
+- !private ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "UITextView"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "Unmanaged"]
+- ["CSo8NSObject", "_IQDescription"]
+- ["CSo8NSObject", "_IQcanBecomeFirstResponder"]
+- !private ["CSo8NSObject", "alpha"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "convert"]
+- ["CSo8NSObject", "convertTransformToView"]
+- ["CSo8NSObject", "deepResponderViews"]
+- ["CSo8NSObject", "depth"]
+- !private ["CSo8NSObject", "hasPrefix"]
+- ["CSo8NSObject", "isAlertViewTextField"]
+- !private ["CSo8NSObject", "isEditable"]
+- !private ["CSo8NSObject", "isEnabled"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo8NSObject", "isKind"]
+- ["CSo8NSObject", "isSearchBarTextField"]
+- !private ["CSo8NSObject", "isUserInteractionEnabled"]
+- !private ["CSo8NSObject", "next"]
+- !private ["CSo8NSObject", "presentedViewController"]
+- ["CSo8NSObject", "responderSiblings"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "subviews"]
+- !private ["CSo8NSObject", "superview"]
+- ["CSo8NSObject", "superviewOfClassType"]
+- ["CSo8NSObject", "topMostController"]
+- !private ["CSo8NSObject", "transform"]
+- ["CSo8NSObject", "viewController"]
+- !private ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
+- !private ["PSo16NSObjectProtocol", "NSStringFromClass"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIScrollView"]
+- !private ["PSo16NSObjectProtocol", "UISearchBar"]
+- !private ["PSo16NSObjectProtocol", "UITableView"]
+- !private ["PSo16NSObjectProtocol", "UITableViewCell"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "UIViewController"]
+- !private ["PSo16NSObjectProtocol", "Unmanaged"]
+- !private ["PSo16NSObjectProtocol", "_IQcanBecomeFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "convert"]
+- !private ["PSo16NSObjectProtocol", "convertTransformToView"]
+- !private ["PSo16NSObjectProtocol", "deepResponderViews"]
+- !private ["PSo16NSObjectProtocol", "depth"]
+- !private ["PSo16NSObjectProtocol", "hasPrefix"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isAlertViewTextField"]
+- !private ["PSo16NSObjectProtocol", "isEditable"]
+- !private ["PSo16NSObjectProtocol", "isEnabled"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "isKind"]
+- !private ["PSo16NSObjectProtocol", "isSearchBarTextField"]
+- !private ["PSo16NSObjectProtocol", "isUserInteractionEnabled"]
+- !private ["PSo16NSObjectProtocol", "next"]
+- !private ["PSo16NSObjectProtocol", "presentedViewController"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "subviews"]
+- !private ["PSo16NSObjectProtocol", "superview"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["PSo16NSObjectProtocol", "viewController"]
+- !private ["PSo16NSObjectProtocol", "window"]
+- !private ["PSo14NSSecureCoding", "hasPrefix"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "hasPrefix"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "contains"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "sorted"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "contains"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "sorted"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "sorted"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "hasPrefix"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "hasPrefix"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGAffineTransform"]
+- !private ["PSo29UIAccessibilityIdentification", "NSStringFromClass"]
+- !private ["PSo29UIAccessibilityIdentification", "UIAlertController"]
+- !private ["PSo29UIAccessibilityIdentification", "UIScrollView"]
+- !private ["PSo29UIAccessibilityIdentification", "UISearchBar"]
+- !private ["PSo29UIAccessibilityIdentification", "UITableView"]
+- !private ["PSo29UIAccessibilityIdentification", "UITableViewCell"]
+- !private ["PSo29UIAccessibilityIdentification", "UIView"]
+- !private ["PSo29UIAccessibilityIdentification", "UIViewController"]
+- !private ["PSo29UIAccessibilityIdentification", "_IQcanBecomeFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "convert"]
+- !private ["PSo29UIAccessibilityIdentification", "convertTransformToView"]
+- !private ["PSo29UIAccessibilityIdentification", "deepResponderViews"]
+- !private ["PSo29UIAccessibilityIdentification", "depth"]
+- !private ["PSo29UIAccessibilityIdentification", "isAlertViewTextField"]
+- !private ["PSo29UIAccessibilityIdentification", "isEditable"]
+- !private ["PSo29UIAccessibilityIdentification", "isEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "isKind"]
+- !private ["PSo29UIAccessibilityIdentification", "isSearchBarTextField"]
+- !private ["PSo29UIAccessibilityIdentification", "isUserInteractionEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "next"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo29UIAccessibilityIdentification", "subviews"]
+- !private ["PSo29UIAccessibilityIdentification", "superview"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo29UIAccessibilityIdentification", "viewController"]
+- !private ["PSo29UIAccessibilityIdentification", "window"]
+- !private ["PSo12UIAppearance", "CGAffineTransform"]
+- !private ["PSo12UIAppearance", "NSStringFromClass"]
+- !private ["PSo12UIAppearance", "UIAlertController"]
+- !private ["PSo12UIAppearance", "UIScrollView"]
+- !private ["PSo12UIAppearance", "UISearchBar"]
+- !private ["PSo12UIAppearance", "UITableView"]
+- !private ["PSo12UIAppearance", "UITableViewCell"]
+- !private ["PSo12UIAppearance", "UIView"]
+- !private ["PSo12UIAppearance", "UIViewController"]
+- !private ["PSo12UIAppearance", "_IQcanBecomeFirstResponder"]
+- !private ["PSo12UIAppearance", "alpha"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "convert"]
+- !private ["PSo12UIAppearance", "convertTransformToView"]
+- !private ["PSo12UIAppearance", "deepResponderViews"]
+- !private ["PSo12UIAppearance", "depth"]
+- !private ["PSo12UIAppearance", "isAlertViewTextField"]
+- !private ["PSo12UIAppearance", "isEditable"]
+- !private ["PSo12UIAppearance", "isEnabled"]
+- !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "isKind"]
+- !private ["PSo12UIAppearance", "isSearchBarTextField"]
+- !private ["PSo12UIAppearance", "isUserInteractionEnabled"]
+- !private ["PSo12UIAppearance", "next"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo12UIAppearance", "subviews"]
+- !private ["PSo12UIAppearance", "superview"]
+- !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo12UIAppearance", "viewController"]
+- !private ["PSo12UIAppearance", "window"]
+- !private ["PSo21UIAppearanceContainer", "CGAffineTransform"]
+- !private ["PSo21UIAppearanceContainer", "NSStringFromClass"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "UIScrollView"]
+- !private ["PSo21UIAppearanceContainer", "UISearchBar"]
+- !private ["PSo21UIAppearanceContainer", "UITableView"]
+- !private ["PSo21UIAppearanceContainer", "UITableViewCell"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "UIViewController"]
+- !private ["PSo21UIAppearanceContainer", "_IQcanBecomeFirstResponder"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "convert"]
+- !private ["PSo21UIAppearanceContainer", "convertTransformToView"]
+- !private ["PSo21UIAppearanceContainer", "deepResponderViews"]
+- !private ["PSo21UIAppearanceContainer", "depth"]
+- !private ["PSo21UIAppearanceContainer", "isAlertViewTextField"]
+- !private ["PSo21UIAppearanceContainer", "isEditable"]
+- !private ["PSo21UIAppearanceContainer", "isEnabled"]
+- !private ["PSo21UIAppearanceContainer", "isHidden"]
+- !private ["PSo21UIAppearanceContainer", "isKind"]
+- !private ["PSo21UIAppearanceContainer", "isSearchBarTextField"]
+- !private ["PSo21UIAppearanceContainer", "isUserInteractionEnabled"]
+- !private ["PSo21UIAppearanceContainer", "next"]
+- !private ["PSo21UIAppearanceContainer", "presentedViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "subviews"]
+- !private ["PSo21UIAppearanceContainer", "superview"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["PSo21UIAppearanceContainer", "viewController"]
+- !private ["PSo21UIAppearanceContainer", "window"]
+- !private ["PSo18UIContentContainer", "presentedViewController"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "isEditable"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "isEnabled"]
+- !private ["CSo9UIControl", "isEnabled"]
+- !private ["PSo17UICoordinateSpace", "CGAffineTransform"]
+- !private ["PSo17UICoordinateSpace", "NSStringFromClass"]
+- !private ["PSo17UICoordinateSpace", "UIAlertController"]
+- !private ["PSo17UICoordinateSpace", "UIScrollView"]
+- !private ["PSo17UICoordinateSpace", "UISearchBar"]
+- !private ["PSo17UICoordinateSpace", "UITableView"]
+- !private ["PSo17UICoordinateSpace", "UITableViewCell"]
+- !private ["PSo17UICoordinateSpace", "UIView"]
+- !private ["PSo17UICoordinateSpace", "UIViewController"]
+- !private ["PSo17UICoordinateSpace", "_IQcanBecomeFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "convert"]
+- !private ["PSo17UICoordinateSpace", "convertTransformToView"]
+- !private ["PSo17UICoordinateSpace", "deepResponderViews"]
+- !private ["PSo17UICoordinateSpace", "depth"]
+- !private ["PSo17UICoordinateSpace", "isAlertViewTextField"]
+- !private ["PSo17UICoordinateSpace", "isEditable"]
+- !private ["PSo17UICoordinateSpace", "isEnabled"]
+- !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "isKind"]
+- !private ["PSo17UICoordinateSpace", "isSearchBarTextField"]
+- !private ["PSo17UICoordinateSpace", "isUserInteractionEnabled"]
+- !private ["PSo17UICoordinateSpace", "next"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo17UICoordinateSpace", "subviews"]
+- !private ["PSo17UICoordinateSpace", "superview"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["PSo17UICoordinateSpace", "viewController"]
+- !private ["PSo17UICoordinateSpace", "window"]
+- !private ["PSo13UIDynamicItem", "CGAffineTransform"]
+- !private ["PSo13UIDynamicItem", "NSStringFromClass"]
+- !private ["PSo13UIDynamicItem", "UIAlertController"]
+- !private ["PSo13UIDynamicItem", "UIScrollView"]
+- !private ["PSo13UIDynamicItem", "UISearchBar"]
+- !private ["PSo13UIDynamicItem", "UITableView"]
+- !private ["PSo13UIDynamicItem", "UITableViewCell"]
+- !private ["PSo13UIDynamicItem", "UIView"]
+- !private ["PSo13UIDynamicItem", "UIViewController"]
+- !private ["PSo13UIDynamicItem", "_IQcanBecomeFirstResponder"]
+- !private ["PSo13UIDynamicItem", "alpha"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "convert"]
+- !private ["PSo13UIDynamicItem", "convertTransformToView"]
+- !private ["PSo13UIDynamicItem", "deepResponderViews"]
+- !private ["PSo13UIDynamicItem", "depth"]
+- !private ["PSo13UIDynamicItem", "isAlertViewTextField"]
+- !private ["PSo13UIDynamicItem", "isEditable"]
+- !private ["PSo13UIDynamicItem", "isEnabled"]
+- !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "isKind"]
+- !private ["PSo13UIDynamicItem", "isSearchBarTextField"]
+- !private ["PSo13UIDynamicItem", "isUserInteractionEnabled"]
+- !private ["PSo13UIDynamicItem", "next"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "subviews"]
+- !private ["PSo13UIDynamicItem", "superview"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo13UIDynamicItem", "viewController"]
+- !private ["PSo13UIDynamicItem", "window"]
+- !private ["PSo18UIFocusEnvironment", "CGAffineTransform"]
+- !private ["PSo18UIFocusEnvironment", "NSStringFromClass"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "UIScrollView"]
+- !private ["PSo18UIFocusEnvironment", "UISearchBar"]
+- !private ["PSo18UIFocusEnvironment", "UITableView"]
+- !private ["PSo18UIFocusEnvironment", "UITableViewCell"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "UIViewController"]
+- !private ["PSo18UIFocusEnvironment", "_IQcanBecomeFirstResponder"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "convert"]
+- !private ["PSo18UIFocusEnvironment", "convertTransformToView"]
+- !private ["PSo18UIFocusEnvironment", "deepResponderViews"]
+- !private ["PSo18UIFocusEnvironment", "depth"]
+- !private ["PSo18UIFocusEnvironment", "isAlertViewTextField"]
+- !private ["PSo18UIFocusEnvironment", "isEditable"]
+- !private ["PSo18UIFocusEnvironment", "isEnabled"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "isKind"]
+- !private ["PSo18UIFocusEnvironment", "isSearchBarTextField"]
+- !private ["PSo18UIFocusEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UIFocusEnvironment", "next"]
+- !private ["PSo18UIFocusEnvironment", "presentedViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "subviews"]
+- !private ["PSo18UIFocusEnvironment", "superview"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["PSo18UIFocusEnvironment", "viewController"]
+- !private ["PSo18UIFocusEnvironment", "window"]
+- !private ["PSo11UIFocusItem", "CGAffineTransform"]
+- !private ["PSo11UIFocusItem", "NSStringFromClass"]
+- !private ["PSo11UIFocusItem", "UIAlertController"]
+- !private ["PSo11UIFocusItem", "UIScrollView"]
+- !private ["PSo11UIFocusItem", "UISearchBar"]
+- !private ["PSo11UIFocusItem", "UITableView"]
+- !private ["PSo11UIFocusItem", "UITableViewCell"]
+- !private ["PSo11UIFocusItem", "UIView"]
+- !private ["PSo11UIFocusItem", "UIViewController"]
+- !private ["PSo11UIFocusItem", "_IQcanBecomeFirstResponder"]
+- !private ["PSo11UIFocusItem", "alpha"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "convert"]
+- !private ["PSo11UIFocusItem", "convertTransformToView"]
+- !private ["PSo11UIFocusItem", "deepResponderViews"]
+- !private ["PSo11UIFocusItem", "depth"]
+- !private ["PSo11UIFocusItem", "isAlertViewTextField"]
+- !private ["PSo11UIFocusItem", "isEditable"]
+- !private ["PSo11UIFocusItem", "isEnabled"]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "isKind"]
+- !private ["PSo11UIFocusItem", "isSearchBarTextField"]
+- !private ["PSo11UIFocusItem", "isUserInteractionEnabled"]
+- !private ["PSo11UIFocusItem", "next"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["PSo11UIFocusItem", "subviews"]
+- !private ["PSo11UIFocusItem", "superview"]
+- !private ["PSo11UIFocusItem", "transform"]
+- !private ["PSo11UIFocusItem", "viewController"]
+- !private ["PSo11UIFocusItem", "window"]
+- !private ["PSo10UIKeyInput", "isEditable"]
+- !private ["PSo10UIKeyInput", "isEnabled"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGAffineTransform"]
+- !private ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "NSStringFromClass"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- !private ["CSo11UIResponder", "UIResponder"]
+- !private ["CSo11UIResponder", "UIScrollView"]
+- !private ["CSo11UIResponder", "UISearchBar"]
+- !private ["CSo11UIResponder", "UITableView"]
+- !private ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "UIViewController"]
+- ["CSo11UIResponder", "_IQcanBecomeFirstResponder"]
+- !private ["CSo11UIResponder", "alpha"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "convert"]
+- ["CSo11UIResponder", "convertTransformToView"]
+- ["CSo11UIResponder", "deepResponderViews"]
+- ["CSo11UIResponder", "depth"]
+- ["CSo11UIResponder", "isAlertViewTextField"]
+- !private ["CSo11UIResponder", "isEditable"]
+- !private ["CSo11UIResponder", "isEnabled"]
+- !private ["CSo11UIResponder", "isHidden"]
+- !private ["CSo11UIResponder", "isKind"]
+- ["CSo11UIResponder", "isSearchBarTextField"]
+- !private ["CSo11UIResponder", "isUserInteractionEnabled"]
+- !private ["CSo11UIResponder", "next"]
+- !private ["CSo11UIResponder", "presentedViewController"]
+- ["CSo11UIResponder", "responderSiblings"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "subviews"]
+- !private ["CSo11UIResponder", "superview"]
+- ["CSo11UIResponder", "superviewOfClassType"]
+- ["CSo11UIResponder", "topMostController"]
+- !private ["CSo11UIResponder", "transform"]
+- ["CSo11UIResponder", "viewController"]
+- !private ["CSo11UIResponder", "window"]
+- !private ["PSo30UIResponderStandardEditActions", "CGAffineTransform"]
+- !private ["PSo30UIResponderStandardEditActions", "NSStringFromClass"]
+- !private ["PSo30UIResponderStandardEditActions", "UIAlertController"]
+- !private ["PSo30UIResponderStandardEditActions", "UIScrollView"]
+- !private ["PSo30UIResponderStandardEditActions", "UISearchBar"]
+- !private ["PSo30UIResponderStandardEditActions", "UITableView"]
+- !private ["PSo30UIResponderStandardEditActions", "UITableViewCell"]
+- !private ["PSo30UIResponderStandardEditActions", "UIView"]
+- !private ["PSo30UIResponderStandardEditActions", "UIViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "_IQcanBecomeFirstResponder"]
+- !private ["PSo30UIResponderStandardEditActions", "alpha"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "convert"]
+- !private ["PSo30UIResponderStandardEditActions", "convertTransformToView"]
+- !private ["PSo30UIResponderStandardEditActions", "deepResponderViews"]
+- !private ["PSo30UIResponderStandardEditActions", "depth"]
+- !private ["PSo30UIResponderStandardEditActions", "isAlertViewTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "isEditable"]
+- !private ["PSo30UIResponderStandardEditActions", "isEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "isKind"]
+- !private ["PSo30UIResponderStandardEditActions", "isSearchBarTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "isUserInteractionEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "next"]
+- !private ["PSo30UIResponderStandardEditActions", "presentedViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "subviews"]
+- !private ["PSo30UIResponderStandardEditActions", "superview"]
+- !private ["PSo30UIResponderStandardEditActions", "transform"]
+- !private ["PSo30UIResponderStandardEditActions", "viewController"]
+- !private ["PSo30UIResponderStandardEditActions", "window"]
+- !private ["CSo12UIScrollView", "isEditable"]
+- !private ["PSo16UIStateRestoring", "presentedViewController"]
+- !private ["CSo11UITextField", "isEnabled"]
+- !private ["PSo11UITextInput", "isEditable"]
+- !private ["PSo11UITextInput", "isEnabled"]
+- !private ["PSo17UITextInputTraits", "isEditable"]
+- !private ["PSo17UITextInputTraits", "isEnabled"]
+- !private ["CSo10UITextView", "isEditable"]
+- !private ["PSo18UITraitEnvironment", "CGAffineTransform"]
+- !private ["PSo18UITraitEnvironment", "NSStringFromClass"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "UIScrollView"]
+- !private ["PSo18UITraitEnvironment", "UISearchBar"]
+- !private ["PSo18UITraitEnvironment", "UITableView"]
+- !private ["PSo18UITraitEnvironment", "UITableViewCell"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "UIViewController"]
+- !private ["PSo18UITraitEnvironment", "_IQcanBecomeFirstResponder"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "convert"]
+- !private ["PSo18UITraitEnvironment", "convertTransformToView"]
+- !private ["PSo18UITraitEnvironment", "deepResponderViews"]
+- !private ["PSo18UITraitEnvironment", "depth"]
+- !private ["PSo18UITraitEnvironment", "isAlertViewTextField"]
+- !private ["PSo18UITraitEnvironment", "isEditable"]
+- !private ["PSo18UITraitEnvironment", "isEnabled"]
+- !private ["PSo18UITraitEnvironment", "isHidden"]
+- !private ["PSo18UITraitEnvironment", "isKind"]
+- !private ["PSo18UITraitEnvironment", "isSearchBarTextField"]
+- !private ["PSo18UITraitEnvironment", "isUserInteractionEnabled"]
+- !private ["PSo18UITraitEnvironment", "next"]
+- !private ["PSo18UITraitEnvironment", "presentedViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "subviews"]
+- !private ["PSo18UITraitEnvironment", "superview"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- !private ["PSo18UITraitEnvironment", "viewController"]
+- !private ["PSo18UITraitEnvironment", "window"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGAffineTransform"]
+- !private ["CSo6UIView", "Int"]
+- !private ["CSo6UIView", "NSStringFromClass"]
+- !private ["CSo6UIView", "UIAlertController"]
+- !private ["CSo6UIView", "UIResponder"]
+- !private ["CSo6UIView", "UIScrollView"]
+- !private ["CSo6UIView", "UISearchBar"]
+- !private ["CSo6UIView", "UITableView"]
+- !private ["CSo6UIView", "UITableViewCell"]
+- !private ["CSo6UIView", "UITextField"]
+- !private ["CSo6UIView", "UITextView"]
+- ["CSo6UIView", "UIView"]
+- ["CSo6UIView", "UIViewController"]
+- !private ["CSo6UIView", "_IQcanBecomeFirstResponder"]
+- !private ["CSo6UIView", "alpha"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "convert"]
+- ["CSo6UIView", "convertTransformToView"]
+- ["CSo6UIView", "deepResponderViews"]
+- !private ["CSo6UIView", "depth"]
+- ["CSo6UIView", "isAlertViewTextField"]
+- !private ["CSo6UIView", "isEditable"]
+- !private ["CSo6UIView", "isEnabled"]
+- !private ["CSo6UIView", "isHidden"]
+- !private ["CSo6UIView", "isKind"]
+- ["CSo6UIView", "isSearchBarTextField"]
+- !private ["CSo6UIView", "isUserInteractionEnabled"]
+- !private ["CSo6UIView", "next"]
+- ["CSo6UIView", "responderSiblings"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo6UIView", "subviews"]
+- !private ["CSo6UIView", "superview"]
+- ["CSo6UIView", "superviewOfClassType"]
+- ["CSo6UIView", "topMostController"]
+- !private ["CSo6UIView", "transform"]
+- ["CSo6UIView", "viewController"]
+- !private ["CSo6UIView", "window"]
+- !private ["CSo16UIViewController", "presentedViewController"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["Vs9Unmanaged", "passUnretained"]
+- !private ["Vs9Unmanaged", "toOpaque"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "contains"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "sorted"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "contains"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "sorted"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGAffineTransform"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSStringFromClass"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIAlertController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIScrollView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UISearchBar"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UITableView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UITableViewCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIViewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "_IQcanBecomeFirstResponder"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "alpha"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "convert"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "convertTransformToView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "deepResponderViews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "depth"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isAlertViewTextField"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isEditable"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isKind"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isSearchBarTextField"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isUserInteractionEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "next"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "subviews"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "superview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "viewController"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "window"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "contains"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "sorted"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "hasPrefix"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "hasPrefix"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "hasPrefix"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "hasPrefix"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "hasPrefix"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "hasPrefix"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGAffineTransform"]
+- !private ["Ps9_Hashable", "NSStringFromClass"]
+- !private ["Ps9_Hashable", "UIAlertController"]
+- !private ["Ps9_Hashable", "UIScrollView"]
+- !private ["Ps9_Hashable", "UISearchBar"]
+- !private ["Ps9_Hashable", "UITableView"]
+- !private ["Ps9_Hashable", "UITableViewCell"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "UIViewController"]
+- !private ["Ps9_Hashable", "Unmanaged"]
+- !private ["Ps9_Hashable", "_IQcanBecomeFirstResponder"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "alpha"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "convert"]
+- !private ["Ps9_Hashable", "convertTransformToView"]
+- !private ["Ps9_Hashable", "deepResponderViews"]
+- !private ["Ps9_Hashable", "depth"]
+- !private ["Ps9_Hashable", "hasPrefix"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isAlertViewTextField"]
+- !private ["Ps9_Hashable", "isEditable"]
+- !private ["Ps9_Hashable", "isEnabled"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "isKind"]
+- !private ["Ps9_Hashable", "isSearchBarTextField"]
+- !private ["Ps9_Hashable", "isUserInteractionEnabled"]
+- !private ["Ps9_Hashable", "next"]
+- !private ["Ps9_Hashable", "presentedViewController"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "subviews"]
+- !private ["Ps9_Hashable", "superview"]
+- !private ["Ps9_Hashable", "transform"]
+- !private ["Ps9_Hashable", "viewController"]
+- !private ["Ps9_Hashable", "window"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "contains"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "sorted"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "contains"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "sorted"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "contains"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "sorted"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "concatenating"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "hasPrefix"]
+- !private ["Ps21_ObjectiveCBridgeable", "identity"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "inverted"]
+- !private ["Ps21_ObjectiveCBridgeable", "minX"]
+- !private ["Ps21_ObjectiveCBridgeable", "minY"]
+- !private ["Ps21_ObjectiveCBridgeable", "sorted"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "contains"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "sorted"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "contains"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "sorted"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- !private "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "CSo10UITextView"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "Vs9Unmanaged"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/JTAppleCalendar.swiftmodule/arm64.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFURL.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper-Bridging-Header.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/SWRevealViewController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/Bolts.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "4f2b4c0edf43932ab255d8a47c4bdd8c"

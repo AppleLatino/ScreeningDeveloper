@@ -1,0 +1,185 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JTAppleCalendarViewDataSource"
+- "JTAppleCalendarViewDelegate"
+provides-nominal:
+- "P15JTAppleCalendar27JTAppleCalendarViewDelegate"
+- "P15JTAppleCalendar29JTAppleCalendarViewDataSource"
+provides-member:
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", ""]
+- ["P15JTAppleCalendar29JTAppleCalendarViewDataSource", ""]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendarSizeForMonths"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "sizeOfDecorationView"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "scrollDidEndDecelerating"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "CellState"
+- "ConfigurationParameters"
+- "Date"
+- "DateSegmentInfo"
+- "IndexPath"
+- "JTAppleCalendarView"
+- "JTAppleCalendarViewDataSource"
+- "JTAppleCalendarViewDelegate"
+- "JTAppleCell"
+- "JTAppleCollectionReusableView"
+- "MonthSize"
+- !private "StringLiteralType"
+- !private "assert"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["VSC6CGRect", "zero"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "zero"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "zero"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "zero"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- ["P15JTAppleCalendar29JTAppleCalendarViewDataSource", "ConfigurationParameters"]
+- ["P15JTAppleCalendar29JTAppleCalendarViewDataSource", "JTAppleCalendarView"]
+- ["P15JTAppleCalendar29JTAppleCalendarViewDataSource", "configureCalendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "Bool"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "CGRect"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "CellState"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "Date"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "DateSegmentInfo"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "IndexPath"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "JTAppleCalendarView"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "JTAppleCell"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "JTAppleCollectionReusableView"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "MonthSize"]
+- !private ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "assert"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendar"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "calendarSizeForMonths"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "scrollDidEndDecelerating"]
+- ["P15JTAppleCalendar27JTAppleCalendarViewDelegate", "sizeOfDecorationView"]
+- !private ["C15JTAppleCalendar29JTAppleCollectionReusableView", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["CSo24UICollectionReusableView", "init"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["CSo6UIView", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "zero"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "P15JTAppleCalendar29JTAppleCalendarViewDataSource"
+- "P15JTAppleCalendar27JTAppleCalendarViewDelegate"
+- !private "C15JTAppleCalendar29JTAppleCollectionReusableView"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo24UICollectionReusableView"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/unextended-module.modulemap"
+interface-hash: "ff6293cea403dc54956cbd5792a9f06a"

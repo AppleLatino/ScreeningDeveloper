@@ -1,0 +1,1105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IQTitleBarButtonItem"
+provides-nominal:
+- "C18ScreeningDeveloper20IQTitleBarButtonItem"
+provides-member:
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", ""]
+provides-dynamic-lookup:
+- "selectableTextColor"
+- "title"
+- "titleFont"
+depends-top-level:
+- !private "-"
+- !private "=="
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "IQBarButtonItem"
+- "IQTitleBarButtonItem"
+- "NSCoder"
+- !private "NSLayoutConstraint"
+- "Selector"
+- "String"
+- !private "UIBarButtonItemStyle"
+- "UIButton"
+- "UIColor"
+- !private "UIControlState"
+- "UIFont"
+- !private "UILayoutPriorityDefaultHigh"
+- !private "UILayoutPriorityDefaultLow"
+- "UIView"
+- !private "||"
+depends-member:
+- !private ["Ps9AnyObject", "NSLayoutConstraint"]
+- !private ["Ps9AnyObject", "UIBarButtonItemStyle"]
+- !private ["Ps9AnyObject", "UIButton"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIControlState"]
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "UILayoutPriorityDefaultHigh"]
+- !private ["Ps9AnyObject", "UILayoutPriorityDefaultLow"]
+- !private ["Ps9AnyObject", "UIView"]
+- !private ["Ps9AnyObject", "_titleButton"]
+- !private ["Ps9AnyObject", "_titleView"]
+- !private ["Ps9AnyObject", "addConstraints"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "autoresizingMask"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "clear"]
+- !private ["Ps9AnyObject", "customView"]
+- !private ["Ps9AnyObject", "font"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invocation"]
+- !private ["Ps9AnyObject", "isEnabled"]
+- !private ["Ps9AnyObject", "lightGray"]
+- !private ["Ps9AnyObject", "numberOfLines"]
+- !private ["Ps9AnyObject", "removeTarget"]
+- !private ["Ps9AnyObject", "selectableTextColor"]
+- !private ["Ps9AnyObject", "setContentCompressionResistancePriority"]
+- !private ["Ps9AnyObject", "setContentHuggingPriority"]
+- !private ["Ps9AnyObject", "setTitle"]
+- !private ["Ps9AnyObject", "setTitleColor"]
+- !private ["Ps9AnyObject", "systemFont"]
+- !private ["Ps9AnyObject", "textAlignment"]
+- !private ["Ps9AnyObject", "title"]
+- !private ["Ps9AnyObject", "titleFont"]
+- !private ["Ps9AnyObject", "titleLabel"]
+- !private ["Ps9AnyObject", "translatesAutoresizingMaskIntoConstraints"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "addConstraints"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "addTarget"]
+- !private ["PSo15CALayerDelegate", "autoresizingMask"]
+- !private ["PSo15CALayerDelegate", "backgroundColor"]
+- !private ["PSo15CALayerDelegate", "font"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "isEnabled"]
+- !private ["PSo15CALayerDelegate", "numberOfLines"]
+- !private ["PSo15CALayerDelegate", "removeTarget"]
+- !private ["PSo15CALayerDelegate", "setContentCompressionResistancePriority"]
+- !private ["PSo15CALayerDelegate", "setContentHuggingPriority"]
+- !private ["PSo15CALayerDelegate", "setTitle"]
+- !private ["PSo15CALayerDelegate", "setTitleColor"]
+- !private ["PSo15CALayerDelegate", "textAlignment"]
+- !private ["PSo15CALayerDelegate", "titleLabel"]
+- !private ["PSo15CALayerDelegate", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps7CVarArg", "NSLayoutConstraint"]
+- !private ["Ps7CVarArg", "UIBarButtonItemStyle"]
+- !private ["Ps7CVarArg", "UIButton"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIControlState"]
+- !private ["Ps7CVarArg", "UIFont"]
+- !private ["Ps7CVarArg", "UILayoutPriorityDefaultHigh"]
+- !private ["Ps7CVarArg", "UILayoutPriorityDefaultLow"]
+- !private ["Ps7CVarArg", "UIView"]
+- !private ["Ps7CVarArg", "_titleButton"]
+- !private ["Ps7CVarArg", "_titleView"]
+- !private ["Ps7CVarArg", "addConstraints"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "addTarget"]
+- !private ["Ps7CVarArg", "autoresizingMask"]
+- !private ["Ps7CVarArg", "backgroundColor"]
+- !private ["Ps7CVarArg", "clear"]
+- !private ["Ps7CVarArg", "customView"]
+- !private ["Ps7CVarArg", "font"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invocation"]
+- !private ["Ps7CVarArg", "isEnabled"]
+- !private ["Ps7CVarArg", "lightGray"]
+- !private ["Ps7CVarArg", "numberOfLines"]
+- !private ["Ps7CVarArg", "removeTarget"]
+- !private ["Ps7CVarArg", "selectableTextColor"]
+- !private ["Ps7CVarArg", "setContentCompressionResistancePriority"]
+- !private ["Ps7CVarArg", "setContentHuggingPriority"]
+- !private ["Ps7CVarArg", "setTitle"]
+- !private ["Ps7CVarArg", "setTitleColor"]
+- !private ["Ps7CVarArg", "systemFont"]
+- !private ["Ps7CVarArg", "textAlignment"]
+- !private ["Ps7CVarArg", "title"]
+- !private ["Ps7CVarArg", "titleFont"]
+- !private ["Ps7CVarArg", "titleLabel"]
+- !private ["Ps7CVarArg", "translatesAutoresizingMaskIntoConstraints"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSLayoutConstraint"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItemStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "UIButton"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIControlState"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- !private ["Ps28CustomDebugStringConvertible", "UILayoutPriorityDefaultHigh"]
+- !private ["Ps28CustomDebugStringConvertible", "UILayoutPriorityDefaultLow"]
+- !private ["Ps28CustomDebugStringConvertible", "UIView"]
+- !private ["Ps28CustomDebugStringConvertible", "_titleButton"]
+- !private ["Ps28CustomDebugStringConvertible", "_titleView"]
+- !private ["Ps28CustomDebugStringConvertible", "addConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "autoresizingMask"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "clear"]
+- !private ["Ps28CustomDebugStringConvertible", "customView"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invocation"]
+- !private ["Ps28CustomDebugStringConvertible", "isEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "lightGray"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfLines"]
+- !private ["Ps28CustomDebugStringConvertible", "removeTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "selectableTextColor"]
+- !private ["Ps28CustomDebugStringConvertible", "setContentCompressionResistancePriority"]
+- !private ["Ps28CustomDebugStringConvertible", "setContentHuggingPriority"]
+- !private ["Ps28CustomDebugStringConvertible", "setTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "setTitleColor"]
+- !private ["Ps28CustomDebugStringConvertible", "systemFont"]
+- !private ["Ps28CustomDebugStringConvertible", "textAlignment"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- !private ["Ps28CustomDebugStringConvertible", "titleFont"]
+- !private ["Ps28CustomDebugStringConvertible", "titleLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "translatesAutoresizingMaskIntoConstraints"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "NSLayoutConstraint"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItemStyle"]
+- !private ["Ps23CustomStringConvertible", "UIButton"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIControlState"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- !private ["Ps23CustomStringConvertible", "UILayoutPriorityDefaultHigh"]
+- !private ["Ps23CustomStringConvertible", "UILayoutPriorityDefaultLow"]
+- !private ["Ps23CustomStringConvertible", "UIView"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_titleButton"]
+- !private ["Ps23CustomStringConvertible", "_titleView"]
+- !private ["Ps23CustomStringConvertible", "addConstraints"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "autoresizingMask"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "clear"]
+- !private ["Ps23CustomStringConvertible", "customView"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invocation"]
+- !private ["Ps23CustomStringConvertible", "isEnabled"]
+- !private ["Ps23CustomStringConvertible", "lightGray"]
+- !private ["Ps23CustomStringConvertible", "numberOfLines"]
+- !private ["Ps23CustomStringConvertible", "removeTarget"]
+- !private ["Ps23CustomStringConvertible", "selectableTextColor"]
+- !private ["Ps23CustomStringConvertible", "setContentCompressionResistancePriority"]
+- !private ["Ps23CustomStringConvertible", "setContentHuggingPriority"]
+- !private ["Ps23CustomStringConvertible", "setTitle"]
+- !private ["Ps23CustomStringConvertible", "setTitleColor"]
+- !private ["Ps23CustomStringConvertible", "systemFont"]
+- !private ["Ps23CustomStringConvertible", "textAlignment"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- !private ["Ps23CustomStringConvertible", "titleFont"]
+- !private ["Ps23CustomStringConvertible", "titleLabel"]
+- !private ["Ps23CustomStringConvertible", "translatesAutoresizingMaskIntoConstraints"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSLayoutConstraint"]
+- !private ["Ps9Equatable", "UIBarButtonItemStyle"]
+- !private ["Ps9Equatable", "UIButton"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIControlState"]
+- !private ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "UILayoutPriorityDefaultHigh"]
+- !private ["Ps9Equatable", "UILayoutPriorityDefaultLow"]
+- !private ["Ps9Equatable", "UIView"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_titleButton"]
+- !private ["Ps9Equatable", "_titleView"]
+- !private ["Ps9Equatable", "addConstraints"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "autoresizingMask"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "bottom"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "clear"]
+- !private ["Ps9Equatable", "customView"]
+- !private ["Ps9Equatable", "disabled"]
+- !private ["Ps9Equatable", "equal"]
+- !private ["Ps9Equatable", "flexibleHeight"]
+- !private ["Ps9Equatable", "flexibleWidth"]
+- !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "horizontal"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invocation"]
+- !private ["Ps9Equatable", "isEnabled"]
+- !private ["Ps9Equatable", "leading"]
+- !private ["Ps9Equatable", "lightGray"]
+- !private ["Ps9Equatable", "numberOfLines"]
+- !private ["Ps9Equatable", "plain"]
+- !private ["Ps9Equatable", "removeTarget"]
+- !private ["Ps9Equatable", "selectableTextColor"]
+- !private ["Ps9Equatable", "setContentCompressionResistancePriority"]
+- !private ["Ps9Equatable", "setContentHuggingPriority"]
+- !private ["Ps9Equatable", "setTitle"]
+- !private ["Ps9Equatable", "setTitleColor"]
+- !private ["Ps9Equatable", "system"]
+- !private ["Ps9Equatable", "systemFont"]
+- !private ["Ps9Equatable", "textAlignment"]
+- !private ["Ps9Equatable", "title"]
+- !private ["Ps9Equatable", "titleFont"]
+- !private ["Ps9Equatable", "titleLabel"]
+- !private ["Ps9Equatable", "top"]
+- !private ["Ps9Equatable", "touchUpInside"]
+- !private ["Ps9Equatable", "trailing"]
+- !private ["Ps9Equatable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps9Equatable", "vertical"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "disabled"]
+- !private ["Ps25ExpressibleByArrayLiteral", "flexibleHeight"]
+- !private ["Ps25ExpressibleByArrayLiteral", "flexibleWidth"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "touchUpInside"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "NSLayoutConstraint"]
+- !private ["Ps8Hashable", "UIBarButtonItemStyle"]
+- !private ["Ps8Hashable", "UIButton"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIControlState"]
+- !private ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "UILayoutPriorityDefaultHigh"]
+- !private ["Ps8Hashable", "UILayoutPriorityDefaultLow"]
+- !private ["Ps8Hashable", "UIView"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_titleButton"]
+- !private ["Ps8Hashable", "_titleView"]
+- !private ["Ps8Hashable", "addConstraints"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "autoresizingMask"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "bottom"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "clear"]
+- !private ["Ps8Hashable", "customView"]
+- !private ["Ps8Hashable", "equal"]
+- !private ["Ps8Hashable", "font"]
+- !private ["Ps8Hashable", "horizontal"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invocation"]
+- !private ["Ps8Hashable", "isEnabled"]
+- !private ["Ps8Hashable", "leading"]
+- !private ["Ps8Hashable", "lightGray"]
+- !private ["Ps8Hashable", "numberOfLines"]
+- !private ["Ps8Hashable", "plain"]
+- !private ["Ps8Hashable", "removeTarget"]
+- !private ["Ps8Hashable", "selectableTextColor"]
+- !private ["Ps8Hashable", "setContentCompressionResistancePriority"]
+- !private ["Ps8Hashable", "setContentHuggingPriority"]
+- !private ["Ps8Hashable", "setTitle"]
+- !private ["Ps8Hashable", "setTitleColor"]
+- !private ["Ps8Hashable", "system"]
+- !private ["Ps8Hashable", "systemFont"]
+- !private ["Ps8Hashable", "textAlignment"]
+- !private ["Ps8Hashable", "title"]
+- !private ["Ps8Hashable", "titleFont"]
+- !private ["Ps8Hashable", "titleLabel"]
+- !private ["Ps8Hashable", "top"]
+- !private ["Ps8Hashable", "trailing"]
+- !private ["Ps8Hashable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps8Hashable", "vertical"]
+- ["Ps8Hashable", ""]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "AnyObject"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "NSCoder"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "NSLayoutConstraint"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "Selector"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "String"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UIBarButtonItemStyle"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "UIButton"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "UIColor"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UIControlState"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "UIFont"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UILayoutPriorityDefaultHigh"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UILayoutPriorityDefaultLow"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "UIView"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "_titleButton"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "_titleView"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "customView"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "init"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "invocation"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "isEnabled"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "selectableTextColor"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "title"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "titleFont"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", ""]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "AnyObject"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "NSCoder"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "NSLayoutConstraint"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "Selector"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "String"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UIBarButtonItemStyle"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UIButton"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UIColor"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UIControlState"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UIFont"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UILayoutPriorityDefaultHigh"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UILayoutPriorityDefaultLow"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "UIView"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "_titleButton"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "_titleView"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "customView"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "deinit"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "init"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "invocation"]
+- !private ["C18ScreeningDeveloper20IQTitleBarButtonItem", "isEnabled"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "selectableTextColor"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "title"]
+- ["C18ScreeningDeveloper20IQTitleBarButtonItem", "titleFont"]
+- !private ["P10Kingfisher20KingfisherCompatible", "addTarget"]
+- !private ["P10Kingfisher20KingfisherCompatible", "autoresizingMask"]
+- !private ["P10Kingfisher20KingfisherCompatible", "backgroundColor"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "isEnabled"]
+- !private ["P10Kingfisher20KingfisherCompatible", "removeTarget"]
+- !private ["P10Kingfisher20KingfisherCompatible", "setContentCompressionResistancePriority"]
+- !private ["P10Kingfisher20KingfisherCompatible", "setContentHuggingPriority"]
+- !private ["P10Kingfisher20KingfisherCompatible", "setTitle"]
+- !private ["P10Kingfisher20KingfisherCompatible", "setTitleColor"]
+- !private ["P10Kingfisher20KingfisherCompatible", "titleLabel"]
+- !private ["P10Kingfisher20KingfisherCompatible", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "NSLayoutConstraint"]
+- !private ["PSo8NSCoding", "UIBarButtonItemStyle"]
+- !private ["PSo8NSCoding", "UIButton"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIControlState"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "UILayoutPriorityDefaultHigh"]
+- !private ["PSo8NSCoding", "UILayoutPriorityDefaultLow"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "_titleButton"]
+- !private ["PSo8NSCoding", "_titleView"]
+- !private ["PSo8NSCoding", "addConstraints"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "autoresizingMask"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "clear"]
+- !private ["PSo8NSCoding", "customView"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "invocation"]
+- !private ["PSo8NSCoding", "isEnabled"]
+- !private ["PSo8NSCoding", "lightGray"]
+- !private ["PSo8NSCoding", "numberOfLines"]
+- !private ["PSo8NSCoding", "removeTarget"]
+- !private ["PSo8NSCoding", "selectableTextColor"]
+- !private ["PSo8NSCoding", "setContentCompressionResistancePriority"]
+- !private ["PSo8NSCoding", "setContentHuggingPriority"]
+- !private ["PSo8NSCoding", "setTitle"]
+- !private ["PSo8NSCoding", "setTitleColor"]
+- !private ["PSo8NSCoding", "textAlignment"]
+- !private ["PSo8NSCoding", "title"]
+- !private ["PSo8NSCoding", "titleFont"]
+- !private ["PSo8NSCoding", "titleLabel"]
+- !private ["PSo8NSCoding", "translatesAutoresizingMaskIntoConstraints"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "clear"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lightGray"]
+- !private ["PSo9NSCopying", "systemFont"]
+- !private ["OSC17NSLayoutAttribute", "bottom"]
+- !private ["OSC17NSLayoutAttribute", "leading"]
+- !private ["OSC17NSLayoutAttribute", "top"]
+- !private ["OSC17NSLayoutAttribute", "trailing"]
+- !private ["CSo18NSLayoutConstraint", "init"]
+- !private ["OSC16NSLayoutRelation", "equal"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "NSLayoutConstraint"]
+- ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIBarButtonItemStyle"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIControlState"]
+- ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "UILayoutPriorityDefaultHigh"]
+- !private ["CSo8NSObject", "UILayoutPriorityDefaultLow"]
+- ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "_titleButton"]
+- ["CSo8NSObject", "_titleView"]
+- !private ["CSo8NSObject", "addConstraints"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "autoresizingMask"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "clear"]
+- !private ["CSo8NSObject", "customView"]
+- !private ["CSo8NSObject", "font"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "invocation"]
+- !private ["CSo8NSObject", "isEnabled"]
+- !private ["CSo8NSObject", "lightGray"]
+- !private ["CSo8NSObject", "numberOfLines"]
+- !private ["CSo8NSObject", "removeTarget"]
+- ["CSo8NSObject", "selectableTextColor"]
+- !private ["CSo8NSObject", "setContentCompressionResistancePriority"]
+- !private ["CSo8NSObject", "setContentHuggingPriority"]
+- !private ["CSo8NSObject", "setTitle"]
+- !private ["CSo8NSObject", "setTitleColor"]
+- !private ["CSo8NSObject", "systemFont"]
+- !private ["CSo8NSObject", "textAlignment"]
+- ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "titleFont"]
+- !private ["CSo8NSObject", "titleLabel"]
+- !private ["CSo8NSObject", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo16NSObjectProtocol", "NSLayoutConstraint"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItemStyle"]
+- !private ["PSo16NSObjectProtocol", "UIButton"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIControlState"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "UILayoutPriorityDefaultHigh"]
+- !private ["PSo16NSObjectProtocol", "UILayoutPriorityDefaultLow"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "_titleButton"]
+- !private ["PSo16NSObjectProtocol", "_titleView"]
+- !private ["PSo16NSObjectProtocol", "addConstraints"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "autoresizingMask"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "clear"]
+- !private ["PSo16NSObjectProtocol", "customView"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invocation"]
+- !private ["PSo16NSObjectProtocol", "isEnabled"]
+- !private ["PSo16NSObjectProtocol", "lightGray"]
+- !private ["PSo16NSObjectProtocol", "numberOfLines"]
+- !private ["PSo16NSObjectProtocol", "removeTarget"]
+- !private ["PSo16NSObjectProtocol", "selectableTextColor"]
+- !private ["PSo16NSObjectProtocol", "setContentCompressionResistancePriority"]
+- !private ["PSo16NSObjectProtocol", "setContentHuggingPriority"]
+- !private ["PSo16NSObjectProtocol", "setTitle"]
+- !private ["PSo16NSObjectProtocol", "setTitleColor"]
+- !private ["PSo16NSObjectProtocol", "systemFont"]
+- !private ["PSo16NSObjectProtocol", "textAlignment"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- !private ["PSo16NSObjectProtocol", "titleFont"]
+- !private ["PSo16NSObjectProtocol", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "translatesAutoresizingMaskIntoConstraints"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "clear"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "lightGray"]
+- !private ["OSC15NSTextAlignment", "center"]
+- !private ["Ps9OptionSet", "disabled"]
+- !private ["Ps9OptionSet", "flexibleHeight"]
+- !private ["Ps9OptionSet", "flexibleWidth"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps9OptionSet", "touchUpInside"]
+- !private ["Ps16RawRepresentable", "bottom"]
+- !private ["Ps16RawRepresentable", "center"]
+- !private ["Ps16RawRepresentable", "disabled"]
+- !private ["Ps16RawRepresentable", "equal"]
+- !private ["Ps16RawRepresentable", "flexibleHeight"]
+- !private ["Ps16RawRepresentable", "flexibleWidth"]
+- !private ["Ps16RawRepresentable", "horizontal"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "leading"]
+- !private ["Ps16RawRepresentable", "plain"]
+- !private ["Ps16RawRepresentable", "system"]
+- !private ["Ps16RawRepresentable", "top"]
+- !private ["Ps16RawRepresentable", "touchUpInside"]
+- !private ["Ps16RawRepresentable", "trailing"]
+- !private ["Ps16RawRepresentable", "vertical"]
+- !private ["Ps10SetAlgebra", "disabled"]
+- !private ["Ps10SetAlgebra", "flexibleHeight"]
+- !private ["Ps10SetAlgebra", "flexibleWidth"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "touchUpInside"]
+- !private ["PSo29UIAccessibilityIdentification", "NSLayoutConstraint"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBarButtonItemStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "UIButton"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIControlState"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- !private ["PSo29UIAccessibilityIdentification", "UILayoutPriorityDefaultHigh"]
+- !private ["PSo29UIAccessibilityIdentification", "UILayoutPriorityDefaultLow"]
+- !private ["PSo29UIAccessibilityIdentification", "UIView"]
+- !private ["PSo29UIAccessibilityIdentification", "_titleButton"]
+- !private ["PSo29UIAccessibilityIdentification", "_titleView"]
+- !private ["PSo29UIAccessibilityIdentification", "addConstraints"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "autoresizingMask"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "customView"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "invocation"]
+- !private ["PSo29UIAccessibilityIdentification", "isEnabled"]
+- !private ["PSo29UIAccessibilityIdentification", "numberOfLines"]
+- !private ["PSo29UIAccessibilityIdentification", "removeTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "selectableTextColor"]
+- !private ["PSo29UIAccessibilityIdentification", "setContentCompressionResistancePriority"]
+- !private ["PSo29UIAccessibilityIdentification", "setContentHuggingPriority"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitle"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitleColor"]
+- !private ["PSo29UIAccessibilityIdentification", "textAlignment"]
+- !private ["PSo29UIAccessibilityIdentification", "title"]
+- !private ["PSo29UIAccessibilityIdentification", "titleFont"]
+- !private ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "translatesAutoresizingMaskIntoConstraints"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "NSLayoutConstraint"]
+- !private ["PSo12UIAppearance", "UIBarButtonItemStyle"]
+- !private ["PSo12UIAppearance", "UIButton"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIControlState"]
+- !private ["PSo12UIAppearance", "UIFont"]
+- !private ["PSo12UIAppearance", "UILayoutPriorityDefaultHigh"]
+- !private ["PSo12UIAppearance", "UILayoutPriorityDefaultLow"]
+- !private ["PSo12UIAppearance", "UIView"]
+- !private ["PSo12UIAppearance", "_titleButton"]
+- !private ["PSo12UIAppearance", "_titleView"]
+- !private ["PSo12UIAppearance", "addConstraints"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo12UIAppearance", "autoresizingMask"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "customView"]
+- !private ["PSo12UIAppearance", "font"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "invocation"]
+- !private ["PSo12UIAppearance", "isEnabled"]
+- !private ["PSo12UIAppearance", "numberOfLines"]
+- !private ["PSo12UIAppearance", "removeTarget"]
+- !private ["PSo12UIAppearance", "selectableTextColor"]
+- !private ["PSo12UIAppearance", "setContentCompressionResistancePriority"]
+- !private ["PSo12UIAppearance", "setContentHuggingPriority"]
+- !private ["PSo12UIAppearance", "setTitle"]
+- !private ["PSo12UIAppearance", "setTitleColor"]
+- !private ["PSo12UIAppearance", "textAlignment"]
+- !private ["PSo12UIAppearance", "title"]
+- !private ["PSo12UIAppearance", "titleFont"]
+- !private ["PSo12UIAppearance", "titleLabel"]
+- !private ["PSo12UIAppearance", "translatesAutoresizingMaskIntoConstraints"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "addConstraints"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "addTarget"]
+- !private ["PSo21UIAppearanceContainer", "autoresizingMask"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isEnabled"]
+- !private ["PSo21UIAppearanceContainer", "numberOfLines"]
+- !private ["PSo21UIAppearanceContainer", "removeTarget"]
+- !private ["PSo21UIAppearanceContainer", "setContentCompressionResistancePriority"]
+- !private ["PSo21UIAppearanceContainer", "setContentHuggingPriority"]
+- !private ["PSo21UIAppearanceContainer", "setTitle"]
+- !private ["PSo21UIAppearanceContainer", "setTitleColor"]
+- !private ["PSo21UIAppearanceContainer", "textAlignment"]
+- !private ["PSo21UIAppearanceContainer", "titleLabel"]
+- !private ["PSo21UIAppearanceContainer", "translatesAutoresizingMaskIntoConstraints"]
+- ["CSo15UIBarButtonItem", "AnyObject"]
+- ["CSo15UIBarButtonItem", "NSCoder"]
+- !private ["CSo15UIBarButtonItem", "NSLayoutConstraint"]
+- ["CSo15UIBarButtonItem", "Selector"]
+- ["CSo15UIBarButtonItem", "String"]
+- !private ["CSo15UIBarButtonItem", "UIBarButtonItemStyle"]
+- ["CSo15UIBarButtonItem", "UIButton"]
+- ["CSo15UIBarButtonItem", "UIColor"]
+- !private ["CSo15UIBarButtonItem", "UIControlState"]
+- ["CSo15UIBarButtonItem", "UIFont"]
+- !private ["CSo15UIBarButtonItem", "UILayoutPriorityDefaultHigh"]
+- !private ["CSo15UIBarButtonItem", "UILayoutPriorityDefaultLow"]
+- ["CSo15UIBarButtonItem", "UIView"]
+- ["CSo15UIBarButtonItem", "_titleButton"]
+- ["CSo15UIBarButtonItem", "_titleView"]
+- !private ["CSo15UIBarButtonItem", "customView"]
+- ["CSo15UIBarButtonItem", "init"]
+- ["CSo15UIBarButtonItem", "invocation"]
+- !private ["CSo15UIBarButtonItem", "isEnabled"]
+- ["CSo15UIBarButtonItem", "selectableTextColor"]
+- ["CSo15UIBarButtonItem", "title"]
+- ["CSo15UIBarButtonItem", "titleFont"]
+- !private ["OSC20UIBarButtonItemStyle", "plain"]
+- ["CSo9UIBarItem", "AnyObject"]
+- ["CSo9UIBarItem", "NSCoder"]
+- !private ["CSo9UIBarItem", "NSLayoutConstraint"]
+- ["CSo9UIBarItem", "Selector"]
+- ["CSo9UIBarItem", "String"]
+- !private ["CSo9UIBarItem", "UIBarButtonItemStyle"]
+- ["CSo9UIBarItem", "UIButton"]
+- ["CSo9UIBarItem", "UIColor"]
+- !private ["CSo9UIBarItem", "UIControlState"]
+- ["CSo9UIBarItem", "UIFont"]
+- !private ["CSo9UIBarItem", "UILayoutPriorityDefaultHigh"]
+- !private ["CSo9UIBarItem", "UILayoutPriorityDefaultLow"]
+- ["CSo9UIBarItem", "UIView"]
+- ["CSo9UIBarItem", "_titleButton"]
+- ["CSo9UIBarItem", "_titleView"]
+- !private ["CSo9UIBarItem", "customView"]
+- ["CSo9UIBarItem", "init"]
+- ["CSo9UIBarItem", "invocation"]
+- !private ["CSo9UIBarItem", "isEnabled"]
+- ["CSo9UIBarItem", "selectableTextColor"]
+- ["CSo9UIBarItem", "title"]
+- ["CSo9UIBarItem", "titleFont"]
+- !private ["CSo8UIButton", "addTarget"]
+- !private ["CSo8UIButton", "autoresizingMask"]
+- !private ["CSo8UIButton", "backgroundColor"]
+- !private ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "isEnabled"]
+- !private ["CSo8UIButton", "removeTarget"]
+- !private ["CSo8UIButton", "setContentCompressionResistancePriority"]
+- !private ["CSo8UIButton", "setContentHuggingPriority"]
+- !private ["CSo8UIButton", "setTitle"]
+- !private ["CSo8UIButton", "setTitleColor"]
+- !private ["CSo8UIButton", "titleLabel"]
+- !private ["CSo8UIButton", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["OSC12UIButtonType", "system"]
+- !private ["CSo7UIColor", "clear"]
+- !private ["CSo7UIColor", "init"]
+- !private ["CSo7UIColor", "lightGray"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "font"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "numberOfLines"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "textAlignment"]
+- !private ["CSo9UIControl", "addTarget"]
+- !private ["CSo9UIControl", "autoresizingMask"]
+- !private ["CSo9UIControl", "backgroundColor"]
+- !private ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "isEnabled"]
+- !private ["CSo9UIControl", "removeTarget"]
+- !private ["CSo9UIControl", "setContentCompressionResistancePriority"]
+- !private ["CSo9UIControl", "setContentHuggingPriority"]
+- !private ["CSo9UIControl", "setTitle"]
+- !private ["CSo9UIControl", "setTitleColor"]
+- !private ["CSo9UIControl", "titleLabel"]
+- !private ["CSo9UIControl", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["VSC15UIControlEvents", "touchUpInside"]
+- !private ["VSC14UIControlState", "disabled"]
+- !private ["VSC14UIControlState", "init"]
+- !private ["PSo17UICoordinateSpace", "addConstraints"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo17UICoordinateSpace", "autoresizingMask"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "isEnabled"]
+- !private ["PSo17UICoordinateSpace", "numberOfLines"]
+- !private ["PSo17UICoordinateSpace", "removeTarget"]
+- !private ["PSo17UICoordinateSpace", "setContentCompressionResistancePriority"]
+- !private ["PSo17UICoordinateSpace", "setContentHuggingPriority"]
+- !private ["PSo17UICoordinateSpace", "setTitle"]
+- !private ["PSo17UICoordinateSpace", "setTitleColor"]
+- !private ["PSo17UICoordinateSpace", "textAlignment"]
+- !private ["PSo17UICoordinateSpace", "titleLabel"]
+- !private ["PSo17UICoordinateSpace", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo13UIDynamicItem", "addConstraints"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo13UIDynamicItem", "autoresizingMask"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "font"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "isEnabled"]
+- !private ["PSo13UIDynamicItem", "numberOfLines"]
+- !private ["PSo13UIDynamicItem", "removeTarget"]
+- !private ["PSo13UIDynamicItem", "setContentCompressionResistancePriority"]
+- !private ["PSo13UIDynamicItem", "setContentHuggingPriority"]
+- !private ["PSo13UIDynamicItem", "setTitle"]
+- !private ["PSo13UIDynamicItem", "setTitleColor"]
+- !private ["PSo13UIDynamicItem", "textAlignment"]
+- !private ["PSo13UIDynamicItem", "titleLabel"]
+- !private ["PSo13UIDynamicItem", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo18UIFocusEnvironment", "addConstraints"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "autoresizingMask"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isEnabled"]
+- !private ["PSo18UIFocusEnvironment", "numberOfLines"]
+- !private ["PSo18UIFocusEnvironment", "removeTarget"]
+- !private ["PSo18UIFocusEnvironment", "setContentCompressionResistancePriority"]
+- !private ["PSo18UIFocusEnvironment", "setContentHuggingPriority"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
+- !private ["PSo18UIFocusEnvironment", "setTitleColor"]
+- !private ["PSo18UIFocusEnvironment", "textAlignment"]
+- !private ["PSo18UIFocusEnvironment", "titleLabel"]
+- !private ["PSo18UIFocusEnvironment", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo11UIFocusItem", "addConstraints"]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "addTarget"]
+- !private ["PSo11UIFocusItem", "autoresizingMask"]
+- !private ["PSo11UIFocusItem", "backgroundColor"]
+- !private ["PSo11UIFocusItem", "font"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isEnabled"]
+- !private ["PSo11UIFocusItem", "numberOfLines"]
+- !private ["PSo11UIFocusItem", "removeTarget"]
+- !private ["PSo11UIFocusItem", "setContentCompressionResistancePriority"]
+- !private ["PSo11UIFocusItem", "setContentHuggingPriority"]
+- !private ["PSo11UIFocusItem", "setTitle"]
+- !private ["PSo11UIFocusItem", "setTitleColor"]
+- !private ["PSo11UIFocusItem", "textAlignment"]
+- !private ["PSo11UIFocusItem", "titleLabel"]
+- !private ["PSo11UIFocusItem", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["CSo6UIFont", "systemFont"]
+- !private ["CSo7UILabel", "font"]
+- !private ["CSo7UILabel", "numberOfLines"]
+- !private ["CSo7UILabel", "textAlignment"]
+- !private ["OSC22UILayoutConstraintAxis", "horizontal"]
+- !private ["OSC22UILayoutConstraintAxis", "vertical"]
+- !private ["CSo11UIResponder", "addConstraints"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "addTarget"]
+- !private ["CSo11UIResponder", "autoresizingMask"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "font"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isEnabled"]
+- !private ["CSo11UIResponder", "numberOfLines"]
+- !private ["CSo11UIResponder", "removeTarget"]
+- !private ["CSo11UIResponder", "setContentCompressionResistancePriority"]
+- !private ["CSo11UIResponder", "setContentHuggingPriority"]
+- !private ["CSo11UIResponder", "setTitle"]
+- !private ["CSo11UIResponder", "setTitleColor"]
+- !private ["CSo11UIResponder", "textAlignment"]
+- !private ["CSo11UIResponder", "titleLabel"]
+- !private ["CSo11UIResponder", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo30UIResponderStandardEditActions", "addConstraints"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "addTarget"]
+- !private ["PSo30UIResponderStandardEditActions", "autoresizingMask"]
+- !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
+- !private ["PSo30UIResponderStandardEditActions", "font"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "numberOfLines"]
+- !private ["PSo30UIResponderStandardEditActions", "removeTarget"]
+- !private ["PSo30UIResponderStandardEditActions", "setContentCompressionResistancePriority"]
+- !private ["PSo30UIResponderStandardEditActions", "setContentHuggingPriority"]
+- !private ["PSo30UIResponderStandardEditActions", "setTitle"]
+- !private ["PSo30UIResponderStandardEditActions", "setTitleColor"]
+- !private ["PSo30UIResponderStandardEditActions", "textAlignment"]
+- !private ["PSo30UIResponderStandardEditActions", "titleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo18UITraitEnvironment", "addConstraints"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "addTarget"]
+- !private ["PSo18UITraitEnvironment", "autoresizingMask"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isEnabled"]
+- !private ["PSo18UITraitEnvironment", "numberOfLines"]
+- !private ["PSo18UITraitEnvironment", "removeTarget"]
+- !private ["PSo18UITraitEnvironment", "setContentCompressionResistancePriority"]
+- !private ["PSo18UITraitEnvironment", "setContentHuggingPriority"]
+- !private ["PSo18UITraitEnvironment", "setTitle"]
+- !private ["PSo18UITraitEnvironment", "setTitleColor"]
+- !private ["PSo18UITraitEnvironment", "textAlignment"]
+- !private ["PSo18UITraitEnvironment", "titleLabel"]
+- !private ["PSo18UITraitEnvironment", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["CSo6UIView", "addConstraints"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "addTarget"]
+- !private ["CSo6UIView", "autoresizingMask"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "font"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "isEnabled"]
+- !private ["CSo6UIView", "numberOfLines"]
+- !private ["CSo6UIView", "removeTarget"]
+- !private ["CSo6UIView", "setContentCompressionResistancePriority"]
+- !private ["CSo6UIView", "setContentHuggingPriority"]
+- !private ["CSo6UIView", "setTitle"]
+- !private ["CSo6UIView", "setTitleColor"]
+- !private ["CSo6UIView", "textAlignment"]
+- !private ["CSo6UIView", "titleLabel"]
+- !private ["CSo6UIView", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["VSC18UIViewAutoresizing", "flexibleHeight"]
+- !private ["VSC18UIViewAutoresizing", "flexibleWidth"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addConstraints"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addTarget"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoresizingMask"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isEnabled"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "numberOfLines"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "removeTarget"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setContentCompressionResistancePriority"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setContentHuggingPriority"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setTitle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setTitleColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textAlignment"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "titleLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps26_ExpressibleByColorLiteral", "clear"]
+- !private ["Ps26_ExpressibleByColorLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "lightGray"]
+- !private ["Ps9_Hashable", "NSLayoutConstraint"]
+- !private ["Ps9_Hashable", "UIBarButtonItemStyle"]
+- !private ["Ps9_Hashable", "UIButton"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIControlState"]
+- !private ["Ps9_Hashable", "UIFont"]
+- !private ["Ps9_Hashable", "UILayoutPriorityDefaultHigh"]
+- !private ["Ps9_Hashable", "UILayoutPriorityDefaultLow"]
+- !private ["Ps9_Hashable", "UIView"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_titleButton"]
+- !private ["Ps9_Hashable", "_titleView"]
+- !private ["Ps9_Hashable", "addConstraints"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "addTarget"]
+- !private ["Ps9_Hashable", "autoresizingMask"]
+- !private ["Ps9_Hashable", "backgroundColor"]
+- !private ["Ps9_Hashable", "bottom"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "clear"]
+- !private ["Ps9_Hashable", "customView"]
+- !private ["Ps9_Hashable", "equal"]
+- !private ["Ps9_Hashable", "font"]
+- !private ["Ps9_Hashable", "horizontal"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invocation"]
+- !private ["Ps9_Hashable", "isEnabled"]
+- !private ["Ps9_Hashable", "leading"]
+- !private ["Ps9_Hashable", "lightGray"]
+- !private ["Ps9_Hashable", "numberOfLines"]
+- !private ["Ps9_Hashable", "plain"]
+- !private ["Ps9_Hashable", "removeTarget"]
+- !private ["Ps9_Hashable", "selectableTextColor"]
+- !private ["Ps9_Hashable", "setContentCompressionResistancePriority"]
+- !private ["Ps9_Hashable", "setContentHuggingPriority"]
+- !private ["Ps9_Hashable", "setTitle"]
+- !private ["Ps9_Hashable", "setTitleColor"]
+- !private ["Ps9_Hashable", "system"]
+- !private ["Ps9_Hashable", "systemFont"]
+- !private ["Ps9_Hashable", "textAlignment"]
+- !private ["Ps9_Hashable", "title"]
+- !private ["Ps9_Hashable", "titleFont"]
+- !private ["Ps9_Hashable", "titleLabel"]
+- !private ["Ps9_Hashable", "top"]
+- !private ["Ps9_Hashable", "trailing"]
+- !private ["Ps9_Hashable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps9_Hashable", "vertical"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- "C18ScreeningDeveloper15IQBarButtonItem"
+- "C18ScreeningDeveloper20IQTitleBarButtonItem"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "Ps25LosslessStringConvertible"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "OSC17NSLayoutAttribute"
+- !private "CSo18NSLayoutConstraint"
+- !private "OSC16NSLayoutRelation"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "OSC15NSTextAlignment"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "CSo15UIBarButtonItem"
+- !private "OSC20UIBarButtonItemStyle"
+- "CSo9UIBarItem"
+- !private "CSo8UIButton"
+- !private "OSC12UIButtonType"
+- !private "CSo7UIColor"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "VSC15UIControlEvents"
+- !private "VSC14UIControlState"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo6UIFont"
+- !private "CSo7UILabel"
+- !private "OSC22UILayoutConstraintAxis"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "VSC18UIViewAutoresizing"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AudioToolbox.apinotesc"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/JTAppleCalendar.swiftmodule/arm64.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFURL.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper-Bridging-Header.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/SWRevealViewController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/Bolts.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "138718edfaa8eb0ed3706bd418f99c70"

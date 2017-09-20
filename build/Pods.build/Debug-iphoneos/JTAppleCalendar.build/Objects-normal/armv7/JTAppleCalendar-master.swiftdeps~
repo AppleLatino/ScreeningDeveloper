@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "fdda0a5c0fbcd9fadb341236d94c72a7"
+build_time: [556596920, 517846000]
+inputs:
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/CalendarEnums.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/CalendarStructs.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/GlobalFunctionsAndExtensions.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTAppleCalendarDelegateProtocol.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTAppleCalendarLayout.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTAppleCalendarLayoutProtocol.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTAppleCalendarVariables.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTAppleCalendarView.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTAppleCell.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTAppleCollectionReusableView.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/JTCalendarProtocols.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/UICollectionViewDelegates.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/UIScrollViewDelegates.swift": [556429757, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/UserInteractionFunctions.swift": [556429757, 0]

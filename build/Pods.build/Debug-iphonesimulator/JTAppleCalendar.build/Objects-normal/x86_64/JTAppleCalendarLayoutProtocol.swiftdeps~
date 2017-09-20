@@ -1,0 +1,143 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JTAppleCalendarLayoutProtocol"
+provides-nominal:
+- "P15JTAppleCalendar29JTAppleCalendarLayoutProtocol"
+- "CSo26UICollectionViewFlowLayout"
+provides-member:
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", ""]
+- ["CSo26UICollectionViewFlowLayout", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGFloat"
+- "CGPoint"
+- "IndexPath"
+- "JTAppleCalendarLayoutProtocol"
+- "String"
+- "UICollectionViewFlowLayout"
+- "UICollectionViewLayoutAttributes"
+- "UICollectionViewScrollDirection"
+- "UIEdgeInsets"
+depends-member:
+- ["Ps9AnyObject", "layoutAttributesForSupplementaryView"]
+- ["Ps9AnyObject", "minimumInteritemSpacing"]
+- ["Ps9AnyObject", "minimumLineSpacing"]
+- ["Ps9AnyObject", "scrollDirection"]
+- ["Ps9AnyObject", "sectionInset"]
+- ["Ps9AnyObject", "targetContentOffsetForProposedContentOffset"]
+- ["Ps7CVarArg", "layoutAttributesForSupplementaryView"]
+- ["Ps7CVarArg", "minimumInteritemSpacing"]
+- ["Ps7CVarArg", "minimumLineSpacing"]
+- ["Ps7CVarArg", "scrollDirection"]
+- ["Ps7CVarArg", "sectionInset"]
+- ["Ps7CVarArg", "targetContentOffsetForProposedContentOffset"]
+- ["Ps28CustomDebugStringConvertible", "layoutAttributesForSupplementaryView"]
+- ["Ps28CustomDebugStringConvertible", "minimumInteritemSpacing"]
+- ["Ps28CustomDebugStringConvertible", "minimumLineSpacing"]
+- ["Ps28CustomDebugStringConvertible", "scrollDirection"]
+- ["Ps28CustomDebugStringConvertible", "sectionInset"]
+- ["Ps28CustomDebugStringConvertible", "targetContentOffsetForProposedContentOffset"]
+- ["Ps23CustomStringConvertible", "layoutAttributesForSupplementaryView"]
+- ["Ps23CustomStringConvertible", "minimumInteritemSpacing"]
+- ["Ps23CustomStringConvertible", "minimumLineSpacing"]
+- ["Ps23CustomStringConvertible", "scrollDirection"]
+- ["Ps23CustomStringConvertible", "sectionInset"]
+- ["Ps23CustomStringConvertible", "targetContentOffsetForProposedContentOffset"]
+- ["Ps9Equatable", "layoutAttributesForSupplementaryView"]
+- ["Ps9Equatable", "minimumInteritemSpacing"]
+- ["Ps9Equatable", "minimumLineSpacing"]
+- ["Ps9Equatable", "scrollDirection"]
+- ["Ps9Equatable", "sectionInset"]
+- ["Ps9Equatable", "targetContentOffsetForProposedContentOffset"]
+- ["Ps8Hashable", "layoutAttributesForSupplementaryView"]
+- ["Ps8Hashable", "minimumInteritemSpacing"]
+- ["Ps8Hashable", "minimumLineSpacing"]
+- ["Ps8Hashable", "scrollDirection"]
+- ["Ps8Hashable", "sectionInset"]
+- ["Ps8Hashable", "targetContentOffsetForProposedContentOffset"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "CGFloat"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "CGPoint"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "IndexPath"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "String"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "UICollectionViewLayoutAttributes"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "UICollectionViewScrollDirection"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "UIEdgeInsets"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "layoutAttributesForSupplementaryView"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "minimumInteritemSpacing"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "minimumLineSpacing"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "scrollDirection"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "sectionInset"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", "targetContentOffsetForProposedContentOffset"]
+- ["P15JTAppleCalendar29JTAppleCalendarLayoutProtocol", ""]
+- ["PSo8NSCoding", "layoutAttributesForSupplementaryView"]
+- ["PSo8NSCoding", "minimumInteritemSpacing"]
+- ["PSo8NSCoding", "minimumLineSpacing"]
+- ["PSo8NSCoding", "scrollDirection"]
+- ["PSo8NSCoding", "sectionInset"]
+- ["PSo8NSCoding", "targetContentOffsetForProposedContentOffset"]
+- ["CSo8NSObject", "layoutAttributesForSupplementaryView"]
+- ["CSo8NSObject", "minimumInteritemSpacing"]
+- ["CSo8NSObject", "minimumLineSpacing"]
+- ["CSo8NSObject", "scrollDirection"]
+- ["CSo8NSObject", "sectionInset"]
+- ["CSo8NSObject", "targetContentOffsetForProposedContentOffset"]
+- ["PSo16NSObjectProtocol", "layoutAttributesForSupplementaryView"]
+- ["PSo16NSObjectProtocol", "minimumInteritemSpacing"]
+- ["PSo16NSObjectProtocol", "minimumLineSpacing"]
+- ["PSo16NSObjectProtocol", "scrollDirection"]
+- ["PSo16NSObjectProtocol", "sectionInset"]
+- ["PSo16NSObjectProtocol", "targetContentOffsetForProposedContentOffset"]
+- ["CSo26UICollectionViewFlowLayout", "deinit"]
+- ["CSo26UICollectionViewFlowLayout", "layoutAttributesForSupplementaryView"]
+- ["CSo26UICollectionViewFlowLayout", "minimumInteritemSpacing"]
+- ["CSo26UICollectionViewFlowLayout", "minimumLineSpacing"]
+- ["CSo26UICollectionViewFlowLayout", "scrollDirection"]
+- ["CSo26UICollectionViewFlowLayout", "sectionInset"]
+- ["CSo26UICollectionViewFlowLayout", "targetContentOffsetForProposedContentOffset"]
+- ["CSo22UICollectionViewLayout", "layoutAttributesForSupplementaryView"]
+- ["CSo22UICollectionViewLayout", "minimumInteritemSpacing"]
+- ["CSo22UICollectionViewLayout", "minimumLineSpacing"]
+- ["CSo22UICollectionViewLayout", "scrollDirection"]
+- ["CSo22UICollectionViewLayout", "sectionInset"]
+- ["CSo22UICollectionViewLayout", "targetContentOffsetForProposedContentOffset"]
+- ["Ps9_Hashable", "layoutAttributesForSupplementaryView"]
+- ["Ps9_Hashable", "minimumInteritemSpacing"]
+- ["Ps9_Hashable", "minimumLineSpacing"]
+- ["Ps9_Hashable", "scrollDirection"]
+- ["Ps9_Hashable", "sectionInset"]
+- ["Ps9_Hashable", "targetContentOffsetForProposedContentOffset"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "P15JTAppleCalendar29JTAppleCalendarLayoutProtocol"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo26UICollectionViewFlowLayout"
+- "CSo22UICollectionViewLayout"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphonesimulator/JTAppleCalendar.build/unextended-module.modulemap"
+interface-hash: "b56c37f270aa638115d768f6f4455d8a"

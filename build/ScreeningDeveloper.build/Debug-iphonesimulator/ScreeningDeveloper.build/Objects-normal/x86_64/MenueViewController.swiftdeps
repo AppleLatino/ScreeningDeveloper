@@ -1,0 +1,1483 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenueViewController"
+provides-nominal:
+- "C18ScreeningDeveloper19MenueViewController"
+provides-member:
+- ["C18ScreeningDeveloper19MenueViewController", ""]
+- ["CSo11UIImageView", ""]
+- ["CSo11UIImageView", "downloadImage"]
+provides-dynamic-lookup:
+- "checkIfUserIsLoggedIn"
+- "dataRef"
+- "didReceiveMemoryWarning"
+- "downloadImage"
+- "handleLogout"
+- "loadUserInfo"
+- "openSettings"
+- "presentLogingController"
+- "storageRef"
+- "userImage"
+- "userNameLabel"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- !private "Auth"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Database"
+- "DatabaseReference"
+- "DesignableImageView"
+- !private "DispatchQueue"
+- !private "ImageResource"
+- !private "LoginViewController"
+- "MenueViewController"
+- !private "SWRevealViewController"
+- "Storage"
+- "String"
+- !private "StringLiteralType"
+- "UIBarButtonItem"
+- !private "UIImage"
+- "UIImageView"
+- "UILabel"
+- !private "UIStoryboard"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- "UserSettings"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "Auth"]
+- !private ["Ps9AnyObject", "Database"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "ImageResource"]
+- !private ["Ps9AnyObject", "SWRevealViewController"]
+- !private ["Ps9AnyObject", "Storage"]
+- !private ["Ps9AnyObject", "UIBarButtonItem"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UIStoryboard"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLRequest"]
+- !private ["Ps9AnyObject", "URLSession"]
+- ["Ps9AnyObject", "UserSettings"]
+- !private ["Ps9AnyObject", "action"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "auth"]
+- !private ["Ps9AnyObject", "checkIfUserIsLoggedIn"]
+- !private ["Ps9AnyObject", "child"]
+- !private ["Ps9AnyObject", "currentUser"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "database"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "downloadImage"]
+- !private ["Ps9AnyObject", "handleLogout"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "indicatorType"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewController"]
+- !private ["Ps9AnyObject", "kf"]
+- !private ["Ps9AnyObject", "loadUserInfo"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "navigationItem"]
+- !private ["Ps9AnyObject", "observeSingleEvent"]
+- !private ["Ps9AnyObject", "openSettings"]
+- !private ["Ps9AnyObject", "panGestureRecognizer"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "presentLogingController"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "queryOrderedByKey"]
+- !private ["Ps9AnyObject", "reference"]
+- !private ["Ps9AnyObject", "removeAllObservers"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "revealToggle"]
+- !private ["Ps9AnyObject", "revealViewController"]
+- !private ["Ps9AnyObject", "rightBarButtonItem"]
+- !private ["Ps9AnyObject", "setImage"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "signOut"]
+- !private ["Ps9AnyObject", "storage"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "target"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "uid"]
+- !private ["Ps9AnyObject", "user"]
+- !private ["Ps9AnyObject", "userImage"]
+- !private ["Ps9AnyObject", "userNameLabel"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["CSo4Auth", "auth"]
+- !private ["CSo4Auth", "currentUser"]
+- !private ["CSo4Auth", "signOut"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "DispatchQueue"]
+- !private ["PSo15CALayerDelegate", "UIImage"]
+- !private ["PSo15CALayerDelegate", "URL"]
+- !private ["PSo15CALayerDelegate", "URLRequest"]
+- !private ["PSo15CALayerDelegate", "URLSession"]
+- !private ["PSo15CALayerDelegate", "addGestureRecognizer"]
+- !private ["PSo15CALayerDelegate", "downloadImage"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["PSo15CALayerDelegate", "kf"]
+- !private ["PSo15CALayerDelegate", "print"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Auth"]
+- !private ["Ps7CVarArg", "Database"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "ImageResource"]
+- !private ["Ps7CVarArg", "SWRevealViewController"]
+- !private ["Ps7CVarArg", "Storage"]
+- !private ["Ps7CVarArg", "UIBarButtonItem"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "UIStoryboard"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "URLRequest"]
+- !private ["Ps7CVarArg", "URLSession"]
+- ["Ps7CVarArg", "UserSettings"]
+- !private ["Ps7CVarArg", "action"]
+- !private ["Ps7CVarArg", "addGestureRecognizer"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "auth"]
+- !private ["Ps7CVarArg", "checkIfUserIsLoggedIn"]
+- !private ["Ps7CVarArg", "child"]
+- !private ["Ps7CVarArg", "currentUser"]
+- !private ["Ps7CVarArg", "dataTask"]
+- !private ["Ps7CVarArg", "database"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "downloadImage"]
+- !private ["Ps7CVarArg", "handleLogout"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "instantiateViewController"]
+- !private ["Ps7CVarArg", "kf"]
+- !private ["Ps7CVarArg", "loadUserInfo"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "navigationItem"]
+- !private ["Ps7CVarArg", "observeSingleEvent"]
+- !private ["Ps7CVarArg", "openSettings"]
+- !private ["Ps7CVarArg", "panGestureRecognizer"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "presentLogingController"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "queryOrderedByKey"]
+- !private ["Ps7CVarArg", "reference"]
+- !private ["Ps7CVarArg", "removeAllObservers"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "revealToggle"]
+- !private ["Ps7CVarArg", "revealViewController"]
+- !private ["Ps7CVarArg", "rightBarButtonItem"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "signOut"]
+- !private ["Ps7CVarArg", "storage"]
+- !private ["Ps7CVarArg", "target"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "uid"]
+- !private ["Ps7CVarArg", "user"]
+- !private ["Ps7CVarArg", "userImage"]
+- !private ["Ps7CVarArg", "userNameLabel"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "append"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Auth"]
+- !private ["Ps28CustomDebugStringConvertible", "Database"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "ImageResource"]
+- !private ["Ps28CustomDebugStringConvertible", "SWRevealViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "Storage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "URLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSession"]
+- ["Ps28CustomDebugStringConvertible", "UserSettings"]
+- !private ["Ps28CustomDebugStringConvertible", "action"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "auth"]
+- !private ["Ps28CustomDebugStringConvertible", "checkIfUserIsLoggedIn"]
+- !private ["Ps28CustomDebugStringConvertible", "child"]
+- !private ["Ps28CustomDebugStringConvertible", "currentUser"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "database"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadImage"]
+- !private ["Ps28CustomDebugStringConvertible", "handleLogout"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "kf"]
+- !private ["Ps28CustomDebugStringConvertible", "loadUserInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- !private ["Ps28CustomDebugStringConvertible", "observeSingleEvent"]
+- !private ["Ps28CustomDebugStringConvertible", "openSettings"]
+- !private ["Ps28CustomDebugStringConvertible", "panGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "presentLogingController"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "queryOrderedByKey"]
+- !private ["Ps28CustomDebugStringConvertible", "reference"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAllObservers"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "revealToggle"]
+- !private ["Ps28CustomDebugStringConvertible", "revealViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "rightBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "signOut"]
+- !private ["Ps28CustomDebugStringConvertible", "storage"]
+- !private ["Ps28CustomDebugStringConvertible", "target"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "uid"]
+- !private ["Ps28CustomDebugStringConvertible", "user"]
+- !private ["Ps28CustomDebugStringConvertible", "userImage"]
+- !private ["Ps28CustomDebugStringConvertible", "userNameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Auth"]
+- !private ["Ps23CustomStringConvertible", "Database"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "ImageResource"]
+- !private ["Ps23CustomStringConvertible", "SWRevealViewController"]
+- !private ["Ps23CustomStringConvertible", "Storage"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "URLRequest"]
+- !private ["Ps23CustomStringConvertible", "URLSession"]
+- ["Ps23CustomStringConvertible", "UserSettings"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "action"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "auth"]
+- !private ["Ps23CustomStringConvertible", "checkIfUserIsLoggedIn"]
+- !private ["Ps23CustomStringConvertible", "child"]
+- !private ["Ps23CustomStringConvertible", "currentUser"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- !private ["Ps23CustomStringConvertible", "database"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "downloadImage"]
+- !private ["Ps23CustomStringConvertible", "handleLogout"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewController"]
+- !private ["Ps23CustomStringConvertible", "kf"]
+- !private ["Ps23CustomStringConvertible", "loadUserInfo"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
+- !private ["Ps23CustomStringConvertible", "observeSingleEvent"]
+- !private ["Ps23CustomStringConvertible", "openSettings"]
+- !private ["Ps23CustomStringConvertible", "panGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "presentLogingController"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "queryOrderedByKey"]
+- !private ["Ps23CustomStringConvertible", "reference"]
+- !private ["Ps23CustomStringConvertible", "removeAllObservers"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "revealToggle"]
+- !private ["Ps23CustomStringConvertible", "revealViewController"]
+- !private ["Ps23CustomStringConvertible", "rightBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "signOut"]
+- !private ["Ps23CustomStringConvertible", "storage"]
+- !private ["Ps23CustomStringConvertible", "target"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "uid"]
+- !private ["Ps23CustomStringConvertible", "user"]
+- !private ["Ps23CustomStringConvertible", "userImage"]
+- !private ["Ps23CustomStringConvertible", "userNameLabel"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["OSC13DataEventType", "value"]
+- !private ["CSo12DataSnapshot", "value"]
+- !private ["CSo8Database", "database"]
+- !private ["CSo8Database", "reference"]
+- !private ["CSo13DatabaseQuery", "child"]
+- !private ["CSo13DatabaseQuery", "observeSingleEvent"]
+- !private ["CSo13DatabaseQuery", "queryOrderedByKey"]
+- !private ["CSo13DatabaseQuery", "removeAllObservers"]
+- !private ["CSo17DatabaseReference", "child"]
+- !private ["CSo17DatabaseReference", "queryOrderedByKey"]
+- !private ["CSo17DatabaseReference", "removeAllObservers"]
+- !private ["C18ScreeningDeveloper19DesignableImageView", "deinit"]
+- !private ["C18ScreeningDeveloper19DesignableImageView", "downloadImage"]
+- !private ["C18ScreeningDeveloper19DesignableImageView", "kf"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "Auth"]
+- !private ["Ps9Equatable", "Database"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "ImageResource"]
+- !private ["Ps9Equatable", "SWRevealViewController"]
+- !private ["Ps9Equatable", "Storage"]
+- !private ["Ps9Equatable", "UIBarButtonItem"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UIStoryboard"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "URLRequest"]
+- !private ["Ps9Equatable", "URLSession"]
+- ["Ps9Equatable", "UserSettings"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "action"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "auth"]
+- !private ["Ps9Equatable", "checkIfUserIsLoggedIn"]
+- !private ["Ps9Equatable", "child"]
+- !private ["Ps9Equatable", "currentUser"]
+- !private ["Ps9Equatable", "dataTask"]
+- !private ["Ps9Equatable", "database"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "done"]
+- !private ["Ps9Equatable", "downloadImage"]
+- !private ["Ps9Equatable", "handleLogout"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewController"]
+- !private ["Ps9Equatable", "kf"]
+- !private ["Ps9Equatable", "loadUserInfo"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "navigationItem"]
+- !private ["Ps9Equatable", "observeSingleEvent"]
+- !private ["Ps9Equatable", "openSettings"]
+- !private ["Ps9Equatable", "panGestureRecognizer"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "presentLogingController"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "queryOrderedByKey"]
+- !private ["Ps9Equatable", "reference"]
+- !private ["Ps9Equatable", "removeAllObservers"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "revealToggle"]
+- !private ["Ps9Equatable", "revealViewController"]
+- !private ["Ps9Equatable", "rightBarButtonItem"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "signOut"]
+- !private ["Ps9Equatable", "storage"]
+- !private ["Ps9Equatable", "target"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "uid"]
+- !private ["Ps9Equatable", "user"]
+- !private ["Ps9Equatable", "userImage"]
+- !private ["Ps9Equatable", "userNameLabel"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Auth"]
+- !private ["Ps8Hashable", "Database"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "ImageResource"]
+- !private ["Ps8Hashable", "SWRevealViewController"]
+- !private ["Ps8Hashable", "Storage"]
+- !private ["Ps8Hashable", "UIBarButtonItem"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UIStoryboard"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "URLRequest"]
+- !private ["Ps8Hashable", "URLSession"]
+- ["Ps8Hashable", "UserSettings"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "action"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "auth"]
+- !private ["Ps8Hashable", "checkIfUserIsLoggedIn"]
+- !private ["Ps8Hashable", "child"]
+- !private ["Ps8Hashable", "currentUser"]
+- !private ["Ps8Hashable", "dataTask"]
+- !private ["Ps8Hashable", "database"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "done"]
+- !private ["Ps8Hashable", "downloadImage"]
+- !private ["Ps8Hashable", "handleLogout"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewController"]
+- !private ["Ps8Hashable", "kf"]
+- !private ["Ps8Hashable", "loadUserInfo"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "navigationItem"]
+- !private ["Ps8Hashable", "observeSingleEvent"]
+- !private ["Ps8Hashable", "openSettings"]
+- !private ["Ps8Hashable", "panGestureRecognizer"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "presentLogingController"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "queryOrderedByKey"]
+- !private ["Ps8Hashable", "reference"]
+- !private ["Ps8Hashable", "removeAllObservers"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "revealToggle"]
+- !private ["Ps8Hashable", "revealViewController"]
+- !private ["Ps8Hashable", "rightBarButtonItem"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "signOut"]
+- !private ["Ps8Hashable", "storage"]
+- !private ["Ps8Hashable", "target"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "uid"]
+- !private ["Ps8Hashable", "user"]
+- !private ["Ps8Hashable", "userImage"]
+- !private ["Ps8Hashable", "userNameLabel"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["V10Kingfisher13ImageResource", "init"]
+- !private ["O10Kingfisher13IndicatorType", "activity"]
+- !private ["C10Kingfisher10Kingfisher", "indicatorType"]
+- !private ["C10Kingfisher10Kingfisher", "setImage"]
+- !private ["P10Kingfisher20KingfisherCompatible", "DispatchQueue"]
+- !private ["P10Kingfisher20KingfisherCompatible", "UIImage"]
+- !private ["P10Kingfisher20KingfisherCompatible", "URL"]
+- !private ["P10Kingfisher20KingfisherCompatible", "URLRequest"]
+- !private ["P10Kingfisher20KingfisherCompatible", "URLSession"]
+- !private ["P10Kingfisher20KingfisherCompatible", "downloadImage"]
+- !private ["P10Kingfisher20KingfisherCompatible", "image"]
+- !private ["P10Kingfisher20KingfisherCompatible", "init"]
+- !private ["P10Kingfisher20KingfisherCompatible", "kf"]
+- !private ["P10Kingfisher20KingfisherCompatible", "print"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "AnyObject"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "Auth"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "Database"]
+- ["C18ScreeningDeveloper19MenueViewController", "DatabaseReference"]
+- ["C18ScreeningDeveloper19MenueViewController", "DesignableImageView"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "ImageResource"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "LoginViewController"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "SWRevealViewController"]
+- ["C18ScreeningDeveloper19MenueViewController", "Storage"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "String"]
+- ["C18ScreeningDeveloper19MenueViewController", "UIBarButtonItem"]
+- ["C18ScreeningDeveloper19MenueViewController", "UILabel"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "UIStoryboard"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "URL"]
+- ["C18ScreeningDeveloper19MenueViewController", "UserSettings"]
+- ["C18ScreeningDeveloper19MenueViewController", "checkIfUserIsLoggedIn"]
+- ["C18ScreeningDeveloper19MenueViewController", "dataRef"]
+- ["C18ScreeningDeveloper19MenueViewController", "deinit"]
+- ["C18ScreeningDeveloper19MenueViewController", "didReceiveMemoryWarning"]
+- ["C18ScreeningDeveloper19MenueViewController", "handleLogout"]
+- ["C18ScreeningDeveloper19MenueViewController", "init"]
+- ["C18ScreeningDeveloper19MenueViewController", "loadUserInfo"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "navigationItem"]
+- ["C18ScreeningDeveloper19MenueViewController", "openSettings"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "present"]
+- ["C18ScreeningDeveloper19MenueViewController", "presentLogingController"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "print"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "revealViewController"]
+- ["C18ScreeningDeveloper19MenueViewController", "storageRef"]
+- ["C18ScreeningDeveloper19MenueViewController", "user"]
+- ["C18ScreeningDeveloper19MenueViewController", "userImage"]
+- ["C18ScreeningDeveloper19MenueViewController", "userNameLabel"]
+- !private ["C18ScreeningDeveloper19MenueViewController", "view"]
+- ["C18ScreeningDeveloper19MenueViewController", "viewDidLoad"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- ["Ps17MutableCollection", "init"]
+- !private ["PSo8NSCoding", "Auth"]
+- !private ["PSo8NSCoding", "Database"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- !private ["PSo8NSCoding", "ImageResource"]
+- !private ["PSo8NSCoding", "SWRevealViewController"]
+- !private ["PSo8NSCoding", "Storage"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "URLRequest"]
+- !private ["PSo8NSCoding", "URLSession"]
+- ["PSo8NSCoding", "UserSettings"]
+- !private ["PSo8NSCoding", "action"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- !private ["PSo8NSCoding", "checkIfUserIsLoggedIn"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "downloadImage"]
+- !private ["PSo8NSCoding", "handleLogout"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kf"]
+- !private ["PSo8NSCoding", "loadUserInfo"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- !private ["PSo8NSCoding", "openSettings"]
+- !private ["PSo8NSCoding", "panGestureRecognizer"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "presentLogingController"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "revealToggle"]
+- !private ["PSo8NSCoding", "revealViewController"]
+- !private ["PSo8NSCoding", "rightBarButtonItem"]
+- !private ["PSo8NSCoding", "target"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "user"]
+- !private ["PSo8NSCoding", "userImage"]
+- !private ["PSo8NSCoding", "userNameLabel"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo26NSExtensionRequestHandling", "Auth"]
+- !private ["PSo26NSExtensionRequestHandling", "Database"]
+- !private ["PSo26NSExtensionRequestHandling", "ImageResource"]
+- !private ["PSo26NSExtensionRequestHandling", "SWRevealViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "Storage"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
+- !private ["PSo26NSExtensionRequestHandling", "URL"]
+- ["PSo26NSExtensionRequestHandling", "UserSettings"]
+- !private ["PSo26NSExtensionRequestHandling", "checkIfUserIsLoggedIn"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "handleLogout"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "loadUserInfo"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- !private ["PSo26NSExtensionRequestHandling", "openSettings"]
+- !private ["PSo26NSExtensionRequestHandling", "panGestureRecognizer"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo26NSExtensionRequestHandling", "presentLogingController"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "revealToggle"]
+- !private ["PSo26NSExtensionRequestHandling", "revealViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "user"]
+- !private ["PSo26NSExtensionRequestHandling", "userImage"]
+- !private ["PSo26NSExtensionRequestHandling", "userNameLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Auth"]
+- !private ["CSo8NSObject", "Database"]
+- ["CSo8NSObject", "DatabaseReference"]
+- ["CSo8NSObject", "DesignableImageView"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- !private ["CSo8NSObject", "ImageResource"]
+- !private ["CSo8NSObject", "LoginViewController"]
+- !private ["CSo8NSObject", "SWRevealViewController"]
+- ["CSo8NSObject", "Storage"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "URLRequest"]
+- !private ["CSo8NSObject", "URLSession"]
+- ["CSo8NSObject", "UserSettings"]
+- !private ["CSo8NSObject", "action"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "auth"]
+- ["CSo8NSObject", "checkIfUserIsLoggedIn"]
+- !private ["CSo8NSObject", "child"]
+- !private ["CSo8NSObject", "currentUser"]
+- ["CSo8NSObject", "dataRef"]
+- !private ["CSo8NSObject", "dataTask"]
+- !private ["CSo8NSObject", "database"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "downloadImage"]
+- ["CSo8NSObject", "handleLogout"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewController"]
+- !private ["CSo8NSObject", "kf"]
+- ["CSo8NSObject", "loadUserInfo"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "navigationItem"]
+- !private ["CSo8NSObject", "observeSingleEvent"]
+- ["CSo8NSObject", "openSettings"]
+- !private ["CSo8NSObject", "panGestureRecognizer"]
+- !private ["CSo8NSObject", "present"]
+- ["CSo8NSObject", "presentLogingController"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "queryOrderedByKey"]
+- !private ["CSo8NSObject", "reference"]
+- !private ["CSo8NSObject", "removeAllObservers"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "revealToggle"]
+- !private ["CSo8NSObject", "revealViewController"]
+- !private ["CSo8NSObject", "rightBarButtonItem"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "signOut"]
+- !private ["CSo8NSObject", "storage"]
+- ["CSo8NSObject", "storageRef"]
+- !private ["CSo8NSObject", "target"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "uid"]
+- ["CSo8NSObject", "user"]
+- ["CSo8NSObject", "userImage"]
+- ["CSo8NSObject", "userNameLabel"]
+- !private ["CSo8NSObject", "value"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "Auth"]
+- !private ["PSo16NSObjectProtocol", "Database"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "ImageResource"]
+- !private ["PSo16NSObjectProtocol", "SWRevealViewController"]
+- !private ["PSo16NSObjectProtocol", "Storage"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "URLRequest"]
+- !private ["PSo16NSObjectProtocol", "URLSession"]
+- ["PSo16NSObjectProtocol", "UserSettings"]
+- !private ["PSo16NSObjectProtocol", "action"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "auth"]
+- !private ["PSo16NSObjectProtocol", "checkIfUserIsLoggedIn"]
+- !private ["PSo16NSObjectProtocol", "child"]
+- !private ["PSo16NSObjectProtocol", "currentUser"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- !private ["PSo16NSObjectProtocol", "database"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "downloadImage"]
+- !private ["PSo16NSObjectProtocol", "handleLogout"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewController"]
+- !private ["PSo16NSObjectProtocol", "kf"]
+- !private ["PSo16NSObjectProtocol", "loadUserInfo"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- !private ["PSo16NSObjectProtocol", "observeSingleEvent"]
+- !private ["PSo16NSObjectProtocol", "openSettings"]
+- !private ["PSo16NSObjectProtocol", "panGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "presentLogingController"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "queryOrderedByKey"]
+- !private ["PSo16NSObjectProtocol", "reference"]
+- !private ["PSo16NSObjectProtocol", "removeAllObservers"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "revealToggle"]
+- !private ["PSo16NSObjectProtocol", "revealViewController"]
+- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "signOut"]
+- !private ["PSo16NSObjectProtocol", "storage"]
+- !private ["PSo16NSObjectProtocol", "target"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo16NSObjectProtocol", "user"]
+- !private ["PSo16NSObjectProtocol", "userImage"]
+- !private ["PSo16NSObjectProtocol", "userNameLabel"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps16RawRepresentable", "done"]
+- !private ["Ps16RawRepresentable", "value"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Kingfisher8Resource", "init"]
+- !private ["CSo22SWRevealViewController", "panGestureRecognizer"]
+- !private ["CSo22SWRevealViewController", "revealToggle"]
+- !private ["Ps8Sequence", "append"]
+- ["Ps8Sequence", "init"]
+- !private ["C18ScreeningDeveloper15SpringImageView", "downloadImage"]
+- !private ["C18ScreeningDeveloper15SpringImageView", "kf"]
+- !private ["P18ScreeningDeveloper10Springable", "downloadImage"]
+- !private ["P18ScreeningDeveloper10Springable", "kf"]
+- !private ["CSo7Storage", "storage"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "DispatchQueue"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- !private ["PSo29UIAccessibilityIdentification", "URL"]
+- !private ["PSo29UIAccessibilityIdentification", "URLRequest"]
+- !private ["PSo29UIAccessibilityIdentification", "URLSession"]
+- !private ["PSo29UIAccessibilityIdentification", "action"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "downloadImage"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "kf"]
+- !private ["PSo29UIAccessibilityIdentification", "print"]
+- !private ["PSo29UIAccessibilityIdentification", "target"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "DispatchQueue"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- !private ["PSo12UIAppearance", "URL"]
+- !private ["PSo12UIAppearance", "URLRequest"]
+- !private ["PSo12UIAppearance", "URLSession"]
+- !private ["PSo12UIAppearance", "action"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "downloadImage"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "kf"]
+- !private ["PSo12UIAppearance", "print"]
+- !private ["PSo12UIAppearance", "target"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Auth"]
+- !private ["PSo21UIAppearanceContainer", "Database"]
+- !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
+- !private ["PSo21UIAppearanceContainer", "ImageResource"]
+- !private ["PSo21UIAppearanceContainer", "SWRevealViewController"]
+- !private ["PSo21UIAppearanceContainer", "Storage"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- !private ["PSo21UIAppearanceContainer", "URLRequest"]
+- !private ["PSo21UIAppearanceContainer", "URLSession"]
+- ["PSo21UIAppearanceContainer", "UserSettings"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "checkIfUserIsLoggedIn"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "downloadImage"]
+- !private ["PSo21UIAppearanceContainer", "handleLogout"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kf"]
+- !private ["PSo21UIAppearanceContainer", "loadUserInfo"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- !private ["PSo21UIAppearanceContainer", "openSettings"]
+- !private ["PSo21UIAppearanceContainer", "panGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "presentLogingController"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "revealToggle"]
+- !private ["PSo21UIAppearanceContainer", "revealViewController"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "user"]
+- !private ["PSo21UIAppearanceContainer", "userImage"]
+- !private ["PSo21UIAppearanceContainer", "userNameLabel"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo15UIBarButtonItem", "action"]
+- !private ["CSo15UIBarButtonItem", "init"]
+- !private ["CSo15UIBarButtonItem", "target"]
+- !private ["OSC20UIBarButtonItemStyle", "done"]
+- !private ["CSo9UIBarItem", "action"]
+- !private ["CSo9UIBarItem", "init"]
+- !private ["CSo9UIBarItem", "target"]
+- !private ["PSo18UIContentContainer", "Auth"]
+- !private ["PSo18UIContentContainer", "Database"]
+- !private ["PSo18UIContentContainer", "ImageResource"]
+- !private ["PSo18UIContentContainer", "SWRevealViewController"]
+- !private ["PSo18UIContentContainer", "Storage"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
+- !private ["PSo18UIContentContainer", "URL"]
+- ["PSo18UIContentContainer", "UserSettings"]
+- !private ["PSo18UIContentContainer", "checkIfUserIsLoggedIn"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "handleLogout"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "loadUserInfo"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- !private ["PSo18UIContentContainer", "openSettings"]
+- !private ["PSo18UIContentContainer", "panGestureRecognizer"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo18UIContentContainer", "presentLogingController"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "revealToggle"]
+- !private ["PSo18UIContentContainer", "revealViewController"]
+- !private ["PSo18UIContentContainer", "user"]
+- !private ["PSo18UIContentContainer", "userImage"]
+- !private ["PSo18UIContentContainer", "userNameLabel"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "DispatchQueue"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- !private ["PSo17UICoordinateSpace", "URL"]
+- !private ["PSo17UICoordinateSpace", "URLRequest"]
+- !private ["PSo17UICoordinateSpace", "URLSession"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "downloadImage"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "kf"]
+- !private ["PSo17UICoordinateSpace", "print"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "DispatchQueue"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- !private ["PSo13UIDynamicItem", "URL"]
+- !private ["PSo13UIDynamicItem", "URLRequest"]
+- !private ["PSo13UIDynamicItem", "URLSession"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "downloadImage"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "kf"]
+- !private ["PSo13UIDynamicItem", "print"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Auth"]
+- !private ["PSo18UIFocusEnvironment", "Database"]
+- !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
+- !private ["PSo18UIFocusEnvironment", "ImageResource"]
+- !private ["PSo18UIFocusEnvironment", "SWRevealViewController"]
+- !private ["PSo18UIFocusEnvironment", "Storage"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- !private ["PSo18UIFocusEnvironment", "URLRequest"]
+- !private ["PSo18UIFocusEnvironment", "URLSession"]
+- ["PSo18UIFocusEnvironment", "UserSettings"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "checkIfUserIsLoggedIn"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "downloadImage"]
+- !private ["PSo18UIFocusEnvironment", "handleLogout"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kf"]
+- !private ["PSo18UIFocusEnvironment", "loadUserInfo"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- !private ["PSo18UIFocusEnvironment", "openSettings"]
+- !private ["PSo18UIFocusEnvironment", "panGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "presentLogingController"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "revealToggle"]
+- !private ["PSo18UIFocusEnvironment", "revealViewController"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "user"]
+- !private ["PSo18UIFocusEnvironment", "userImage"]
+- !private ["PSo18UIFocusEnvironment", "userNameLabel"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "DispatchQueue"]
+- !private ["PSo11UIFocusItem", "UIImage"]
+- !private ["PSo11UIFocusItem", "URL"]
+- !private ["PSo11UIFocusItem", "URLRequest"]
+- !private ["PSo11UIFocusItem", "URLSession"]
+- !private ["PSo11UIFocusItem", "addGestureRecognizer"]
+- !private ["PSo11UIFocusItem", "downloadImage"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["PSo11UIFocusItem", "kf"]
+- !private ["PSo11UIFocusItem", "print"]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "DispatchQueue"]
+- ["CSo11UIImageView", "String"]
+- !private ["CSo11UIImageView", "UIImage"]
+- !private ["CSo11UIImageView", "URL"]
+- !private ["CSo11UIImageView", "URLRequest"]
+- !private ["CSo11UIImageView", "URLSession"]
+- ["CSo11UIImageView", "downloadImage"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "kf"]
+- !private ["CSo11UIImageView", "print"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
+- !private ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "Auth"]
+- !private ["CSo11UIResponder", "Database"]
+- ["CSo11UIResponder", "DatabaseReference"]
+- ["CSo11UIResponder", "DesignableImageView"]
+- !private ["CSo11UIResponder", "DispatchQueue"]
+- !private ["CSo11UIResponder", "ImageResource"]
+- !private ["CSo11UIResponder", "LoginViewController"]
+- !private ["CSo11UIResponder", "SWRevealViewController"]
+- ["CSo11UIResponder", "Storage"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- !private ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "URLRequest"]
+- !private ["CSo11UIResponder", "URLSession"]
+- ["CSo11UIResponder", "UserSettings"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "checkIfUserIsLoggedIn"]
+- ["CSo11UIResponder", "dataRef"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "downloadImage"]
+- ["CSo11UIResponder", "handleLogout"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kf"]
+- ["CSo11UIResponder", "loadUserInfo"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- ["CSo11UIResponder", "openSettings"]
+- !private ["CSo11UIResponder", "panGestureRecognizer"]
+- !private ["CSo11UIResponder", "present"]
+- ["CSo11UIResponder", "presentLogingController"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "revealToggle"]
+- !private ["CSo11UIResponder", "revealViewController"]
+- ["CSo11UIResponder", "storageRef"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "user"]
+- ["CSo11UIResponder", "userImage"]
+- ["CSo11UIResponder", "userNameLabel"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "Auth"]
+- !private ["PSo30UIResponderStandardEditActions", "Database"]
+- !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
+- !private ["PSo30UIResponderStandardEditActions", "ImageResource"]
+- !private ["PSo30UIResponderStandardEditActions", "SWRevealViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "Storage"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBarButtonItem"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImage"]
+- !private ["PSo30UIResponderStandardEditActions", "UIStoryboard"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- !private ["PSo30UIResponderStandardEditActions", "URLRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "URLSession"]
+- ["PSo30UIResponderStandardEditActions", "UserSettings"]
+- !private ["PSo30UIResponderStandardEditActions", "addGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "checkIfUserIsLoggedIn"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "downloadImage"]
+- !private ["PSo30UIResponderStandardEditActions", "handleLogout"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "kf"]
+- !private ["PSo30UIResponderStandardEditActions", "loadUserInfo"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationItem"]
+- !private ["PSo30UIResponderStandardEditActions", "openSettings"]
+- !private ["PSo30UIResponderStandardEditActions", "panGestureRecognizer"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "presentLogingController"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "revealToggle"]
+- !private ["PSo30UIResponderStandardEditActions", "revealViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "user"]
+- !private ["PSo30UIResponderStandardEditActions", "userImage"]
+- !private ["PSo30UIResponderStandardEditActions", "userNameLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "Auth"]
+- !private ["PSo16UIStateRestoring", "Database"]
+- !private ["PSo16UIStateRestoring", "ImageResource"]
+- !private ["PSo16UIStateRestoring", "SWRevealViewController"]
+- !private ["PSo16UIStateRestoring", "Storage"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
+- !private ["PSo16UIStateRestoring", "URL"]
+- ["PSo16UIStateRestoring", "UserSettings"]
+- !private ["PSo16UIStateRestoring", "checkIfUserIsLoggedIn"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "handleLogout"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "loadUserInfo"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- !private ["PSo16UIStateRestoring", "openSettings"]
+- !private ["PSo16UIStateRestoring", "panGestureRecognizer"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo16UIStateRestoring", "presentLogingController"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "revealToggle"]
+- !private ["PSo16UIStateRestoring", "revealViewController"]
+- !private ["PSo16UIStateRestoring", "user"]
+- !private ["PSo16UIStateRestoring", "userImage"]
+- !private ["PSo16UIStateRestoring", "userNameLabel"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewController"]
+- !private ["PSo18UITraitEnvironment", "Auth"]
+- !private ["PSo18UITraitEnvironment", "Database"]
+- !private ["PSo18UITraitEnvironment", "DispatchQueue"]
+- !private ["PSo18UITraitEnvironment", "ImageResource"]
+- !private ["PSo18UITraitEnvironment", "SWRevealViewController"]
+- !private ["PSo18UITraitEnvironment", "Storage"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- !private ["PSo18UITraitEnvironment", "URLRequest"]
+- !private ["PSo18UITraitEnvironment", "URLSession"]
+- ["PSo18UITraitEnvironment", "UserSettings"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "checkIfUserIsLoggedIn"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "downloadImage"]
+- !private ["PSo18UITraitEnvironment", "handleLogout"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kf"]
+- !private ["PSo18UITraitEnvironment", "loadUserInfo"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- !private ["PSo18UITraitEnvironment", "openSettings"]
+- !private ["PSo18UITraitEnvironment", "panGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "presentLogingController"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "revealToggle"]
+- !private ["PSo18UITraitEnvironment", "revealViewController"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "user"]
+- !private ["PSo18UITraitEnvironment", "userImage"]
+- !private ["PSo18UITraitEnvironment", "userNameLabel"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "DispatchQueue"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIImage"]
+- !private ["CSo6UIView", "URL"]
+- !private ["CSo6UIView", "URLRequest"]
+- !private ["CSo6UIView", "URLSession"]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- ["CSo6UIView", "downloadImage"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "kf"]
+- !private ["CSo6UIView", "print"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "Auth"]
+- !private ["CSo16UIViewController", "Database"]
+- ["CSo16UIViewController", "DatabaseReference"]
+- ["CSo16UIViewController", "DesignableImageView"]
+- !private ["CSo16UIViewController", "ImageResource"]
+- !private ["CSo16UIViewController", "LoginViewController"]
+- !private ["CSo16UIViewController", "SWRevealViewController"]
+- ["CSo16UIViewController", "Storage"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIBarButtonItem"]
+- ["CSo16UIViewController", "UILabel"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
+- !private ["CSo16UIViewController", "URL"]
+- ["CSo16UIViewController", "UserSettings"]
+- ["CSo16UIViewController", "checkIfUserIsLoggedIn"]
+- ["CSo16UIViewController", "dataRef"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "handleLogout"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loadUserInfo"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- ["CSo16UIViewController", "openSettings"]
+- !private ["CSo16UIViewController", "panGestureRecognizer"]
+- !private ["CSo16UIViewController", "present"]
+- ["CSo16UIViewController", "presentLogingController"]
+- !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "revealToggle"]
+- !private ["CSo16UIViewController", "revealViewController"]
+- ["CSo16UIViewController", "storageRef"]
+- ["CSo16UIViewController", "user"]
+- ["CSo16UIViewController", "userImage"]
+- ["CSo16UIViewController", "userNameLabel"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["V10Foundation3URL", "init"]
+- !private ["V10Foundation10URLRequest", "init"]
+- !private ["CSo10URLSession", "dataTask"]
+- !private ["CSo10URLSession", "shared"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["CSo4User", "uid"]
+- !private ["PSo8UserInfo", "uid"]
+- !private ["V18ScreeningDeveloper12UserSettings", "init"]
+- !private ["V18ScreeningDeveloper12UserSettings", "userPhotoURL"]
+- !private ["V18ScreeningDeveloper12UserSettings", "username"]
+- !private ["V18ScreeningDeveloper12UserSettings", "useruid"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "DispatchQueue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "URL"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "URLRequest"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "URLSession"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addGestureRecognizer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "downloadImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "kf"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "print"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Auth"]
+- !private ["Ps9_Hashable", "Database"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "ImageResource"]
+- !private ["Ps9_Hashable", "SWRevealViewController"]
+- !private ["Ps9_Hashable", "Storage"]
+- !private ["Ps9_Hashable", "UIBarButtonItem"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "UIStoryboard"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "URLRequest"]
+- !private ["Ps9_Hashable", "URLSession"]
+- ["Ps9_Hashable", "UserSettings"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "action"]
+- !private ["Ps9_Hashable", "addGestureRecognizer"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "auth"]
+- !private ["Ps9_Hashable", "checkIfUserIsLoggedIn"]
+- !private ["Ps9_Hashable", "child"]
+- !private ["Ps9_Hashable", "currentUser"]
+- !private ["Ps9_Hashable", "dataTask"]
+- !private ["Ps9_Hashable", "database"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "done"]
+- !private ["Ps9_Hashable", "downloadImage"]
+- !private ["Ps9_Hashable", "handleLogout"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "instantiateViewController"]
+- !private ["Ps9_Hashable", "kf"]
+- !private ["Ps9_Hashable", "loadUserInfo"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "navigationItem"]
+- !private ["Ps9_Hashable", "observeSingleEvent"]
+- !private ["Ps9_Hashable", "openSettings"]
+- !private ["Ps9_Hashable", "panGestureRecognizer"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "presentLogingController"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "queryOrderedByKey"]
+- !private ["Ps9_Hashable", "reference"]
+- !private ["Ps9_Hashable", "removeAllObservers"]
+- !private ["Ps9_Hashable", "resume"]
+- !private ["Ps9_Hashable", "revealToggle"]
+- !private ["Ps9_Hashable", "revealViewController"]
+- !private ["Ps9_Hashable", "rightBarButtonItem"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "signOut"]
+- !private ["Ps9_Hashable", "storage"]
+- !private ["Ps9_Hashable", "target"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "uid"]
+- !private ["Ps9_Hashable", "user"]
+- !private ["Ps9_Hashable", "userImage"]
+- !private ["Ps9_Hashable", "userNameLabel"]
+- !private ["Ps9_Hashable", "value"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "CSo4Auth"
+- "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "OSC13DataEventType"
+- !private "CSo12DataSnapshot"
+- !private "CSo8Database"
+- !private "CSo13DatabaseQuery"
+- !private "CSo17DatabaseReference"
+- !private "C18ScreeningDeveloper19DesignableImageView"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "V10Kingfisher13ImageResource"
+- !private "O10Kingfisher13IndicatorType"
+- !private "C10Kingfisher10Kingfisher"
+- !private "P10Kingfisher20KingfisherCompatible"
+- !private "Ps25LosslessStringConvertible"
+- "C18ScreeningDeveloper19MenueViewController"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "P10Kingfisher8Resource"
+- !private "CSo22SWRevealViewController"
+- "Ps8Sequence"
+- !private "C18ScreeningDeveloper15SpringImageView"
+- !private "P18ScreeningDeveloper10Springable"
+- !private "CSo7Storage"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "OSC20UIBarButtonItemStyle"
+- !private "CSo9UIBarItem"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UIImage"
+- "CSo11UIImageView"
+- !private "CSo7UILabel"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "CSo16UIViewController"
+- !private "V10Foundation3URL"
+- !private "V10Foundation10URLRequest"
+- !private "CSo10URLSession"
+- !private "CSo18URLSessionDataTask"
+- !private "CSo14URLSessionTask"
+- !private "CSo4User"
+- !private "PSo8UserInfo"
+- !private "V18ScreeningDeveloper12UserSettings"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+- !private "subscript"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/JTAppleCalendar/JTAppleCalendar.framework/Modules/JTAppleCalendar.swiftmodule/x86_64.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFURL.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper-Bridging-Header.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/SWRevealViewController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/Bolts.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/JTAppleCalendar/JTAppleCalendar.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "a2fc3c44c5f09725a70c0574ea1a0f3d"

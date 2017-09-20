@@ -1,0 +1,10 @@
+framework module KSFacebookButton {
+  umbrella header "KSFacebookButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KSFacebookButton.Swift {
+    header "KSFacebookButton-Swift.h"
+}

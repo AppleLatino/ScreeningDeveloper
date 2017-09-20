@@ -1,0 +1,6 @@
+framework module Pods_ScreeningDeveloper {
+  umbrella header "Pods-ScreeningDeveloper-umbrella.h"
+
+  export *
+  module * { export * }
+}

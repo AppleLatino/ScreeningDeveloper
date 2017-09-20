@@ -1,0 +1,557 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IQBarButtonItem"
+provides-nominal:
+- "C18ScreeningDeveloper15IQBarButtonItem"
+provides-member:
+- ["C18ScreeningDeveloper15IQBarButtonItem", ""]
+provides-dynamic-lookup:
+- "isSystemItem"
+- "setTarget"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "IQBarButtonItem"
+- "NSCoder"
+- "Selector"
+- "UIBarButtonItem"
+- !private "UIBarButtonItemStyle"
+- !private "UIBarMetrics"
+- !private "UIControlState"
+- !private "UIOffset"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "IQBarButtonItem"]
+- !private ["Ps9AnyObject", "UIBarButtonItemStyle"]
+- !private ["Ps9AnyObject", "UIBarMetrics"]
+- !private ["Ps9AnyObject", "UIControlState"]
+- !private ["Ps9AnyObject", "UIOffset"]
+- !private ["Ps9AnyObject", "_classInitialize"]
+- !private ["Ps9AnyObject", "appearance"]
+- ["Ps9AnyObject", "classInitialize"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invocation"]
+- !private ["Ps9AnyObject", "setBackButtonBackgroundImage"]
+- !private ["Ps9AnyObject", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["Ps9AnyObject", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps9AnyObject", "setBackgroundImage"]
+- !private ["Ps9AnyObject", "setBackgroundVerticalPositionAdjustment"]
+- !private ["Ps9AnyObject", "setTitlePositionAdjustment"]
+- !private ["Ps9AnyObject", "setTitleTextAttributes"]
+- !private ["Ps9AnyObject", "tintColor"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "IQBarButtonItem"]
+- !private ["Ps7CVarArg", "UIBarButtonItemStyle"]
+- !private ["Ps7CVarArg", "UIBarMetrics"]
+- !private ["Ps7CVarArg", "UIControlState"]
+- !private ["Ps7CVarArg", "UIOffset"]
+- !private ["Ps7CVarArg", "_classInitialize"]
+- !private ["Ps7CVarArg", "appearance"]
+- ["Ps7CVarArg", "classInitialize"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invocation"]
+- !private ["Ps7CVarArg", "setBackButtonBackgroundImage"]
+- !private ["Ps7CVarArg", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["Ps7CVarArg", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps7CVarArg", "setBackgroundImage"]
+- !private ["Ps7CVarArg", "setBackgroundVerticalPositionAdjustment"]
+- !private ["Ps7CVarArg", "setTitlePositionAdjustment"]
+- !private ["Ps7CVarArg", "setTitleTextAttributes"]
+- !private ["Ps7CVarArg", "tintColor"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "IQBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItemStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarMetrics"]
+- !private ["Ps28CustomDebugStringConvertible", "UIControlState"]
+- !private ["Ps28CustomDebugStringConvertible", "UIOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "_classInitialize"]
+- !private ["Ps28CustomDebugStringConvertible", "appearance"]
+- ["Ps28CustomDebugStringConvertible", "classInitialize"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invocation"]
+- !private ["Ps28CustomDebugStringConvertible", "setBackButtonBackgroundImage"]
+- !private ["Ps28CustomDebugStringConvertible", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["Ps28CustomDebugStringConvertible", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps28CustomDebugStringConvertible", "setBackgroundImage"]
+- !private ["Ps28CustomDebugStringConvertible", "setBackgroundVerticalPositionAdjustment"]
+- !private ["Ps28CustomDebugStringConvertible", "setTitlePositionAdjustment"]
+- !private ["Ps28CustomDebugStringConvertible", "setTitleTextAttributes"]
+- !private ["Ps28CustomDebugStringConvertible", "tintColor"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "IQBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItemStyle"]
+- !private ["Ps23CustomStringConvertible", "UIBarMetrics"]
+- !private ["Ps23CustomStringConvertible", "UIControlState"]
+- !private ["Ps23CustomStringConvertible", "UIOffset"]
+- !private ["Ps23CustomStringConvertible", "_classInitialize"]
+- !private ["Ps23CustomStringConvertible", "appearance"]
+- ["Ps23CustomStringConvertible", "classInitialize"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invocation"]
+- !private ["Ps23CustomStringConvertible", "setBackButtonBackgroundImage"]
+- !private ["Ps23CustomStringConvertible", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["Ps23CustomStringConvertible", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps23CustomStringConvertible", "setBackgroundImage"]
+- !private ["Ps23CustomStringConvertible", "setBackgroundVerticalPositionAdjustment"]
+- !private ["Ps23CustomStringConvertible", "setTitlePositionAdjustment"]
+- !private ["Ps23CustomStringConvertible", "setTitleTextAttributes"]
+- !private ["Ps23CustomStringConvertible", "tintColor"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "IQBarButtonItem"]
+- !private ["Ps9Equatable", "UIBarButtonItemStyle"]
+- !private ["Ps9Equatable", "UIBarMetrics"]
+- !private ["Ps9Equatable", "UIControlState"]
+- !private ["Ps9Equatable", "UIOffset"]
+- !private ["Ps9Equatable", "_classInitialize"]
+- !private ["Ps9Equatable", "appearance"]
+- !private ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "classInitialize"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "disabled"]
+- !private ["Ps9Equatable", "done"]
+- !private ["Ps9Equatable", "highlighted"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invocation"]
+- !private ["Ps9Equatable", "plain"]
+- !private ["Ps9Equatable", "reserved"]
+- !private ["Ps9Equatable", "selected"]
+- !private ["Ps9Equatable", "setBackButtonBackgroundImage"]
+- !private ["Ps9Equatable", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["Ps9Equatable", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps9Equatable", "setBackgroundImage"]
+- !private ["Ps9Equatable", "setBackgroundVerticalPositionAdjustment"]
+- !private ["Ps9Equatable", "setTitlePositionAdjustment"]
+- !private ["Ps9Equatable", "setTitleTextAttributes"]
+- !private ["Ps9Equatable", "tintColor"]
+- !private ["Ps9Equatable", "zero"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "application"]
+- !private ["Ps25ExpressibleByArrayLiteral", "disabled"]
+- !private ["Ps25ExpressibleByArrayLiteral", "highlighted"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reserved"]
+- !private ["Ps25ExpressibleByArrayLiteral", "selected"]
+- !private ["Ps8Hashable", "IQBarButtonItem"]
+- !private ["Ps8Hashable", "UIBarButtonItemStyle"]
+- !private ["Ps8Hashable", "UIBarMetrics"]
+- !private ["Ps8Hashable", "UIControlState"]
+- !private ["Ps8Hashable", "UIOffset"]
+- !private ["Ps8Hashable", "_classInitialize"]
+- !private ["Ps8Hashable", "appearance"]
+- ["Ps8Hashable", "classInitialize"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "done"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invocation"]
+- !private ["Ps8Hashable", "plain"]
+- !private ["Ps8Hashable", "setBackButtonBackgroundImage"]
+- !private ["Ps8Hashable", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["Ps8Hashable", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps8Hashable", "setBackgroundImage"]
+- !private ["Ps8Hashable", "setBackgroundVerticalPositionAdjustment"]
+- !private ["Ps8Hashable", "setTitlePositionAdjustment"]
+- !private ["Ps8Hashable", "setTitleTextAttributes"]
+- !private ["Ps8Hashable", "tintColor"]
+- ["Ps8Hashable", ""]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "AnyObject"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "IQBarButtonItem"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "NSCoder"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "Selector"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UIBarButtonItemStyle"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UIBarMetrics"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UIControlState"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "UIOffset"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "Void"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "_classInitialize"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "appearance"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "classInitialize"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "deinit"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "init"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "invocation"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "isSystemItem"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "setBackButtonBackgroundImage"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "setBackButtonTitlePositionAdjustment"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "setBackgroundImage"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "setBackgroundVerticalPositionAdjustment"]
+- ["C18ScreeningDeveloper15IQBarButtonItem", "setTarget"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "setTitlePositionAdjustment"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "setTitleTextAttributes"]
+- !private ["C18ScreeningDeveloper15IQBarButtonItem", "tintColor"]
+- !private ["PSo8NSCoding", "IQBarButtonItem"]
+- !private ["PSo8NSCoding", "UIBarButtonItemStyle"]
+- !private ["PSo8NSCoding", "UIBarMetrics"]
+- !private ["PSo8NSCoding", "UIControlState"]
+- !private ["PSo8NSCoding", "UIOffset"]
+- !private ["PSo8NSCoding", "_classInitialize"]
+- !private ["PSo8NSCoding", "appearance"]
+- ["PSo8NSCoding", "classInitialize"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "invocation"]
+- !private ["PSo8NSCoding", "setBackButtonBackgroundImage"]
+- !private ["PSo8NSCoding", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["PSo8NSCoding", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo8NSCoding", "setBackgroundImage"]
+- !private ["PSo8NSCoding", "setBackgroundVerticalPositionAdjustment"]
+- !private ["PSo8NSCoding", "setTitlePositionAdjustment"]
+- !private ["PSo8NSCoding", "setTitleTextAttributes"]
+- !private ["PSo8NSCoding", "tintColor"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "IQBarButtonItem"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "Selector"]
+- !private ["CSo8NSObject", "UIBarButtonItemStyle"]
+- !private ["CSo8NSObject", "UIBarMetrics"]
+- !private ["CSo8NSObject", "UIControlState"]
+- !private ["CSo8NSObject", "UIOffset"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "_classInitialize"]
+- !private ["CSo8NSObject", "appearance"]
+- ["CSo8NSObject", "classInitialize"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "invocation"]
+- ["CSo8NSObject", "isSystemItem"]
+- !private ["CSo8NSObject", "setBackButtonBackgroundImage"]
+- !private ["CSo8NSObject", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["CSo8NSObject", "setBackButtonTitlePositionAdjustment"]
+- !private ["CSo8NSObject", "setBackgroundImage"]
+- !private ["CSo8NSObject", "setBackgroundVerticalPositionAdjustment"]
+- ["CSo8NSObject", "setTarget"]
+- !private ["CSo8NSObject", "setTitlePositionAdjustment"]
+- !private ["CSo8NSObject", "setTitleTextAttributes"]
+- !private ["CSo8NSObject", "tintColor"]
+- !private ["PSo16NSObjectProtocol", "IQBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItemStyle"]
+- !private ["PSo16NSObjectProtocol", "UIBarMetrics"]
+- !private ["PSo16NSObjectProtocol", "UIControlState"]
+- !private ["PSo16NSObjectProtocol", "UIOffset"]
+- !private ["PSo16NSObjectProtocol", "_classInitialize"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
+- ["PSo16NSObjectProtocol", "classInitialize"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invocation"]
+- !private ["PSo16NSObjectProtocol", "setBackButtonBackgroundImage"]
+- !private ["PSo16NSObjectProtocol", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["PSo16NSObjectProtocol", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo16NSObjectProtocol", "setBackgroundImage"]
+- !private ["PSo16NSObjectProtocol", "setBackgroundVerticalPositionAdjustment"]
+- !private ["PSo16NSObjectProtocol", "setTitlePositionAdjustment"]
+- !private ["PSo16NSObjectProtocol", "setTitleTextAttributes"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps9OptionSet", "application"]
+- !private ["Ps9OptionSet", "disabled"]
+- !private ["Ps9OptionSet", "highlighted"]
+- !private ["Ps9OptionSet", "init"]
+- !private ["Ps9OptionSet", "reserved"]
+- !private ["Ps9OptionSet", "selected"]
+- !private ["Ps16RawRepresentable", "application"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["Ps16RawRepresentable", "disabled"]
+- !private ["Ps16RawRepresentable", "done"]
+- !private ["Ps16RawRepresentable", "highlighted"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "plain"]
+- !private ["Ps16RawRepresentable", "reserved"]
+- !private ["Ps16RawRepresentable", "selected"]
+- !private ["Ps10SetAlgebra", "application"]
+- !private ["Ps10SetAlgebra", "disabled"]
+- !private ["Ps10SetAlgebra", "highlighted"]
+- !private ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "reserved"]
+- !private ["Ps10SetAlgebra", "selected"]
+- !private ["PSo29UIAccessibilityIdentification", "IQBarButtonItem"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBarButtonItemStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBarMetrics"]
+- !private ["PSo29UIAccessibilityIdentification", "UIControlState"]
+- !private ["PSo29UIAccessibilityIdentification", "UIOffset"]
+- !private ["PSo29UIAccessibilityIdentification", "_classInitialize"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- ["PSo29UIAccessibilityIdentification", "classInitialize"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "invocation"]
+- !private ["PSo29UIAccessibilityIdentification", "setBackButtonBackgroundImage"]
+- !private ["PSo29UIAccessibilityIdentification", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["PSo29UIAccessibilityIdentification", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo29UIAccessibilityIdentification", "setBackgroundImage"]
+- !private ["PSo29UIAccessibilityIdentification", "setBackgroundVerticalPositionAdjustment"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitlePositionAdjustment"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitleTextAttributes"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "IQBarButtonItem"]
+- !private ["PSo12UIAppearance", "UIBarButtonItemStyle"]
+- !private ["PSo12UIAppearance", "UIBarMetrics"]
+- !private ["PSo12UIAppearance", "UIControlState"]
+- !private ["PSo12UIAppearance", "UIOffset"]
+- !private ["PSo12UIAppearance", "_classInitialize"]
+- !private ["PSo12UIAppearance", "appearance"]
+- ["PSo12UIAppearance", "classInitialize"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "invocation"]
+- !private ["PSo12UIAppearance", "setBackButtonBackgroundImage"]
+- !private ["PSo12UIAppearance", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["PSo12UIAppearance", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo12UIAppearance", "setBackgroundImage"]
+- !private ["PSo12UIAppearance", "setBackgroundVerticalPositionAdjustment"]
+- !private ["PSo12UIAppearance", "setTitlePositionAdjustment"]
+- !private ["PSo12UIAppearance", "setTitleTextAttributes"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- ["PSo12UIAppearance", ""]
+- ["CSo15UIBarButtonItem", "AnyObject"]
+- !private ["CSo15UIBarButtonItem", "IQBarButtonItem"]
+- ["CSo15UIBarButtonItem", "NSCoder"]
+- ["CSo15UIBarButtonItem", "Selector"]
+- !private ["CSo15UIBarButtonItem", "UIBarButtonItemStyle"]
+- !private ["CSo15UIBarButtonItem", "UIBarMetrics"]
+- !private ["CSo15UIBarButtonItem", "UIControlState"]
+- !private ["CSo15UIBarButtonItem", "UIOffset"]
+- ["CSo15UIBarButtonItem", "Void"]
+- ["CSo15UIBarButtonItem", "_classInitialize"]
+- !private ["CSo15UIBarButtonItem", "appearance"]
+- ["CSo15UIBarButtonItem", "classInitialize"]
+- ["CSo15UIBarButtonItem", "init"]
+- ["CSo15UIBarButtonItem", "invocation"]
+- ["CSo15UIBarButtonItem", "isSystemItem"]
+- !private ["CSo15UIBarButtonItem", "setBackButtonBackgroundImage"]
+- !private ["CSo15UIBarButtonItem", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["CSo15UIBarButtonItem", "setBackButtonTitlePositionAdjustment"]
+- !private ["CSo15UIBarButtonItem", "setBackgroundImage"]
+- !private ["CSo15UIBarButtonItem", "setBackgroundVerticalPositionAdjustment"]
+- ["CSo15UIBarButtonItem", "setTarget"]
+- !private ["CSo15UIBarButtonItem", "setTitlePositionAdjustment"]
+- !private ["CSo15UIBarButtonItem", "setTitleTextAttributes"]
+- !private ["CSo15UIBarButtonItem", "tintColor"]
+- ["CSo15UIBarButtonItem", ""]
+- !private ["OSC20UIBarButtonItemStyle", "done"]
+- !private ["OSC20UIBarButtonItemStyle", "plain"]
+- ["CSo9UIBarItem", "AnyObject"]
+- !private ["CSo9UIBarItem", "IQBarButtonItem"]
+- ["CSo9UIBarItem", "NSCoder"]
+- ["CSo9UIBarItem", "Selector"]
+- !private ["CSo9UIBarItem", "UIBarButtonItemStyle"]
+- !private ["CSo9UIBarItem", "UIBarMetrics"]
+- !private ["CSo9UIBarItem", "UIControlState"]
+- !private ["CSo9UIBarItem", "UIOffset"]
+- ["CSo9UIBarItem", "Void"]
+- ["CSo9UIBarItem", "_classInitialize"]
+- !private ["CSo9UIBarItem", "appearance"]
+- ["CSo9UIBarItem", "classInitialize"]
+- ["CSo9UIBarItem", "init"]
+- ["CSo9UIBarItem", "invocation"]
+- ["CSo9UIBarItem", "isSystemItem"]
+- !private ["CSo9UIBarItem", "setBackButtonBackgroundImage"]
+- !private ["CSo9UIBarItem", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["CSo9UIBarItem", "setBackButtonTitlePositionAdjustment"]
+- !private ["CSo9UIBarItem", "setBackgroundImage"]
+- !private ["CSo9UIBarItem", "setBackgroundVerticalPositionAdjustment"]
+- ["CSo9UIBarItem", "setTarget"]
+- !private ["CSo9UIBarItem", "setTitlePositionAdjustment"]
+- !private ["CSo9UIBarItem", "setTitleTextAttributes"]
+- !private ["CSo9UIBarItem", "tintColor"]
+- !private ["OSC12UIBarMetrics", "default"]
+- !private ["VSC14UIControlState", "application"]
+- !private ["VSC14UIControlState", "disabled"]
+- !private ["VSC14UIControlState", "highlighted"]
+- !private ["VSC14UIControlState", "init"]
+- !private ["VSC14UIControlState", "reserved"]
+- !private ["VSC14UIControlState", "selected"]
+- !private ["VSC8UIOffset", "zero"]
+- !private ["Ps9_Hashable", "IQBarButtonItem"]
+- !private ["Ps9_Hashable", "UIBarButtonItemStyle"]
+- !private ["Ps9_Hashable", "UIBarMetrics"]
+- !private ["Ps9_Hashable", "UIControlState"]
+- !private ["Ps9_Hashable", "UIOffset"]
+- !private ["Ps9_Hashable", "_classInitialize"]
+- !private ["Ps9_Hashable", "appearance"]
+- ["Ps9_Hashable", "classInitialize"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "done"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invocation"]
+- !private ["Ps9_Hashable", "plain"]
+- !private ["Ps9_Hashable", "setBackButtonBackgroundImage"]
+- !private ["Ps9_Hashable", "setBackButtonBackgroundVerticalPositionAdjustment"]
+- !private ["Ps9_Hashable", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps9_Hashable", "setBackgroundImage"]
+- !private ["Ps9_Hashable", "setBackgroundVerticalPositionAdjustment"]
+- !private ["Ps9_Hashable", "setTitlePositionAdjustment"]
+- !private ["Ps9_Hashable", "setTitleTextAttributes"]
+- !private ["Ps9_Hashable", "tintColor"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "zero"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- "C18ScreeningDeveloper15IQBarButtonItem"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- !private "Ps16RawRepresentable"
+- !private "Ps10SetAlgebra"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "CSo15UIBarButtonItem"
+- !private "OSC20UIBarButtonItemStyle"
+- "CSo9UIBarItem"
+- !private "OSC12UIBarMetrics"
+- !private "VSC14UIControlState"
+- !private "VSC8UIOffset"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/JTAppleCalendar.swiftmodule/arm.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFURL.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper-Bridging-Header.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/SWRevealViewController.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/Bolts.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "5a403c46bcd3ce885880dea6a087528f"

@@ -1,0 +1,495 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-Swift.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Headers/GTMSessionFetcher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher-umbrella.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcher.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherLogging.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionFetcherService.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMSessionUploadFetcher.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/GTMSessionFetcher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GTMDebugSelectorValidation.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugSelectorValidation.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMDebugThreadValidation.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GoogleToolboxForMac/DebugUtils/GTMDebugThreadValidation.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMDefines.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GoogleToolboxForMac/GTMDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMMethodCheck.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GoogleToolboxForMac/DebugUtils/GTMMethodCheck.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSData+zlib.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GoogleToolboxForMac/Foundation/GTMNSData+zlib.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSDictionary+URLArguments.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GoogleToolboxForMac/Foundation/GTMNSDictionary+URLArguments.h"
+        },
+        {
+          'type': 'file',
+          'name': "GTMNSString+URLArguments.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/GoogleToolboxForMac/Foundation/GTMNSString+URLArguments.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-Swift.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers/GoogleToolboxForMac-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleToolboxForMac-umbrella.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/GoogleToolboxForMac/GoogleToolboxForMac.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/GoogleToolboxForMac.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JSQMessagesViewController/JSQMessagesViewController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JSQAudioMediaItem.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQAudioMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQAudioMediaViewAttributes.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQAudioMediaViewAttributes.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQLocationMediaItem.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQLocationMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMediaItem.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessage.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessage.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageAvatarImageDataSource.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageAvatarImageDataSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageBubbleImageDataSource.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageBubbleImageDataSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageData.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageData.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessageMediaData.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessageMediaData.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesAvatarImage.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesAvatarImage.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesAvatarImageFactory.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesAvatarImageFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubbleImage.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesBubbleImage.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubbleImageFactory.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesBubbleImageFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubbleSizeCalculating.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesBubbleSizeCalculating.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesBubblesSizeCalculator.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesBubblesSizeCalculator.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCellTextView.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCellTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionView.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewCell.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewCellIncoming.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewCellOutgoing.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewDataSource.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesCollectionViewDataSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewDelegateFlowLayout.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQMessagesCollectionViewDelegateFlowLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewFlowLayout.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewFlowLayoutInvalidationContext.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesCollectionViewLayoutAttributes.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Layout/JSQMessagesCollectionViewLayoutAttributes.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesComposerTextView.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesComposerTextView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesInputToolbar.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesInputToolbar.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesKeyboardController.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesLabel.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesLoadEarlierHeaderView.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesMediaPlaceholderView.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesMediaPlaceholderView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesMediaViewBubbleImageMasker.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesMediaViewBubbleImageMasker.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesTimestampFormatter.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesTimestampFormatter.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesToolbarButtonFactory.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Factories/JSQMessagesToolbarButtonFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesToolbarContentView.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesTypingIndicatorFooterView.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesViewController-Swift.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JSQMessagesViewController/JSQMessagesViewController.framework/Headers/JSQMessagesViewController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesViewController-umbrella.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JSQMessagesViewController/JSQMessagesViewController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQMessagesViewController.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Controllers/JSQMessagesViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQPhotoMediaItem.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQPhotoMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer+JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/JSQSystemSoundPlayer+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQVideoMediaItem.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Model/JSQVideoMediaItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSBundle+JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/NSBundle+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/NSString+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIColor+JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIColor+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIDevice+JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIDevice+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIImage+JSQMessages.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+JSQMessages.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQMessagesViewController/JSQMessagesViewController/Categories/UIView+JSQMessages.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JSQMessagesViewController/JSQMessagesViewController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JSQMessagesViewController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer-Swift.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Headers/JSQSystemSoundPlayer-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer-umbrella.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JSQSystemSoundPlayer/JSQSystemSoundPlayer-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "JSQSystemSoundPlayer.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JSQSystemSoundPlayer.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JTAppleCalendar-Swift.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Headers/JTAppleCalendar-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JTAppleCalendar-umbrella.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Kingfisher-Swift.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher-umbrella.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Kingfisher.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Kingfisher/Sources/Kingfisher.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/Kingfisher.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Pods_ScreeningDeveloper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ScreeningDeveloper-umbrella.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/Pods-ScreeningDeveloper/Pods-ScreeningDeveloper-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ScreeningDeveloper-Swift.h",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Pods_ScreeningDeveloper.framework/Headers/Pods_ScreeningDeveloper-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Pods_ScreeningDeveloper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/Pods-ScreeningDeveloper.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

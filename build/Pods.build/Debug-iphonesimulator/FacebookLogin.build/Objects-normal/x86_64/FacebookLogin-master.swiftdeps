@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "0b42bb43719f6e29c3432d690d438633"
+build_time: [555310440, 785616000]
+inputs:
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [555306557, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [555306557, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [555306557, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [555306557, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [555306557, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [555306557, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [555306557, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [555306557, 0]
