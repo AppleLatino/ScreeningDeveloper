@@ -243,5 +243,4 @@ depends-external:
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 interface-hash: "17d9469ebfb071b2b736d7f6a46783fc"

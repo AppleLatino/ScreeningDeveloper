@@ -5,6 +5,7 @@ provides-member:
 - ["15JTAppleCalendar0aB4ViewC", ""]
 - ["15JTAppleCalendar0aB4ViewC", "cellStatusForDate"]
 - ["15JTAppleCalendar0aB4ViewC", "cellStatus"]
+- ["15JTAppleCalendar0aB4ViewC", "monthStatus"]
 - ["15JTAppleCalendar0aB4ViewC", "cellStatus"]
 - ["15JTAppleCalendar0aB4ViewC", "deselectAllDates"]
 - ["15JTAppleCalendar0aB4ViewC", "deselect"]
@@ -26,18 +27,7 @@ provides-member:
 - ["15JTAppleCalendar0aB4ViewC", "visibleDates"]
 - ["15JTAppleCalendar0aB4ViewC", "visibleDates"]
 provides-dynamic-lookup:
-- "dequeueReusableJTAppleCell"
-- "dequeueReusableJTAppleSupplementaryView"
-- "deselect"
-- "deselectAllDates"
-- "deselectDates"
-- "generateDateRange"
 - "register"
-- "registerDecorationView"
-- "reloadData"
-- "reloadDates"
-- "scrollToHeaderForDate"
-- "selectDates"
 depends-top-level:
 - !private "!"
 - !private "!="
@@ -70,6 +60,7 @@ depends-top-level:
 - "JTAppleCalendarView"
 - "JTAppleCell"
 - "JTAppleCollectionReusableView"
+- "Month"
 - "SegmentDestination"
 - !private "Set"
 - "String"
@@ -153,6 +144,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "isReloadDataInProgress"]
 - !private ["So15CALayerDelegateP", "isScrollInProgress"]
 - !private ["So15CALayerDelegateP", "maxNumberOfDaysInWeek"]
+- !private ["So15CALayerDelegateP", "monthInfo"]
 - !private ["So15CALayerDelegateP", "numberOfSections"]
 - !private ["So15CALayerDelegateP", "pathsFromDates"]
 - !private ["So15CALayerDelegateP", "register"]
@@ -238,6 +230,7 @@ depends-member:
 - !private ["s7CVarArgP", "last"]
 - !private ["s7CVarArgP", "map"]
 - !private ["s7CVarArgP", "maxNumberOfDaysInWeek"]
+- !private ["s7CVarArgP", "monthInfo"]
 - !private ["s7CVarArgP", "numberOfSections"]
 - !private ["s7CVarArgP", "pathsFromDates"]
 - !private ["s7CVarArgP", "register"]
@@ -289,6 +282,7 @@ depends-member:
 - !private ["10Foundation8CalendarV9ComponentO", "day"]
 - !private ["10Foundation8CalendarV9ComponentO", "month"]
 - !private ["10Foundation8CalendarV9ComponentO", "year"]
+- !private ["15JTAppleCalendar23ConfigurationParametersV", "calendar"]
 - !private ["15JTAppleCalendar23ConfigurationParametersV", "generateOutDates"]
 - !private ["s28CustomDebugStringConvertibleP", "Array"]
 - !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
@@ -349,6 +343,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "last"]
 - !private ["s28CustomDebugStringConvertibleP", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "maxNumberOfDaysInWeek"]
+- !private ["s28CustomDebugStringConvertibleP", "month"]
+- !private ["s28CustomDebugStringConvertibleP", "monthInfo"]
 - !private ["s28CustomDebugStringConvertibleP", "next"]
 - !private ["s28CustomDebugStringConvertibleP", "numberOfSections"]
 - !private ["s28CustomDebugStringConvertibleP", "pathsFromDates"]
@@ -408,6 +404,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "isEmpty"]
 - !private ["s17CustomReflectableP", "last"]
 - !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "month"]
 - !private ["s17CustomReflectableP", "next"]
 - !private ["s17CustomReflectableP", "previous"]
 - !private ["s17CustomReflectableP", "section"]
@@ -477,6 +474,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "last"]
 - !private ["s23CustomStringConvertibleP", "map"]
 - !private ["s23CustomStringConvertibleP", "maxNumberOfDaysInWeek"]
+- !private ["s23CustomStringConvertibleP", "month"]
+- !private ["s23CustomStringConvertibleP", "monthInfo"]
 - !private ["s23CustomStringConvertibleP", "numberOfSections"]
 - !private ["s23CustomStringConvertibleP", "pathsFromDates"]
 - !private ["s23CustomStringConvertibleP", "register"]
@@ -508,6 +507,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "triggerScrollToDateDelegate"]
 - !private ["s23CustomStringConvertibleP", "visibleDates"]
 - !private ["s23CustomStringConvertibleP", "visibleElements"]
+- !private ["10Foundation14DateComponentsV", "month"]
 - !private ["15JTAppleCalendar15DateSegmentInfoV", "init"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
@@ -524,6 +524,7 @@ depends-member:
 - !private ["s9DecodableP", "isEmpty"]
 - !private ["s9DecodableP", "last"]
 - !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "month"]
 - !private ["s9DecodableP", "next"]
 - !private ["s9DecodableP", "previous"]
 - !private ["s9DecodableP", "section"]
@@ -550,6 +551,7 @@ depends-member:
 - !private ["s9EncodableP", "isEmpty"]
 - !private ["s9EncodableP", "last"]
 - !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "month"]
 - !private ["s9EncodableP", "next"]
 - !private ["s9EncodableP", "previous"]
 - !private ["s9EncodableP", "section"]
@@ -622,6 +624,7 @@ depends-member:
 - !private ["s9EquatableP", "left"]
 - !private ["s9EquatableP", "maxNumberOfDaysInWeek"]
 - !private ["s9EquatableP", "month"]
+- !private ["s9EquatableP", "monthInfo"]
 - ["s9EquatableP", "next"]
 - !private ["s9EquatableP", "numberOfSections"]
 - !private ["s9EquatableP", "pathsFromDates"]
@@ -751,6 +754,7 @@ depends-member:
 - !private ["s8HashableP", "isScrollInProgress"]
 - !private ["s8HashableP", "maxNumberOfDaysInWeek"]
 - !private ["s8HashableP", "month"]
+- !private ["s8HashableP", "monthInfo"]
 - ["s8HashableP", "next"]
 - !private ["s8HashableP", "numberOfSections"]
 - !private ["s8HashableP", "pathsFromDates"]
@@ -832,6 +836,7 @@ depends-member:
 - !private ["15JTAppleCalendar0aB16DelegateProtocolP", "isReloadDataInProgress"]
 - !private ["15JTAppleCalendar0aB16DelegateProtocolP", "isScrollInProgress"]
 - !private ["15JTAppleCalendar0aB16DelegateProtocolP", "maxNumberOfDaysInWeek"]
+- !private ["15JTAppleCalendar0aB16DelegateProtocolP", "monthInfo"]
 - !private ["15JTAppleCalendar0aB16DelegateProtocolP", "numberOfSections"]
 - !private ["15JTAppleCalendar0aB16DelegateProtocolP", "pathsFromDates"]
 - !private ["15JTAppleCalendar0aB16DelegateProtocolP", "reloadData"]
@@ -879,6 +884,7 @@ depends-member:
 - ["15JTAppleCalendar0aB4ViewC", "Int"]
 - ["15JTAppleCalendar0aB4ViewC", "JTAppleCell"]
 - ["15JTAppleCalendar0aB4ViewC", "JTAppleCollectionReusableView"]
+- ["15JTAppleCalendar0aB4ViewC", "Month"]
 - ["15JTAppleCalendar0aB4ViewC", "SegmentDestination"]
 - !private ["15JTAppleCalendar0aB4ViewC", "Set"]
 - ["15JTAppleCalendar0aB4ViewC", "String"]
@@ -927,6 +933,8 @@ depends-member:
 - !private ["15JTAppleCalendar0aB4ViewC", "isReloadDataInProgress"]
 - !private ["15JTAppleCalendar0aB4ViewC", "isScrollInProgress"]
 - !private ["15JTAppleCalendar0aB4ViewC", "maxNumberOfDaysInWeek"]
+- !private ["15JTAppleCalendar0aB4ViewC", "monthInfo"]
+- ["15JTAppleCalendar0aB4ViewC", "monthStatus"]
 - !private ["15JTAppleCalendar0aB4ViewC", "numberOfSections"]
 - !private ["15JTAppleCalendar0aB4ViewC", "pathsFromDates"]
 - ["15JTAppleCalendar0aB4ViewC", "register"]
@@ -1012,6 +1020,7 @@ depends-member:
 - !private ["So8NSCodingP", "isReloadDataInProgress"]
 - !private ["So8NSCodingP", "isScrollInProgress"]
 - !private ["So8NSCodingP", "maxNumberOfDaysInWeek"]
+- !private ["So8NSCodingP", "monthInfo"]
 - !private ["So8NSCodingP", "numberOfSections"]
 - !private ["So8NSCodingP", "pathsFromDates"]
 - !private ["So8NSCodingP", "register"]
@@ -1056,6 +1065,7 @@ depends-member:
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "JTAppleCell"]
 - ["So8NSObjectC", "JTAppleCollectionReusableView"]
+- ["So8NSObjectC", "Month"]
 - ["So8NSObjectC", "SegmentDestination"]
 - !private ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "String"]
@@ -1106,6 +1116,8 @@ depends-member:
 - !private ["So8NSObjectC", "isReloadDataInProgress"]
 - !private ["So8NSObjectC", "isScrollInProgress"]
 - !private ["So8NSObjectC", "maxNumberOfDaysInWeek"]
+- !private ["So8NSObjectC", "monthInfo"]
+- ["So8NSObjectC", "monthStatus"]
 - !private ["So8NSObjectC", "numberOfSections"]
 - !private ["So8NSObjectC", "pathsFromDates"]
 - ["So8NSObjectC", "register"]
@@ -1181,6 +1193,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "isReloadDataInProgress"]
 - !private ["So16NSObjectProtocolP", "isScrollInProgress"]
 - !private ["So16NSObjectProtocolP", "maxNumberOfDaysInWeek"]
+- !private ["So16NSObjectProtocolP", "monthInfo"]
 - !private ["So16NSObjectProtocolP", "numberOfSections"]
 - !private ["So16NSObjectProtocolP", "pathsFromDates"]
 - !private ["So16NSObjectProtocolP", "register"]
@@ -1258,6 +1271,7 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "date"]
 - !private ["10Foundation20ReferenceConvertibleP", "dateComponents"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "month"]
 - !private ["10Foundation20ReferenceConvertibleP", "section"]
 - !private ["10Foundation20ReferenceConvertibleP", "startOfDay"]
 - ["15JTAppleCalendar13ScrollingModeO", "nonStopToSection"]
@@ -1348,6 +1362,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "isReloadDataInProgress"]
 - !private ["So29UIAccessibilityIdentificationP", "isScrollInProgress"]
 - !private ["So29UIAccessibilityIdentificationP", "maxNumberOfDaysInWeek"]
+- !private ["So29UIAccessibilityIdentificationP", "monthInfo"]
 - !private ["So29UIAccessibilityIdentificationP", "numberOfSections"]
 - !private ["So29UIAccessibilityIdentificationP", "pathsFromDates"]
 - !private ["So29UIAccessibilityIdentificationP", "register"]
@@ -1414,6 +1429,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "isReloadDataInProgress"]
 - !private ["So12UIAppearanceP", "isScrollInProgress"]
 - !private ["So12UIAppearanceP", "maxNumberOfDaysInWeek"]
+- !private ["So12UIAppearanceP", "monthInfo"]
 - !private ["So12UIAppearanceP", "numberOfSections"]
 - !private ["So12UIAppearanceP", "pathsFromDates"]
 - !private ["So12UIAppearanceP", "register"]
@@ -1480,6 +1496,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "isReloadDataInProgress"]
 - !private ["So21UIAppearanceContainerP", "isScrollInProgress"]
 - !private ["So21UIAppearanceContainerP", "maxNumberOfDaysInWeek"]
+- !private ["So21UIAppearanceContainerP", "monthInfo"]
 - !private ["So21UIAppearanceContainerP", "numberOfSections"]
 - !private ["So21UIAppearanceContainerP", "pathsFromDates"]
 - !private ["So21UIAppearanceContainerP", "register"]
@@ -1515,6 +1532,7 @@ depends-member:
 - ["So16UICollectionViewC", "Int"]
 - ["So16UICollectionViewC", "JTAppleCell"]
 - ["So16UICollectionViewC", "JTAppleCollectionReusableView"]
+- ["So16UICollectionViewC", "Month"]
 - ["So16UICollectionViewC", "SegmentDestination"]
 - !private ["So16UICollectionViewC", "Set"]
 - ["So16UICollectionViewC", "String"]
@@ -1562,6 +1580,8 @@ depends-member:
 - !private ["So16UICollectionViewC", "isReloadDataInProgress"]
 - !private ["So16UICollectionViewC", "isScrollInProgress"]
 - !private ["So16UICollectionViewC", "maxNumberOfDaysInWeek"]
+- !private ["So16UICollectionViewC", "monthInfo"]
+- ["So16UICollectionViewC", "monthStatus"]
 - !private ["So16UICollectionViewC", "numberOfSections"]
 - !private ["So16UICollectionViewC", "pathsFromDates"]
 - ["So16UICollectionViewC", "register"]
@@ -1630,6 +1650,7 @@ depends-member:
 - !private ["So26UICollectionViewDataSourceP", "isReloadDataInProgress"]
 - !private ["So26UICollectionViewDataSourceP", "isScrollInProgress"]
 - !private ["So26UICollectionViewDataSourceP", "maxNumberOfDaysInWeek"]
+- !private ["So26UICollectionViewDataSourceP", "monthInfo"]
 - !private ["So26UICollectionViewDataSourceP", "numberOfSections"]
 - !private ["So26UICollectionViewDataSourceP", "pathsFromDates"]
 - !private ["So26UICollectionViewDataSourceP", "reloadData"]
@@ -1694,6 +1715,7 @@ depends-member:
 - !private ["So24UICollectionViewDelegateP", "isReloadDataInProgress"]
 - !private ["So24UICollectionViewDelegateP", "isScrollInProgress"]
 - !private ["So24UICollectionViewDelegateP", "maxNumberOfDaysInWeek"]
+- !private ["So24UICollectionViewDelegateP", "monthInfo"]
 - !private ["So24UICollectionViewDelegateP", "numberOfSections"]
 - !private ["So24UICollectionViewDelegateP", "pathsFromDates"]
 - !private ["So24UICollectionViewDelegateP", "reloadData"]
@@ -1775,6 +1797,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "isReloadDataInProgress"]
 - !private ["So17UICoordinateSpaceP", "isScrollInProgress"]
 - !private ["So17UICoordinateSpaceP", "maxNumberOfDaysInWeek"]
+- !private ["So17UICoordinateSpaceP", "monthInfo"]
 - !private ["So17UICoordinateSpaceP", "numberOfSections"]
 - !private ["So17UICoordinateSpaceP", "pathsFromDates"]
 - !private ["So17UICoordinateSpaceP", "register"]
@@ -1840,6 +1863,7 @@ depends-member:
 - !private ["So23UIDataSourceTranslatingP", "isReloadDataInProgress"]
 - !private ["So23UIDataSourceTranslatingP", "isScrollInProgress"]
 - !private ["So23UIDataSourceTranslatingP", "maxNumberOfDaysInWeek"]
+- !private ["So23UIDataSourceTranslatingP", "monthInfo"]
 - !private ["So23UIDataSourceTranslatingP", "numberOfSections"]
 - !private ["So23UIDataSourceTranslatingP", "pathsFromDates"]
 - !private ["So23UIDataSourceTranslatingP", "register"]
@@ -1907,6 +1931,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "isReloadDataInProgress"]
 - !private ["So13UIDynamicItemP", "isScrollInProgress"]
 - !private ["So13UIDynamicItemP", "maxNumberOfDaysInWeek"]
+- !private ["So13UIDynamicItemP", "monthInfo"]
 - !private ["So13UIDynamicItemP", "numberOfSections"]
 - !private ["So13UIDynamicItemP", "pathsFromDates"]
 - !private ["So13UIDynamicItemP", "register"]
@@ -1973,6 +1998,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "isReloadDataInProgress"]
 - !private ["So18UIFocusEnvironmentP", "isScrollInProgress"]
 - !private ["So18UIFocusEnvironmentP", "maxNumberOfDaysInWeek"]
+- !private ["So18UIFocusEnvironmentP", "monthInfo"]
 - !private ["So18UIFocusEnvironmentP", "numberOfSections"]
 - !private ["So18UIFocusEnvironmentP", "pathsFromDates"]
 - !private ["So18UIFocusEnvironmentP", "register"]
@@ -2039,6 +2065,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "isReloadDataInProgress"]
 - !private ["So11UIFocusItemP", "isScrollInProgress"]
 - !private ["So11UIFocusItemP", "maxNumberOfDaysInWeek"]
+- !private ["So11UIFocusItemP", "monthInfo"]
 - !private ["So11UIFocusItemP", "numberOfSections"]
 - !private ["So11UIFocusItemP", "pathsFromDates"]
 - !private ["So11UIFocusItemP", "register"]
@@ -2105,6 +2132,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "isReloadDataInProgress"]
 - !private ["So30UIPasteConfigurationSupportingP", "isScrollInProgress"]
 - !private ["So30UIPasteConfigurationSupportingP", "maxNumberOfDaysInWeek"]
+- !private ["So30UIPasteConfigurationSupportingP", "monthInfo"]
 - !private ["So30UIPasteConfigurationSupportingP", "numberOfSections"]
 - !private ["So30UIPasteConfigurationSupportingP", "pathsFromDates"]
 - !private ["So30UIPasteConfigurationSupportingP", "register"]
@@ -2139,6 +2167,7 @@ depends-member:
 - ["So11UIResponderC", "Int"]
 - ["So11UIResponderC", "JTAppleCell"]
 - ["So11UIResponderC", "JTAppleCollectionReusableView"]
+- ["So11UIResponderC", "Month"]
 - ["So11UIResponderC", "SegmentDestination"]
 - !private ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "String"]
@@ -2187,6 +2216,8 @@ depends-member:
 - !private ["So11UIResponderC", "isReloadDataInProgress"]
 - !private ["So11UIResponderC", "isScrollInProgress"]
 - !private ["So11UIResponderC", "maxNumberOfDaysInWeek"]
+- !private ["So11UIResponderC", "monthInfo"]
+- ["So11UIResponderC", "monthStatus"]
 - !private ["So11UIResponderC", "numberOfSections"]
 - !private ["So11UIResponderC", "pathsFromDates"]
 - ["So11UIResponderC", "register"]
@@ -2255,6 +2286,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "isReloadDataInProgress"]
 - !private ["So30UIResponderStandardEditActionsP", "isScrollInProgress"]
 - !private ["So30UIResponderStandardEditActionsP", "maxNumberOfDaysInWeek"]
+- !private ["So30UIResponderStandardEditActionsP", "monthInfo"]
 - !private ["So30UIResponderStandardEditActionsP", "numberOfSections"]
 - !private ["So30UIResponderStandardEditActionsP", "pathsFromDates"]
 - !private ["So30UIResponderStandardEditActionsP", "register"]
@@ -2289,6 +2321,7 @@ depends-member:
 - ["So12UIScrollViewC", "Int"]
 - ["So12UIScrollViewC", "JTAppleCell"]
 - ["So12UIScrollViewC", "JTAppleCollectionReusableView"]
+- ["So12UIScrollViewC", "Month"]
 - ["So12UIScrollViewC", "SegmentDestination"]
 - !private ["So12UIScrollViewC", "Set"]
 - ["So12UIScrollViewC", "String"]
@@ -2336,6 +2369,8 @@ depends-member:
 - !private ["So12UIScrollViewC", "isReloadDataInProgress"]
 - !private ["So12UIScrollViewC", "isScrollInProgress"]
 - !private ["So12UIScrollViewC", "maxNumberOfDaysInWeek"]
+- !private ["So12UIScrollViewC", "monthInfo"]
+- ["So12UIScrollViewC", "monthStatus"]
 - !private ["So12UIScrollViewC", "numberOfSections"]
 - !private ["So12UIScrollViewC", "pathsFromDates"]
 - ["So12UIScrollViewC", "register"]
@@ -2403,6 +2438,7 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "isReloadDataInProgress"]
 - !private ["So20UIScrollViewDelegateP", "isScrollInProgress"]
 - !private ["So20UIScrollViewDelegateP", "maxNumberOfDaysInWeek"]
+- !private ["So20UIScrollViewDelegateP", "monthInfo"]
 - !private ["So20UIScrollViewDelegateP", "numberOfSections"]
 - !private ["So20UIScrollViewDelegateP", "pathsFromDates"]
 - !private ["So20UIScrollViewDelegateP", "reloadData"]
@@ -2467,6 +2503,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "isReloadDataInProgress"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "isScrollInProgress"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "maxNumberOfDaysInWeek"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "monthInfo"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "numberOfSections"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "pathsFromDates"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "register"]
@@ -2533,6 +2570,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "isReloadDataInProgress"]
 - !private ["So18UITraitEnvironmentP", "isScrollInProgress"]
 - !private ["So18UITraitEnvironmentP", "maxNumberOfDaysInWeek"]
+- !private ["So18UITraitEnvironmentP", "monthInfo"]
 - !private ["So18UITraitEnvironmentP", "numberOfSections"]
 - !private ["So18UITraitEnvironmentP", "pathsFromDates"]
 - !private ["So18UITraitEnvironmentP", "register"]
@@ -2567,6 +2605,7 @@ depends-member:
 - ["So6UIViewC", "Int"]
 - ["So6UIViewC", "JTAppleCell"]
 - ["So6UIViewC", "JTAppleCollectionReusableView"]
+- ["So6UIViewC", "Month"]
 - ["So6UIViewC", "SegmentDestination"]
 - !private ["So6UIViewC", "Set"]
 - ["So6UIViewC", "String"]
@@ -2615,6 +2654,8 @@ depends-member:
 - !private ["So6UIViewC", "isReloadDataInProgress"]
 - !private ["So6UIViewC", "isScrollInProgress"]
 - !private ["So6UIViewC", "maxNumberOfDaysInWeek"]
+- !private ["So6UIViewC", "monthInfo"]
+- ["So6UIViewC", "monthStatus"]
 - !private ["So6UIViewC", "numberOfSections"]
 - !private ["So6UIViewC", "pathsFromDates"]
 - ["So6UIViewC", "register"]
@@ -2708,6 +2749,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isReloadDataInProgress"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isScrollInProgress"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "maxNumberOfDaysInWeek"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "monthInfo"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberOfSections"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pathsFromDates"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
@@ -2820,6 +2862,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isReloadDataInProgress"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isScrollInProgress"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "maxNumberOfDaysInWeek"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "monthInfo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "pathsFromDates"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
@@ -2849,6 +2892,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "visibleElements"]
 - !private ["10Foundation14_MutableBoxingP", "date"]
 - !private ["10Foundation14_MutableBoxingP", "dateComponents"]
+- !private ["10Foundation14_MutableBoxingP", "month"]
 - !private ["10Foundation14_MutableBoxingP", "startOfDay"]
 - !private ["s17_MutableIndexableP", "append"]
 - !private ["s17_MutableIndexableP", "contains"]
@@ -2876,6 +2920,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
 - !private ["s21_ObjectiveCBridgeableP", "last"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "month"]
 - !private ["s21_ObjectiveCBridgeableP", "next"]
 - !private ["s21_ObjectiveCBridgeableP", "previous"]
 - !private ["s21_ObjectiveCBridgeableP", "section"]
@@ -2937,6 +2982,7 @@ depends-nominal:
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
+- !private "10Foundation14DateComponentsV"
 - !private "15JTAppleCalendar15DateSegmentInfoV"
 - !private "s9DecodableP"
 - !private "s9EncodableP"
@@ -3062,14 +3108,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "0b097b89c046d539beee706513b1e2d6"
+interface-hash: "a92f917c525adb1725a366ac181f7228"

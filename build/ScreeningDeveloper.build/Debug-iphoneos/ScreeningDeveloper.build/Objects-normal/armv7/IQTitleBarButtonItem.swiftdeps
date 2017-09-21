@@ -18,6 +18,7 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "IQBarButtonItem"
 - "IQTitleBarButtonItem"
+- !private "Int"
 - "NSCoder"
 - !private "NSLayoutConstraint"
 - "Selector"
@@ -27,11 +28,12 @@ depends-top-level:
 - "UIColor"
 - !private "UIControlState"
 - "UIFont"
-- !private "UILayoutPriorityDefaultHigh"
-- !private "UILayoutPriorityDefaultLow"
+- !private "UILayoutPriority"
 - "UIView"
 - !private "||"
 depends-member:
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["s13BinaryIntegerP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "addConstraints"]
 - !private ["So15CALayerDelegateP", "addSubview"]
@@ -50,14 +52,14 @@ depends-member:
 - !private ["So15CALayerDelegateP", "textAlignment"]
 - !private ["So15CALayerDelegateP", "titleLabel"]
 - !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "Int"]
 - !private ["s7CVarArgP", "NSLayoutConstraint"]
 - !private ["s7CVarArgP", "UIBarButtonItemStyle"]
 - !private ["s7CVarArgP", "UIButton"]
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIControlState"]
 - !private ["s7CVarArgP", "UIFont"]
-- !private ["s7CVarArgP", "UILayoutPriorityDefaultHigh"]
-- !private ["s7CVarArgP", "UILayoutPriorityDefaultLow"]
+- !private ["s7CVarArgP", "UILayoutPriority"]
 - !private ["s7CVarArgP", "UIView"]
 - !private ["s7CVarArgP", "_titleButton"]
 - !private ["s7CVarArgP", "_titleView"]
@@ -87,14 +89,15 @@ depends-member:
 - !private ["s7CVarArgP", "titleLabel"]
 - !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
 - ["s7CVarArgP", ""]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
 - !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
 - !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItemStyle"]
 - !private ["s28CustomDebugStringConvertibleP", "UIButton"]
 - !private ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIControlState"]
 - !private ["s28CustomDebugStringConvertibleP", "UIFont"]
-- !private ["s28CustomDebugStringConvertibleP", "UILayoutPriorityDefaultHigh"]
-- !private ["s28CustomDebugStringConvertibleP", "UILayoutPriorityDefaultLow"]
+- !private ["s28CustomDebugStringConvertibleP", "UILayoutPriority"]
 - !private ["s28CustomDebugStringConvertibleP", "UIView"]
 - !private ["s28CustomDebugStringConvertibleP", "_titleButton"]
 - !private ["s28CustomDebugStringConvertibleP", "_titleView"]
@@ -125,15 +128,17 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Int"]
 - !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
 - !private ["s23CustomStringConvertibleP", "UIBarButtonItemStyle"]
 - !private ["s23CustomStringConvertibleP", "UIButton"]
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIControlState"]
 - !private ["s23CustomStringConvertibleP", "UIFont"]
-- !private ["s23CustomStringConvertibleP", "UILayoutPriorityDefaultHigh"]
-- !private ["s23CustomStringConvertibleP", "UILayoutPriorityDefaultLow"]
+- !private ["s23CustomStringConvertibleP", "UILayoutPriority"]
 - !private ["s23CustomStringConvertibleP", "UIView"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "_titleButton"]
@@ -165,15 +170,18 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "Int"]
 - !private ["s9EquatableP", "NSLayoutConstraint"]
+- !private ["s9EquatableP", "RawValue"]
 - !private ["s9EquatableP", "UIBarButtonItemStyle"]
 - !private ["s9EquatableP", "UIButton"]
 - !private ["s9EquatableP", "UIColor"]
 - !private ["s9EquatableP", "UIControlState"]
 - !private ["s9EquatableP", "UIFont"]
-- !private ["s9EquatableP", "UILayoutPriorityDefaultHigh"]
-- !private ["s9EquatableP", "UILayoutPriorityDefaultLow"]
+- !private ["s9EquatableP", "UILayoutPriority"]
 - !private ["s9EquatableP", "UIView"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "_titleButton"]
@@ -187,6 +195,8 @@ depends-member:
 - !private ["s9EquatableP", "center"]
 - !private ["s9EquatableP", "clear"]
 - !private ["s9EquatableP", "customView"]
+- !private ["s9EquatableP", "defaultHigh"]
+- !private ["s9EquatableP", "defaultLow"]
 - !private ["s9EquatableP", "disabled"]
 - !private ["s9EquatableP", "equal"]
 - !private ["s9EquatableP", "flexibleHeight"]
@@ -200,6 +210,7 @@ depends-member:
 - !private ["s9EquatableP", "lightGray"]
 - !private ["s9EquatableP", "numberOfLines"]
 - !private ["s9EquatableP", "plain"]
+- !private ["s9EquatableP", "rawValue"]
 - !private ["s9EquatableP", "removeTarget"]
 - !private ["s9EquatableP", "selectableTextColor"]
 - !private ["s9EquatableP", "setContentCompressionResistancePriority"]
@@ -224,14 +235,20 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "Int"]
 - !private ["s8HashableP", "NSLayoutConstraint"]
+- !private ["s8HashableP", "RawValue"]
 - !private ["s8HashableP", "UIBarButtonItemStyle"]
 - !private ["s8HashableP", "UIButton"]
 - !private ["s8HashableP", "UIColor"]
 - !private ["s8HashableP", "UIControlState"]
 - !private ["s8HashableP", "UIFont"]
-- !private ["s8HashableP", "UILayoutPriorityDefaultHigh"]
-- !private ["s8HashableP", "UILayoutPriorityDefaultLow"]
+- !private ["s8HashableP", "UILayoutPriority"]
 - !private ["s8HashableP", "UIView"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "_titleButton"]
@@ -245,6 +262,8 @@ depends-member:
 - !private ["s8HashableP", "center"]
 - !private ["s8HashableP", "clear"]
 - !private ["s8HashableP", "customView"]
+- !private ["s8HashableP", "defaultHigh"]
+- !private ["s8HashableP", "defaultLow"]
 - !private ["s8HashableP", "equal"]
 - !private ["s8HashableP", "font"]
 - !private ["s8HashableP", "horizontal"]
@@ -255,6 +274,7 @@ depends-member:
 - !private ["s8HashableP", "lightGray"]
 - !private ["s8HashableP", "numberOfLines"]
 - !private ["s8HashableP", "plain"]
+- !private ["s8HashableP", "rawValue"]
 - !private ["s8HashableP", "removeTarget"]
 - !private ["s8HashableP", "selectableTextColor"]
 - !private ["s8HashableP", "setContentCompressionResistancePriority"]
@@ -273,6 +293,7 @@ depends-member:
 - !private ["s8HashableP", "vertical"]
 - ["s8HashableP", ""]
 - ["18ScreeningDeveloper15IQBarButtonItemC", "AnyObject"]
+- !private ["18ScreeningDeveloper15IQBarButtonItemC", "Int"]
 - ["18ScreeningDeveloper15IQBarButtonItemC", "NSCoder"]
 - !private ["18ScreeningDeveloper15IQBarButtonItemC", "NSLayoutConstraint"]
 - ["18ScreeningDeveloper15IQBarButtonItemC", "Selector"]
@@ -282,8 +303,7 @@ depends-member:
 - ["18ScreeningDeveloper15IQBarButtonItemC", "UIColor"]
 - !private ["18ScreeningDeveloper15IQBarButtonItemC", "UIControlState"]
 - ["18ScreeningDeveloper15IQBarButtonItemC", "UIFont"]
-- !private ["18ScreeningDeveloper15IQBarButtonItemC", "UILayoutPriorityDefaultHigh"]
-- !private ["18ScreeningDeveloper15IQBarButtonItemC", "UILayoutPriorityDefaultLow"]
+- !private ["18ScreeningDeveloper15IQBarButtonItemC", "UILayoutPriority"]
 - ["18ScreeningDeveloper15IQBarButtonItemC", "UIView"]
 - ["18ScreeningDeveloper15IQBarButtonItemC", "_titleButton"]
 - ["18ScreeningDeveloper15IQBarButtonItemC", "_titleView"]
@@ -296,6 +316,7 @@ depends-member:
 - ["18ScreeningDeveloper15IQBarButtonItemC", "titleFont"]
 - ["18ScreeningDeveloper15IQBarButtonItemC", ""]
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "AnyObject"]
+- !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "Int"]
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "NSCoder"]
 - !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "NSLayoutConstraint"]
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "Selector"]
@@ -305,8 +326,7 @@ depends-member:
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "UIColor"]
 - !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "UIControlState"]
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "UIFont"]
-- !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "UILayoutPriorityDefaultHigh"]
-- !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "UILayoutPriorityDefaultLow"]
+- !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "UILayoutPriority"]
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "UIView"]
 - !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "_titleButton"]
 - !private ["18ScreeningDeveloper20IQTitleBarButtonItemC", "_titleView"]
@@ -318,6 +338,7 @@ depends-member:
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "selectableTextColor"]
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "title"]
 - ["18ScreeningDeveloper20IQTitleBarButtonItemC", "titleFont"]
+- !private ["Si", "init"]
 - !private ["10Kingfisher0A10CompatibleP", "addTarget"]
 - !private ["10Kingfisher0A10CompatibleP", "autoresizingMask"]
 - !private ["10Kingfisher0A10CompatibleP", "backgroundColor"]
@@ -331,14 +352,16 @@ depends-member:
 - !private ["10Kingfisher0A10CompatibleP", "titleLabel"]
 - !private ["10Kingfisher0A10CompatibleP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Int"]
 - !private ["So8NSCodingP", "NSLayoutConstraint"]
 - !private ["So8NSCodingP", "UIBarButtonItemStyle"]
 - !private ["So8NSCodingP", "UIButton"]
 - !private ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "UIControlState"]
 - !private ["So8NSCodingP", "UIFont"]
-- !private ["So8NSCodingP", "UILayoutPriorityDefaultHigh"]
-- !private ["So8NSCodingP", "UILayoutPriorityDefaultLow"]
+- !private ["So8NSCodingP", "UILayoutPriority"]
 - !private ["So8NSCodingP", "UIView"]
 - !private ["So8NSCodingP", "_titleButton"]
 - !private ["So8NSCodingP", "_titleView"]
@@ -384,6 +407,7 @@ depends-member:
 - !private ["So18NSLayoutConstraintC", "init"]
 - !private ["SC16NSLayoutRelationO", "equal"]
 - ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "NSCoder"]
 - !private ["So8NSObjectC", "NSLayoutConstraint"]
 - ["So8NSObjectC", "Selector"]
@@ -393,8 +417,7 @@ depends-member:
 - ["So8NSObjectC", "UIColor"]
 - !private ["So8NSObjectC", "UIControlState"]
 - ["So8NSObjectC", "UIFont"]
-- !private ["So8NSObjectC", "UILayoutPriorityDefaultHigh"]
-- !private ["So8NSObjectC", "UILayoutPriorityDefaultLow"]
+- !private ["So8NSObjectC", "UILayoutPriority"]
 - ["So8NSObjectC", "UIView"]
 - ["So8NSObjectC", "_titleButton"]
 - ["So8NSObjectC", "_titleView"]
@@ -423,14 +446,14 @@ depends-member:
 - ["So8NSObjectC", "titleFont"]
 - !private ["So8NSObjectC", "titleLabel"]
 - !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "Int"]
 - !private ["So16NSObjectProtocolP", "NSLayoutConstraint"]
 - !private ["So16NSObjectProtocolP", "UIBarButtonItemStyle"]
 - !private ["So16NSObjectProtocolP", "UIButton"]
 - !private ["So16NSObjectProtocolP", "UIColor"]
 - !private ["So16NSObjectProtocolP", "UIControlState"]
 - !private ["So16NSObjectProtocolP", "UIFont"]
-- !private ["So16NSObjectProtocolP", "UILayoutPriorityDefaultHigh"]
-- !private ["So16NSObjectProtocolP", "UILayoutPriorityDefaultLow"]
+- !private ["So16NSObjectProtocolP", "UILayoutPriority"]
 - !private ["So16NSObjectProtocolP", "UIView"]
 - !private ["So16NSObjectProtocolP", "_titleButton"]
 - !private ["So16NSObjectProtocolP", "_titleView"]
@@ -464,13 +487,17 @@ depends-member:
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "lightGray"]
 - !private ["SC15NSTextAlignmentO", "center"]
+- !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "disabled"]
 - !private ["s9OptionSetP", "flexibleHeight"]
 - !private ["s9OptionSetP", "flexibleWidth"]
 - !private ["s9OptionSetP", "init"]
 - !private ["s9OptionSetP", "touchUpInside"]
+- !private ["s16RawRepresentableP", "RawValue"]
 - !private ["s16RawRepresentableP", "bottom"]
 - !private ["s16RawRepresentableP", "center"]
+- !private ["s16RawRepresentableP", "defaultHigh"]
+- !private ["s16RawRepresentableP", "defaultLow"]
 - !private ["s16RawRepresentableP", "disabled"]
 - !private ["s16RawRepresentableP", "equal"]
 - !private ["s16RawRepresentableP", "flexibleHeight"]
@@ -479,6 +506,7 @@ depends-member:
 - !private ["s16RawRepresentableP", "init"]
 - !private ["s16RawRepresentableP", "leading"]
 - !private ["s16RawRepresentableP", "plain"]
+- !private ["s16RawRepresentableP", "rawValue"]
 - !private ["s16RawRepresentableP", "system"]
 - !private ["s16RawRepresentableP", "top"]
 - !private ["s16RawRepresentableP", "touchUpInside"]
@@ -489,6 +517,9 @@ depends-member:
 - !private ["s10SetAlgebraP", "flexibleWidth"]
 - !private ["s10SetAlgebraP", "init"]
 - !private ["s10SetAlgebraP", "touchUpInside"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "autoresizingMask"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
@@ -501,14 +532,14 @@ depends-member:
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitleColor"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "titleLabel"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "Int"]
 - !private ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
 - !private ["So29UIAccessibilityIdentificationP", "UIBarButtonItemStyle"]
 - !private ["So29UIAccessibilityIdentificationP", "UIButton"]
 - !private ["So29UIAccessibilityIdentificationP", "UIColor"]
 - !private ["So29UIAccessibilityIdentificationP", "UIControlState"]
 - !private ["So29UIAccessibilityIdentificationP", "UIFont"]
-- !private ["So29UIAccessibilityIdentificationP", "UILayoutPriorityDefaultHigh"]
-- !private ["So29UIAccessibilityIdentificationP", "UILayoutPriorityDefaultLow"]
+- !private ["So29UIAccessibilityIdentificationP", "UILayoutPriority"]
 - !private ["So29UIAccessibilityIdentificationP", "UIView"]
 - !private ["So29UIAccessibilityIdentificationP", "_titleButton"]
 - !private ["So29UIAccessibilityIdentificationP", "_titleView"]
@@ -535,14 +566,14 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "titleLabel"]
 - !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
 - ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "Int"]
 - !private ["So12UIAppearanceP", "NSLayoutConstraint"]
 - !private ["So12UIAppearanceP", "UIBarButtonItemStyle"]
 - !private ["So12UIAppearanceP", "UIButton"]
 - !private ["So12UIAppearanceP", "UIColor"]
 - !private ["So12UIAppearanceP", "UIControlState"]
 - !private ["So12UIAppearanceP", "UIFont"]
-- !private ["So12UIAppearanceP", "UILayoutPriorityDefaultHigh"]
-- !private ["So12UIAppearanceP", "UILayoutPriorityDefaultLow"]
+- !private ["So12UIAppearanceP", "UILayoutPriority"]
 - !private ["So12UIAppearanceP", "UIView"]
 - !private ["So12UIAppearanceP", "_titleButton"]
 - !private ["So12UIAppearanceP", "_titleView"]
@@ -587,6 +618,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "titleLabel"]
 - !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
 - ["So15UIBarButtonItemC", "AnyObject"]
+- !private ["So15UIBarButtonItemC", "Int"]
 - ["So15UIBarButtonItemC", "NSCoder"]
 - !private ["So15UIBarButtonItemC", "NSLayoutConstraint"]
 - ["So15UIBarButtonItemC", "Selector"]
@@ -596,8 +628,7 @@ depends-member:
 - ["So15UIBarButtonItemC", "UIColor"]
 - !private ["So15UIBarButtonItemC", "UIControlState"]
 - ["So15UIBarButtonItemC", "UIFont"]
-- !private ["So15UIBarButtonItemC", "UILayoutPriorityDefaultHigh"]
-- !private ["So15UIBarButtonItemC", "UILayoutPriorityDefaultLow"]
+- !private ["So15UIBarButtonItemC", "UILayoutPriority"]
 - ["So15UIBarButtonItemC", "UIView"]
 - ["So15UIBarButtonItemC", "_titleButton"]
 - ["So15UIBarButtonItemC", "_titleView"]
@@ -610,6 +641,7 @@ depends-member:
 - ["So15UIBarButtonItemC", "titleFont"]
 - !private ["SC20UIBarButtonItemStyleO", "plain"]
 - ["So9UIBarItemC", "AnyObject"]
+- !private ["So9UIBarItemC", "Int"]
 - ["So9UIBarItemC", "NSCoder"]
 - !private ["So9UIBarItemC", "NSLayoutConstraint"]
 - ["So9UIBarItemC", "Selector"]
@@ -619,8 +651,7 @@ depends-member:
 - ["So9UIBarItemC", "UIColor"]
 - !private ["So9UIBarItemC", "UIControlState"]
 - ["So9UIBarItemC", "UIFont"]
-- !private ["So9UIBarItemC", "UILayoutPriorityDefaultHigh"]
-- !private ["So9UIBarItemC", "UILayoutPriorityDefaultLow"]
+- !private ["So9UIBarItemC", "UILayoutPriority"]
 - ["So9UIBarItemC", "UIView"]
 - ["So9UIBarItemC", "_titleButton"]
 - ["So9UIBarItemC", "_titleView"]
@@ -739,6 +770,11 @@ depends-member:
 - !private ["So7UILabelC", "textAlignment"]
 - !private ["SC22UILayoutConstraintAxisO", "horizontal"]
 - !private ["SC22UILayoutConstraintAxisO", "vertical"]
+- !private ["SC16UILayoutPriorityV", "RawValue"]
+- !private ["SC16UILayoutPriorityV", "defaultHigh"]
+- !private ["SC16UILayoutPriorityV", "defaultLow"]
+- !private ["SC16UILayoutPriorityV", "init"]
+- !private ["SC16UILayoutPriorityV", "rawValue"]
 - !private ["So30UIPasteConfigurationSupportingP", "addConstraints"]
 - !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
 - !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
@@ -790,14 +826,14 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "textAlignment"]
 - !private ["So30UIResponderStandardEditActionsP", "titleLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "Int"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "NSLayoutConstraint"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "UIBarButtonItemStyle"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "UIButton"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "UIColor"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "UIControlState"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "UIFont"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "UILayoutPriorityDefaultHigh"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "UILayoutPriorityDefaultLow"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "UILayoutPriority"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "UIView"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "_titleButton"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "_titleView"]
@@ -855,6 +891,9 @@ depends-member:
 - !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["SC18UIViewAutoresizingV", "flexibleHeight"]
 - !private ["SC18UIViewAutoresizingV", "flexibleWidth"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraints"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addTarget"]
@@ -873,17 +912,19 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "titleLabel"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "lightGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItemStyle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIControlState"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILayoutPriorityDefaultHigh"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILayoutPriorityDefaultLow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILayoutPriority"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_titleButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_titleView"]
@@ -913,11 +954,25 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "RawValue"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "defaultHigh"]
+- !private ["s21_ObjectiveCBridgeableP", "defaultLow"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "rawValue"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "RawValue"]
+- !private ["s20_SwiftNewtypeWrapperP", "defaultHigh"]
+- !private ["s20_SwiftNewtypeWrapperP", "defaultLow"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "rawValue"]
 depends-nominal:
+- !private "s19BinaryFloatingPointP"
+- !private "s13BinaryIntegerP"
 - !private "Sb"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -927,11 +982,18 @@ depends-nominal:
 - "s9EquatableP"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "s13FloatingPointP"
 - "s8HashableP"
 - "18ScreeningDeveloper15IQBarButtonItemC"
 - "18ScreeningDeveloper20IQTitleBarButtonItemC"
+- !private "Si"
 - !private "10Kingfisher0A10CompatibleP"
 - !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
@@ -943,9 +1005,13 @@ depends-nominal:
 - "So16NSObjectProtocolP"
 - !private "So14NSSecureCodingP"
 - !private "SC15NSTextAlignmentO"
+- !private "s7NumericP"
 - !private "s9OptionSetP"
 - !private "s16RawRepresentableP"
 - !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -967,6 +1033,7 @@ depends-nominal:
 - !private "So6UIFontC"
 - !private "So7UILabelC"
 - !private "SC22UILayoutConstraintAxisO"
+- !private "SC16UILayoutPriorityV"
 - !private "So30UIPasteConfigurationSupportingP"
 - !private "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"
@@ -974,11 +1041,18 @@ depends-nominal:
 - !private "So18UITraitEnvironmentP"
 - !private "So6UIViewC"
 - !private "SC18UIViewAutoresizingV"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
+- !private "s20_SwiftNewtypeWrapperP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Accelerate.apinotesc"
@@ -1123,5 +1197,4 @@ depends-external:
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "138718edfaa8eb0ed3706bd418f99c70"
+interface-hash: "a070ed627879afb323ddc4a7b12b9db1"

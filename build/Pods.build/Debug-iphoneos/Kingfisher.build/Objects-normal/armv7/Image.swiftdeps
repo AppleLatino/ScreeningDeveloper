@@ -1323,4 +1323,4 @@ depends-external:
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Kingfisher/Sources/Kingfisher.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/Kingfisher.build/unextended-module.modulemap"
-interface-hash: "f01a3142c1f2834a79f79bb6241c4f02"
+interface-hash: "37a71c7a48311e327e94d000f5395805"

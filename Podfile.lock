@@ -43,7 +43,7 @@ PODS:
   - JSQMessagesViewController (7.3.4):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
-  - JTAppleCalendar (7.0.4)
+  - JTAppleCalendar (7.0.6)
   - Kingfisher (3.11.0)
 
 DEPENDENCIES:
@@ -67,9 +67,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
-  JTAppleCalendar: 6def48ecd0daae1d5baaa45e813124c2a20b184d
+  JTAppleCalendar: 6a942475e33b9ad4dee0a0e14aa4c63adcf4f543
   Kingfisher: c8911a7672c6217dec8c0520fb6e76ec4b7e0780
 
-PODFILE CHECKSUM: d412e70c66064a9815593ea0dd8e6a874bb5cc0c
+PODFILE CHECKSUM: f95f142f8d991cc3e566074c72ad20cb6b091922
 
 COCOAPODS: 1.2.1

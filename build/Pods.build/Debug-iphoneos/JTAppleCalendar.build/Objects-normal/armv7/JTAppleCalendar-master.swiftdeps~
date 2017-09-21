@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
 options: "c9c4a5e9732c1dd6ebcd0b001bb0511b"
-build_time: [1505957561, 576859000]
+build_time: [1505958449, 46355000]
 inputs:
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/CalendarEnums.swift": [1503114557, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/JTAppleCalendar/Sources/CalendarStructs.swift": [1503114557, 0]

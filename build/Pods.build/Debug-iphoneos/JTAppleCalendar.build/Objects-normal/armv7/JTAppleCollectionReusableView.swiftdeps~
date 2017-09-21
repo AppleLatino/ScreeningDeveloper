@@ -2,9 +2,9 @@
 provides-top-level:
 - "JTAppleCollectionReusableView"
 provides-nominal:
-- "C15JTAppleCalendar29JTAppleCollectionReusableView"
+- "15JTAppleCalendar0A22CollectionReusableViewC"
 provides-member:
-- ["C15JTAppleCalendar29JTAppleCollectionReusableView", ""]
+- ["15JTAppleCalendar0A22CollectionReusableViewC", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "CGRect"
@@ -12,108 +12,114 @@ depends-top-level:
 - "NSCoder"
 - "UICollectionReusableView"
 depends-member:
-- !private ["Ps9AnyObject", "init"]
-- ["Ps9AnyObject", ""]
-- !private ["PSo15CALayerDelegate", "init"]
-- ["PSo15CALayerDelegate", ""]
-- !private ["Ps7CVarArg", "init"]
-- ["Ps7CVarArg", ""]
-- !private ["Ps28CustomDebugStringConvertible", "init"]
-- ["Ps28CustomDebugStringConvertible", ""]
-- !private ["Ps23CustomStringConvertible", "init"]
-- ["Ps23CustomStringConvertible", ""]
-- !private ["Ps9Equatable", "init"]
-- ["Ps9Equatable", ""]
-- !private ["Ps8Hashable", "init"]
-- ["Ps8Hashable", ""]
-- ["C15JTAppleCalendar29JTAppleCollectionReusableView", "CGRect"]
-- ["C15JTAppleCalendar29JTAppleCollectionReusableView", "NSCoder"]
-- ["C15JTAppleCalendar29JTAppleCollectionReusableView", "deinit"]
-- ["C15JTAppleCalendar29JTAppleCollectionReusableView", "init"]
-- !private ["PSo8NSCoding", "init"]
-- ["PSo8NSCoding", ""]
-- ["CSo8NSObject", "CGRect"]
-- ["CSo8NSObject", "NSCoder"]
-- ["CSo8NSObject", "init"]
-- !private ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", ""]
-- !private ["PSo29UIAccessibilityIdentification", "init"]
-- ["PSo29UIAccessibilityIdentification", ""]
-- !private ["PSo12UIAppearance", "init"]
-- ["PSo12UIAppearance", ""]
-- !private ["PSo21UIAppearanceContainer", "init"]
-- ["PSo21UIAppearanceContainer", ""]
-- ["CSo24UICollectionReusableView", "CGRect"]
-- ["CSo24UICollectionReusableView", "NSCoder"]
-- ["CSo24UICollectionReusableView", "init"]
-- ["CSo24UICollectionReusableView", ""]
-- !private ["PSo17UICoordinateSpace", "init"]
-- ["PSo17UICoordinateSpace", ""]
-- !private ["PSo13UIDynamicItem", "init"]
-- ["PSo13UIDynamicItem", ""]
-- !private ["PSo18UIFocusEnvironment", "init"]
-- ["PSo18UIFocusEnvironment", ""]
-- !private ["PSo11UIFocusItem", "init"]
-- ["PSo11UIFocusItem", ""]
-- ["CSo11UIResponder", "CGRect"]
-- ["CSo11UIResponder", "NSCoder"]
-- ["CSo11UIResponder", "init"]
-- !private ["PSo30UIResponderStandardEditActions", "init"]
-- ["PSo30UIResponderStandardEditActions", ""]
-- !private ["PSo18UITraitEnvironment", "init"]
-- ["PSo18UITraitEnvironment", ""]
-- ["CSo6UIView", "CGRect"]
-- ["CSo6UIView", "NSCoder"]
-- ["CSo6UIView", "init"]
-- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
-- !private ["Ps9_Hashable", "init"]
-- ["Ps9_Hashable", ""]
+- !private ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- ["15JTAppleCalendar0A22CollectionReusableViewC", "CGRect"]
+- ["15JTAppleCalendar0A22CollectionReusableViewC", "NSCoder"]
+- ["15JTAppleCalendar0A22CollectionReusableViewC", "deinit"]
+- ["15JTAppleCalendar0A22CollectionReusableViewC", "init"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So24UICollectionReusableViewC", "CGRect"]
+- ["So24UICollectionReusableViewC", "NSCoder"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", ""]
+- !private ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 depends-nominal:
-- "Ps9AnyObject"
-- "PSo15CALayerDelegate"
-- "Ps7CVarArg"
-- "Ps28CustomDebugStringConvertible"
-- "Ps23CustomStringConvertible"
-- "Ps9Equatable"
-- "Ps8Hashable"
-- "C15JTAppleCalendar29JTAppleCollectionReusableView"
-- "PSo8NSCoding"
-- "CSo8NSObject"
-- "PSo16NSObjectProtocol"
-- "PSo29UIAccessibilityIdentification"
-- "PSo12UIAppearance"
-- "PSo21UIAppearanceContainer"
-- "CSo24UICollectionReusableView"
-- "PSo17UICoordinateSpace"
-- "PSo13UIDynamicItem"
-- "PSo18UIFocusEnvironment"
-- "PSo11UIFocusItem"
-- "CSo11UIResponder"
-- "PSo30UIResponderStandardEditActions"
-- "PSo18UITraitEnvironment"
-- "CSo6UIView"
-- "Ps37_DefaultCustomPlaygroundQuickLookable"
-- "Ps9_Hashable"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "15JTAppleCalendar0A22CollectionReusableViewC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "b54a5ffc60910bced52ce2524583d7ac"

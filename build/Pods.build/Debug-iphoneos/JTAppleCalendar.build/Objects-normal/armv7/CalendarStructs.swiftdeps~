@@ -276,6 +276,7 @@ depends-member:
 - !private ["s9EquatableP", "jun"]
 - !private ["s9EquatableP", "mar"]
 - !private ["s9EquatableP", "may"]
+- !private ["s9EquatableP", "min"]
 - !private ["s9EquatableP", "monday"]
 - !private ["s9EquatableP", "month"]
 - !private ["s9EquatableP", "nov"]
@@ -364,9 +365,7 @@ depends-member:
 - !private ["15JTAppleCalendar0A19DateConfigGeneratorV", "maxNumberOfRowsPerMonth"]
 - !private ["15JTAppleCalendar0A19DateConfigGeneratorV", "numberOfInDatesForMonth"]
 - ["15JTAppleCalendar0A19DateConfigGeneratorV", "setupMonthInfoDataForStartAndEndDate"]
-- !private ["s22LazyCollectionProtocolP", "min"]
-- !private ["s17LazyMapCollectionV", "min"]
-- !private ["s20LazySequenceProtocolP", "min"]
+- !private ["s10DictionaryV4KeysV", "min"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
@@ -605,9 +604,7 @@ depends-nominal:
 - !private "10Foundation9IndexPathV"
 - !private "Si"
 - "15JTAppleCalendar0A19DateConfigGeneratorV"
-- !private "s22LazyCollectionProtocolP"
-- !private "s17LazyMapCollectionV"
-- !private "s20LazySequenceProtocolP"
+- !private "s10DictionaryV4KeysV"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "15JTAppleCalendar5MonthV"
@@ -669,14 +666,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/unextended-module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "767dbe7848d55dda949fdd5c7b0b8cd4"

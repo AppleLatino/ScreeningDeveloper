@@ -25,57 +25,53 @@
 /// Methods in this class are meant to be overridden and will be called by its collection view to gather layout information.
 class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtocol {
     
-    @objc var allowsDateCellStretching = true
-    @objc var shouldClearCacheOnInvalidate = true
-    @objc var firstContentOffsetWasSet = false
-    @objc let errorDelta: CGFloat = 0.0000001
+    var allowsDateCellStretching = true
+    var shouldClearCacheOnInvalidate = true
+    var firstContentOffsetWasSet = false
+    let errorDelta: CGFloat = 0.0000001
     
-    @objc var lastSetCollectionViewSize: CGRect = .zero
+    var lastSetCollectionViewSize: CGRect = .zero
     
-    @objc var cellSize: CGSize = CGSize.zero
-    @objc var itemSizeWasSet: Bool = false
-    @objc var scrollDirection: UICollectionViewScrollDirection = .horizontal
-    @objc var maxMissCount: Int = 0
+    var cellSize: CGSize = CGSize.zero
+    var itemSizeWasSet: Bool = false
+    var scrollDirection: UICollectionViewScrollDirection = .horizontal
+    var maxMissCount: Int = 0
     var cellCache: [Int: [(Int, Int, CGFloat, CGFloat, CGFloat, CGFloat)]] = [:]
     var headerCache: [Int: (Int, Int, CGFloat, CGFloat, CGFloat, CGFloat)] = [:]
-    @objc var decorationCache: [IndexPath:UICollectionViewLayoutAttributes] = [:]
-    @objc var sectionSize: [CGFloat] = []
+    var decorationCache: [IndexPath:UICollectionViewLayoutAttributes] = [:]
+    var sectionSize: [CGFloat] = []
     var lastWrittenCellAttribute: (Int, Int, CGFloat, CGFloat, CGFloat, CGFloat)!
-    @objc var isPreparing = true
-    @objc var stride: CGFloat = 0
-    @objc var minimumInteritemSpacing: CGFloat = 0
-    @objc var minimumLineSpacing: CGFloat = 0
-    @objc var sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-    @objc var headerSizes: [AnyHashable:CGFloat] = [:]
-    @objc var focusIndexPath: IndexPath?
-    @objc var isCalendarLayoutLoaded: Bool { return !cellCache.isEmpty }
-    @objc var layoutIsReadyToBePrepared: Bool {
-        return !(!cellCache.isEmpty  ||
-            collectionView!.frame.width == 0 ||
-            collectionView!.frame.height == 0 ||
-            delegate.calendarDataSource == nil)
-    }
+    var stride: CGFloat = 0
+    var minimumInteritemSpacing: CGFloat = 0
+    var minimumLineSpacing: CGFloat = 0
+    var sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+    var headerSizes: [AnyHashable:CGFloat] = [:]
+    var focusIndexPath: IndexPath?
+    var isCalendarLayoutLoaded: Bool { return !cellCache.isEmpty }
+    var layoutIsReadyToBePrepared: Bool { return !(!cellCache.isEmpty  || delegate.calendarDataSource == nil) }
 
-    @objc var monthMap: [Int: Int] = [:]
-    @objc var numberOfRows: Int = 0
-    @objc var strictBoundaryRulesShouldApply: Bool = false
-    @objc var thereAreHeaders: Bool { return !headerSizes.isEmpty }
-    @objc var thereAreDecorationViews = false
+    var monthMap: [Int: Int] = [:]
+    var numberOfRows: Int = 0
+    var strictBoundaryRulesShouldApply: Bool = false
+    var thereAreHeaders: Bool { return !headerSizes.isEmpty }
+    var thereAreDecorationViews = false
     
     weak var delegate: JTAppleCalendarDelegateProtocol!
     
     var currentHeader: (section: Int, size: CGSize)? // Tracks the current header size
     var currentCell: (section: Int, width: CGFloat, height: CGFloat)? // Tracks the current cell size
-    @objc var contentHeight: CGFloat = 0 // Content height of calendarView
-    @objc var contentWidth: CGFloat = 0 // Content wifth of calendarView
-    @objc var xCellOffset: CGFloat = 0
-    @objc var yCellOffset: CGFloat = 0
-    @objc var endSeparator: CGFloat = 0
+    var contentHeight: CGFloat = 0 // Content height of calendarView
+    var contentWidth: CGFloat = 0 // Content wifth of calendarView
+    var xCellOffset: CGFloat = 0
+    var yCellOffset: CGFloat = 0
+    var endSeparator: CGFloat = 0
     
-    @objc var daysInSection: [Int: Int] = [:] // temporary caching
+    var daysInSection: [Int: Int] = [:] // temporary caching
     var monthInfo: [Month] = []
     
-    @objc var updatedLayoutCellSize: CGSize {
+    var cellSizeWasUpdated: Bool { return updatedLayoutCellSize != cellSize }
+    
+    var updatedLayoutCellSize: CGSize {
         
         // Default Item height and width
         var height: CGFloat = collectionView!.bounds.size.height / CGFloat(delegate.cachedConfiguration.numberOfRows)
@@ -139,7 +135,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         daysInSection.removeAll() // Clear chache
     }
     
-    @objc func setupDataFromDelegate() {
+    func setupDataFromDelegate() {
         // get information from the delegate
         headerSizes = delegate.sizesForMonthSection() // update first. Other variables below depend on it
         strictBoundaryRulesShouldApply = thereAreHeaders || delegate.cachedConfiguration.hasStrictBoundaries
@@ -177,7 +173,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
     }
 
     
-    @objc func configureHorizontalLayout() {
+    func configureHorizontalLayout() {
         var section = 0
         var totalDayCounter = 0
         var headerGuide = 0
@@ -253,7 +249,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         contentHeight = self.collectionView!.bounds.size.height
     }
     
-    @objc func configureVerticalLayout() {
+    func configureVerticalLayout() {
         var section = 0
         var totalDayCounter = 0
         var headerGuide = 0
@@ -319,6 +315,12 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         return CGSize(width: contentWidth, height: contentHeight)
     }
     
+    override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
+        return
+            lastSetCollectionViewSize.height != newBounds.height ||
+            lastSetCollectionViewSize.width != newBounds.width
+    }
+    
     /// Returns the layout attributes for all of the cells
     /// and views in the specified rectangle.
     override open func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
@@ -377,7 +379,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         return nil//deterimeToApplyAttribs(indexPath.item, section: indexPath.section)
     }
     
-    @objc func supplementaryAttributeFor(item: Int, section: Int, elementKind: String) -> UICollectionViewLayoutAttributes? {
+    func supplementaryAttributeFor(item: Int, section: Int, elementKind: String) -> UICollectionViewLayoutAttributes? {
         var retval: UICollectionViewLayoutAttributes?
         if let cachedData = headerCache[section] {
             
@@ -387,26 +389,30 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         }
         return retval
     }
-    @objc func cellAttributeFor(_ item: Int, section: Int) -> UICollectionViewLayoutAttributes? {
+    
+    func cachedValue(for item: Int, section: Int) -> (Int, Int, CGFloat, CGFloat, CGFloat, CGFloat)? {
         if
             let alreadyCachedCellAttrib = cellCache[section],
             item < alreadyCachedCellAttrib.count,
             item >= 0 {
             
-            let cachedValue = alreadyCachedCellAttrib[item]
-            
-            let attrib = UICollectionViewLayoutAttributes(forCellWith: IndexPath(item: item, section: section))
-            attrib.frame = CGRect(x: cachedValue.2, y: cachedValue.3, width: cachedValue.4, height: cachedValue.5)
-            if minimumInteritemSpacing > -1, minimumLineSpacing > -1 {
-                var frame = attrib.frame.insetBy(dx: minimumInteritemSpacing, dy: minimumLineSpacing)
-                if frame == .null {
-                    frame = attrib.frame.insetBy(dx: 0, dy: 0)
-                }
-                attrib.frame = frame
-            }
-            return attrib
+            return alreadyCachedCellAttrib[item]
         }
         return nil
+    }
+    func cellAttributeFor(_ item: Int, section: Int) -> UICollectionViewLayoutAttributes? {
+        guard let cachedValue = cachedValue(for: item, section: section) else { return nil }
+        let attrib = UICollectionViewLayoutAttributes(forCellWith: IndexPath(item: item, section: section))
+        
+        attrib.frame = CGRect(x: cachedValue.2, y: cachedValue.3, width: cachedValue.4, height: cachedValue.5)
+        if minimumInteritemSpacing > -1, minimumLineSpacing > -1 {
+            var frame = attrib.frame.insetBy(dx: minimumInteritemSpacing, dy: minimumLineSpacing)
+            if frame == .null {
+                frame = attrib.frame.insetBy(dx: 0, dy: 0)
+            }
+            attrib.frame = frame
+        }
+        return attrib
     }
     
     func determineToApplyAttribs(_ item: Int, section: Int) -> (Int, Int, CGFloat, CGFloat, CGFloat, CGFloat)? {
@@ -465,7 +471,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         return nil
     }
     
-    @objc func numberOfDaysInSection(_ index: Int) -> Int {
+    func numberOfDaysInSection(_ index: Int) -> Int {
         if let days = daysInSection[index] {
             return days
         }
@@ -474,7 +480,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         return days
     }
     
-    @objc func cachedHeaderHeightForSection(_ section: Int) -> CGFloat {
+    func cachedHeaderHeightForSection(_ section: Int) -> CGFloat {
         var retval: CGFloat = 0
         // We look for most specific to less specific
         // Section = specific dates
@@ -547,17 +553,17 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         return size
     }
     
-    @objc func numberOfRowsForMonth(_ index: Int) -> Int {
+    func numberOfRowsForMonth(_ index: Int) -> Int {
         let monthIndex = monthMap[index]!
         return monthInfo[monthIndex].rows
     }
     
-    @objc func startIndexFrom(rectOrigin offset: CGPoint) -> Int {
+    func startIndexFrom(rectOrigin offset: CGPoint) -> Int {
         let key =  scrollDirection == .horizontal ? offset.x : offset.y
         return startIndexBinarySearch(sectionSize, offset: key)
     }
     
-    @objc func sizeOfContentForSection(_ section: Int) -> CGFloat {
+    func sizeOfContentForSection(_ section: Int) -> CGFloat {
         switch scrollDirection {
         case .horizontal:
             return cellCache[section]![0].4 * CGFloat(maxNumberOfDaysInWeek)
@@ -567,12 +573,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         }
     }
     
-    //    func sectionFromRectOffset(_ offset: CGPoint) -> Int {
-    //        let theOffet = scrollDirection == .horizontal ? offset.x : offset.y
-    //        return sectionFromOffset(theOffet)
-    //    }
-    
-    @objc func sectionFromOffset(_ theOffSet: CGFloat) -> Int {
+    func sectionFromOffset(_ theOffSet: CGFloat) -> Int {
         var val: Int = 0
         for (index, sectionSizeValue) in sectionSize.enumerated() {
             if abs(theOffSet - sectionSizeValue) < errorDelta {
@@ -617,7 +618,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         super.init(coder: aDecoder)
     }
     
-    @objc func setMinVisibleDate() { // jt101 for setting proposal
+    func setMinVisibleDate() { // jt101 for setting proposal
         let minIndices = minimumVisibleIndexPaths()
         switch (minIndices.headerIndex, minIndices.cellIndex) {
         case (.some(let path), nil): focusIndexPath = path
@@ -710,7 +711,7 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         shouldClearCacheOnInvalidate = true
     }
     
-    @objc func clearCache() {
+    func clearCache() {
         headerCache.removeAll()
         cellCache.removeAll()
         sectionSize.removeAll()
@@ -723,5 +724,6 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         contentHeight = 0
         contentWidth = 0
         stride = 0
+        firstContentOffsetWasSet = false
     }
 }

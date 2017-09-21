@@ -162,7 +162,7 @@ extension JTAppleCalendarView: UICollectionViewDelegate, UICollectionViewDataSou
         }
     }
     
-    @objc public func sizeOfDecorationView(indexPath: IndexPath) -> CGRect {
+    public func sizeOfDecorationView(indexPath: IndexPath) -> CGRect {
         guard let size = calendarDelegate?.sizeOfDecorationView(indexPath: indexPath) else { return .zero }
         return size
     }

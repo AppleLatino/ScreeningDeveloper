@@ -30,7 +30,7 @@ public extension String {
     }
 }
 
-public func htmlToAttributedString(text: String) -> NSAttributedString! {
+/*public func htmlToAttributedString(text: String) -> NSAttributedString! {
     let htmlData = text.data(using: String.Encoding.utf8, allowLossyConversion: false)
     let htmlString: NSAttributedString?
     do {
@@ -40,7 +40,7 @@ public func htmlToAttributedString(text: String) -> NSAttributedString! {
     }
     
     return htmlString
-}
+}*/
 
 public func degreesToRadians(degrees: CGFloat) -> CGFloat {
     return degrees * CGFloat(Double.pi / 180)

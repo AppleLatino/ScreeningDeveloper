@@ -11,8 +11,8 @@ target 'ScreeningDeveloper' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'JSQMessagesViewController'
-  pod 'JTAppleCalendar', '~> 7.0'
   pod 'Kingfisher', '~> 3.11'
+  pod 'JTAppleCalendar', '~> 7.0'
   
  
 
