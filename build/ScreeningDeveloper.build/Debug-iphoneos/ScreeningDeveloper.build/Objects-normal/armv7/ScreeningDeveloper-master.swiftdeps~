@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
 options: "e0004c9b2e95789dc5d97c77dd3965ff"
-build_time: [1505958873, 963440000]
+build_time: [1505959115, 700206000]
 inputs:
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/LoginViewController.swift": [1505957556, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/TextFieldEffects/YoshikoTextField.swift": [1490784910, 0]
@@ -39,7 +39,7 @@ inputs:
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift": [1503223684, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/DesignableX/SpringAnimation.swift": [1505957556, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/TextFieldEffects/TextFieldEffects.swift": [1505957556, 0]
-  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/DesignableX/Misc.swift": !dirty [1505957556, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/DesignableX/Misc.swift": [1505959114, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift": [1503223684, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/DesignableX/TransitionManager.swift": [1505957556, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/IQKeyboardManagerSwift/IQKeyboardManager.swift": [1505957556, 0]

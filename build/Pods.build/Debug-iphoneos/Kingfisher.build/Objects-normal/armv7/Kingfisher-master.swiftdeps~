@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
 options: "f61dc92df7877e95b0efa6b34e3b902f"
-build_time: [1505958657, 286390000]
+build_time: [1505958802, 658632000]
 inputs:
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Kingfisher/Sources/AnimatedImageView.swift": [1505957556, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Kingfisher/Sources/Box.swift": [1503711926, 0]

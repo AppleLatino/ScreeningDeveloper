@@ -147,6 +147,7 @@ depends-top-level:
 - !private "max"
 - !private "min"
 - !private "print"
+- !private "type"
 - !private "||"
 depends-member:
 - !private ["Sa", "append"]
@@ -448,6 +449,7 @@ depends-member:
 - !private ["s7CVarArgP", "topLayoutGuide"]
 - !private ["s7CVarArgP", "topMostController"]
 - !private ["s7CVarArgP", "touchResignedGestureIgnoreClasses"]
+- !private ["s7CVarArgP", "type"]
 - !private ["s7CVarArgP", "uintValue"]
 - !private ["s7CVarArgP", "unregisterTextFieldViewClass"]
 - !private ["s7CVarArgP", "userInfo"]
@@ -692,6 +694,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "topLayoutGuide"]
 - !private ["s28CustomDebugStringConvertibleP", "topMostController"]
 - !private ["s28CustomDebugStringConvertibleP", "touchResignedGestureIgnoreClasses"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
 - !private ["s28CustomDebugStringConvertibleP", "uintValue"]
 - !private ["s28CustomDebugStringConvertibleP", "unregisterTextFieldViewClass"]
 - !private ["s28CustomDebugStringConvertibleP", "userInfo"]
@@ -960,6 +963,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "topLayoutGuide"]
 - !private ["s23CustomStringConvertibleP", "topMostController"]
 - !private ["s23CustomStringConvertibleP", "touchResignedGestureIgnoreClasses"]
+- !private ["s23CustomStringConvertibleP", "type"]
 - !private ["s23CustomStringConvertibleP", "uintValue"]
 - !private ["s23CustomStringConvertibleP", "unregisterTextFieldViewClass"]
 - !private ["s23CustomStringConvertibleP", "userInfo"]
@@ -1258,6 +1262,7 @@ depends-member:
 - !private ["s9EquatableP", "topLayoutGuide"]
 - !private ["s9EquatableP", "topMostController"]
 - !private ["s9EquatableP", "touchResignedGestureIgnoreClasses"]
+- !private ["s9EquatableP", "type"]
 - !private ["s9EquatableP", "uintValue"]
 - !private ["s9EquatableP", "union"]
 - !private ["s9EquatableP", "unregisterTextFieldViewClass"]
@@ -1534,6 +1539,7 @@ depends-member:
 - !private ["s8HashableP", "topLayoutGuide"]
 - !private ["s8HashableP", "topMostController"]
 - !private ["s8HashableP", "touchResignedGestureIgnoreClasses"]
+- !private ["s8HashableP", "type"]
 - !private ["s8HashableP", "uintValue"]
 - !private ["s8HashableP", "unregisterTextFieldViewClass"]
 - !private ["s8HashableP", "userInfo"]
@@ -1703,6 +1709,7 @@ depends-member:
 - ["18ScreeningDeveloper17IQKeyboardManagerC", "toolbarPreviousNextAllowedClasses"]
 - ["18ScreeningDeveloper17IQKeyboardManagerC", "toolbarTintColor"]
 - ["18ScreeningDeveloper17IQKeyboardManagerC", "touchResignedGestureIgnoreClasses"]
+- !private ["18ScreeningDeveloper17IQKeyboardManagerC", "type"]
 - ["18ScreeningDeveloper17IQKeyboardManagerC", "unregisterAllNotifications"]
 - ["18ScreeningDeveloper17IQKeyboardManagerC", "unregisterTextFieldViewClass"]
 - ["18ScreeningDeveloper17IQKeyboardManagerC", "willChangeStatusBarOrientation"]
@@ -2080,6 +2087,7 @@ depends-member:
 - !private ["So8NSObjectC", "topLayoutGuide"]
 - !private ["So8NSObjectC", "topMostController"]
 - ["So8NSObjectC", "touchResignedGestureIgnoreClasses"]
+- !private ["So8NSObjectC", "type"]
 - !private ["So8NSObjectC", "uintValue"]
 - ["So8NSObjectC", "unregisterAllNotifications"]
 - ["So8NSObjectC", "unregisterTextFieldViewClass"]
@@ -2294,6 +2302,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "topLayoutGuide"]
 - !private ["So16NSObjectProtocolP", "topMostController"]
 - !private ["So16NSObjectProtocolP", "touchResignedGestureIgnoreClasses"]
+- !private ["So16NSObjectProtocolP", "type"]
 - !private ["So16NSObjectProtocolP", "uintValue"]
 - !private ["So16NSObjectProtocolP", "unregisterTextFieldViewClass"]
 - !private ["So16NSObjectProtocolP", "userInfo"]
@@ -2954,6 +2963,7 @@ depends-member:
 - !private ["So27UIGestureRecognizerDelegateP", "toolbarPreviousNextAllowedClasses"]
 - !private ["So27UIGestureRecognizerDelegateP", "toolbarTintColor"]
 - !private ["So27UIGestureRecognizerDelegateP", "touchResignedGestureIgnoreClasses"]
+- !private ["So27UIGestureRecognizerDelegateP", "type"]
 - !private ["So27UIGestureRecognizerDelegateP", "unregisterTextFieldViewClass"]
 - !private ["So27UIGestureRecognizerDelegateP", "willChangeStatusBarOrientation"]
 - ["So27UIGestureRecognizerDelegateP", ""]
@@ -3712,6 +3722,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "topLayoutGuide"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "topMostController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "touchResignedGestureIgnoreClasses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "uintValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "unregisterTextFieldViewClass"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
@@ -4086,5 +4097,4 @@ depends-external:
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-interface-hash: "33a1252952976cdeb39f19d297aa399b"
+interface-hash: "61324bef3f73c757d63c70f348d75a7e"
