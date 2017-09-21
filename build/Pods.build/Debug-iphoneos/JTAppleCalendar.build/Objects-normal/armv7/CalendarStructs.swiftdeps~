@@ -666,4 +666,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/unextended-module.modulemap"
-interface-hash: "767dbe7848d55dda949fdd5c7b0b8cd4"
+interface-hash: "680e9291a79c4e8fed49722be30189c3"

@@ -6,60 +6,16 @@ provides-nominal:
 provides-member:
 - ["15JTAppleCalendar0aB6LayoutC", ""]
 provides-dynamic-lookup:
-- "allowsDateCellStretching"
-- "cachedHeaderHeightForSection"
-- "cellAttributeFor"
-- "cellSize"
-- "clearCache"
 - "collectionViewContentSize"
-- "configureHorizontalLayout"
-- "configureVerticalLayout"
-- "contentHeight"
-- "contentWidth"
-- "daysInSection"
-- "decorationCache"
-- "endSeparator"
-- "errorDelta"
-- "firstContentOffsetWasSet"
-- "focusIndexPath"
-- "headerSizes"
 - "invalidateLayout"
-- "isCalendarLayoutLoaded"
-- "isPreparing"
-- "itemSizeWasSet"
-- "lastSetCollectionViewSize"
 - "layoutAttributesForDecorationView"
 - "layoutAttributesForElements"
 - "layoutAttributesForItem"
 - "layoutAttributesForSupplementaryView"
-- "layoutIsReadyToBePrepared"
-- "maxMissCount"
-- "minimumInteritemSpacing"
-- "minimumLineSpacing"
-- "monthMap"
-- "numberOfDaysInSection"
-- "numberOfRows"
-- "numberOfRowsForMonth"
 - "prepare"
 - "register"
-- "scrollDirection"
-- "sectionFromOffset"
-- "sectionInset"
-- "sectionSize"
-- "setMinVisibleDate"
-- "setupDataFromDelegate"
-- "shouldClearCacheOnInvalidate"
-- "sizeOfContentForSection"
-- "startIndexFrom"
-- "strictBoundaryRulesShouldApply"
-- "stride"
-- "supplementaryAttributeFor"
+- "shouldInvalidateLayout"
 - "targetContentOffset"
-- "thereAreDecorationViews"
-- "thereAreHeaders"
-- "updatedLayoutCellSize"
-- "xCellOffset"
-- "yCellOffset"
 depends-top-level:
 - !private "!"
 - !private "!="
@@ -174,6 +130,7 @@ depends-member:
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "bounds"]
 - !private ["s7CVarArgP", "cachedHeaderHeightForSection"]
+- !private ["s7CVarArgP", "cachedValue"]
 - !private ["s7CVarArgP", "cellAttributeFor"]
 - !private ["s7CVarArgP", "cellCache"]
 - !private ["s7CVarArgP", "cellSize"]
@@ -243,7 +200,7 @@ depends-member:
 - !private ["s7CVarArgP", "stride"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "supplementaryAttributeFor"]
-- ["s7CVarArgP", "targetContentOffsetForProposedContentOffset"]
+- ["s7CVarArgP", "targetContentOffset"]
 - !private ["s7CVarArgP", "thereAreDecorationViews"]
 - !private ["s7CVarArgP", "thereAreHeaders"]
 - !private ["s7CVarArgP", "updatedLayoutCellSize"]
@@ -285,6 +242,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "bounds"]
 - !private ["s28CustomDebugStringConvertibleP", "cachedHeaderHeightForSection"]
+- !private ["s28CustomDebugStringConvertibleP", "cachedValue"]
 - !private ["s28CustomDebugStringConvertibleP", "cellAttributeFor"]
 - !private ["s28CustomDebugStringConvertibleP", "cellCache"]
 - !private ["s28CustomDebugStringConvertibleP", "cellSize"]
@@ -366,7 +324,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "stride"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "supplementaryAttributeFor"]
-- ["s28CustomDebugStringConvertibleP", "targetContentOffsetForProposedContentOffset"]
+- ["s28CustomDebugStringConvertibleP", "targetContentOffset"]
 - !private ["s28CustomDebugStringConvertibleP", "thereAreDecorationViews"]
 - !private ["s28CustomDebugStringConvertibleP", "thereAreHeaders"]
 - !private ["s28CustomDebugStringConvertibleP", "updatedLayoutCellSize"]
@@ -432,6 +390,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "bounds"]
 - !private ["s23CustomStringConvertibleP", "cachedHeaderHeightForSection"]
+- !private ["s23CustomStringConvertibleP", "cachedValue"]
 - !private ["s23CustomStringConvertibleP", "cellAttributeFor"]
 - !private ["s23CustomStringConvertibleP", "cellCache"]
 - !private ["s23CustomStringConvertibleP", "cellSize"]
@@ -506,7 +465,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "stride"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "supplementaryAttributeFor"]
-- ["s23CustomStringConvertibleP", "targetContentOffsetForProposedContentOffset"]
+- ["s23CustomStringConvertibleP", "targetContentOffset"]
 - !private ["s23CustomStringConvertibleP", "thereAreDecorationViews"]
 - !private ["s23CustomStringConvertibleP", "thereAreHeaders"]
 - !private ["s23CustomStringConvertibleP", "updatedLayoutCellSize"]
@@ -580,6 +539,7 @@ depends-member:
 - !private ["s9EquatableP", "bottom"]
 - !private ["s9EquatableP", "bounds"]
 - !private ["s9EquatableP", "cachedHeaderHeightForSection"]
+- !private ["s9EquatableP", "cachedValue"]
 - ["s9EquatableP", "cell"]
 - !private ["s9EquatableP", "cellAttributeFor"]
 - !private ["s9EquatableP", "cellCache"]
@@ -658,7 +618,7 @@ depends-member:
 - !private ["s9EquatableP", "stride"]
 - !private ["s9EquatableP", "supplementaryAttributeFor"]
 - ["s9EquatableP", "supplementaryView"]
-- ["s9EquatableP", "targetContentOffsetForProposedContentOffset"]
+- ["s9EquatableP", "targetContentOffset"]
 - !private ["s9EquatableP", "thereAreDecorationViews"]
 - !private ["s9EquatableP", "thereAreHeaders"]
 - !private ["s9EquatableP", "top"]
@@ -713,6 +673,7 @@ depends-member:
 - !private ["s8HashableP", "allowsDateCellStretching"]
 - !private ["s8HashableP", "bounds"]
 - !private ["s8HashableP", "cachedHeaderHeightForSection"]
+- !private ["s8HashableP", "cachedValue"]
 - ["s8HashableP", "cell"]
 - !private ["s8HashableP", "cellAttributeFor"]
 - !private ["s8HashableP", "cellCache"]
@@ -783,7 +744,7 @@ depends-member:
 - !private ["s8HashableP", "stride"]
 - !private ["s8HashableP", "supplementaryAttributeFor"]
 - ["s8HashableP", "supplementaryView"]
-- ["s8HashableP", "targetContentOffsetForProposedContentOffset"]
+- ["s8HashableP", "targetContentOffset"]
 - !private ["s8HashableP", "thereAreDecorationViews"]
 - !private ["s8HashableP", "thereAreHeaders"]
 - !private ["s8HashableP", "updatedLayoutCellSize"]
@@ -834,9 +795,11 @@ depends-member:
 - !private ["15JTAppleCalendar0aB6LayoutC", "abs"]
 - ["15JTAppleCalendar0aB6LayoutC", "allowsDateCellStretching"]
 - ["15JTAppleCalendar0aB6LayoutC", "cachedHeaderHeightForSection"]
+- ["15JTAppleCalendar0aB6LayoutC", "cachedValue"]
 - ["15JTAppleCalendar0aB6LayoutC", "cellAttributeFor"]
 - ["15JTAppleCalendar0aB6LayoutC", "cellCache"]
 - ["15JTAppleCalendar0aB6LayoutC", "cellSize"]
+- ["15JTAppleCalendar0aB6LayoutC", "cellSizeWasUpdated"]
 - ["15JTAppleCalendar0aB6LayoutC", "clearCache"]
 - !private ["15JTAppleCalendar0aB6LayoutC", "collectionView"]
 - ["15JTAppleCalendar0aB6LayoutC", "collectionViewContentSize"]
@@ -863,7 +826,6 @@ depends-member:
 - ["15JTAppleCalendar0aB6LayoutC", "init"]
 - ["15JTAppleCalendar0aB6LayoutC", "invalidateLayout"]
 - ["15JTAppleCalendar0aB6LayoutC", "isCalendarLayoutLoaded"]
-- ["15JTAppleCalendar0aB6LayoutC", "isPreparing"]
 - ["15JTAppleCalendar0aB6LayoutC", "itemSizeWasSet"]
 - ["15JTAppleCalendar0aB6LayoutC", "lastSetCollectionViewSize"]
 - ["15JTAppleCalendar0aB6LayoutC", "lastWrittenCellAttribute"]
@@ -892,6 +854,7 @@ depends-member:
 - ["15JTAppleCalendar0aB6LayoutC", "setMinVisibleDate"]
 - ["15JTAppleCalendar0aB6LayoutC", "setupDataFromDelegate"]
 - ["15JTAppleCalendar0aB6LayoutC", "shouldClearCacheOnInvalidate"]
+- ["15JTAppleCalendar0aB6LayoutC", "shouldInvalidateLayout"]
 - ["15JTAppleCalendar0aB6LayoutC", "sizeForitemAtIndexPath"]
 - ["15JTAppleCalendar0aB6LayoutC", "sizeOfContentForSection"]
 - ["15JTAppleCalendar0aB6LayoutC", "startIndexBinarySearch"]
@@ -900,7 +863,6 @@ depends-member:
 - ["15JTAppleCalendar0aB6LayoutC", "stride"]
 - ["15JTAppleCalendar0aB6LayoutC", "supplementaryAttributeFor"]
 - ["15JTAppleCalendar0aB6LayoutC", "targetContentOffset"]
-- ["15JTAppleCalendar0aB6LayoutC", "targetContentOffsetForProposedContentOffset"]
 - ["15JTAppleCalendar0aB6LayoutC", "thereAreDecorationViews"]
 - ["15JTAppleCalendar0aB6LayoutC", "thereAreHeaders"]
 - ["15JTAppleCalendar0aB6LayoutC", "updatedLayoutCellSize"]
@@ -918,6 +880,7 @@ depends-member:
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "abs"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "allowsDateCellStretching"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "cachedHeaderHeightForSection"]
+- !private ["15JTAppleCalendar0aB14LayoutProtocolP", "cachedValue"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "cellAttributeFor"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "cellCache"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "cellSize"]
@@ -971,7 +934,7 @@ depends-member:
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "strictBoundaryRulesShouldApply"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "stride"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "supplementaryAttributeFor"]
-- ["15JTAppleCalendar0aB14LayoutProtocolP", "targetContentOffsetForProposedContentOffset"]
+- ["15JTAppleCalendar0aB14LayoutProtocolP", "targetContentOffset"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "thereAreDecorationViews"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "thereAreHeaders"]
 - !private ["15JTAppleCalendar0aB14LayoutProtocolP", "updatedLayoutCellSize"]
@@ -1015,6 +978,7 @@ depends-member:
 - !private ["So8NSCodingP", "allowsDateCellStretching"]
 - !private ["So8NSCodingP", "bounds"]
 - !private ["So8NSCodingP", "cachedHeaderHeightForSection"]
+- !private ["So8NSCodingP", "cachedValue"]
 - !private ["So8NSCodingP", "cellAttributeFor"]
 - !private ["So8NSCodingP", "cellCache"]
 - !private ["So8NSCodingP", "cellSize"]
@@ -1074,7 +1038,7 @@ depends-member:
 - !private ["So8NSCodingP", "strictBoundaryRulesShouldApply"]
 - !private ["So8NSCodingP", "stride"]
 - !private ["So8NSCodingP", "supplementaryAttributeFor"]
-- ["So8NSCodingP", "targetContentOffsetForProposedContentOffset"]
+- ["So8NSCodingP", "targetContentOffset"]
 - !private ["So8NSCodingP", "thereAreDecorationViews"]
 - !private ["So8NSCodingP", "thereAreHeaders"]
 - !private ["So8NSCodingP", "updatedLayoutCellSize"]
@@ -1115,9 +1079,11 @@ depends-member:
 - ["So8NSObjectC", "allowsDateCellStretching"]
 - !private ["So8NSObjectC", "bounds"]
 - ["So8NSObjectC", "cachedHeaderHeightForSection"]
+- ["So8NSObjectC", "cachedValue"]
 - ["So8NSObjectC", "cellAttributeFor"]
 - ["So8NSObjectC", "cellCache"]
 - ["So8NSObjectC", "cellSize"]
+- ["So8NSObjectC", "cellSizeWasUpdated"]
 - ["So8NSObjectC", "clearCache"]
 - !private ["So8NSObjectC", "collectionView"]
 - ["So8NSObjectC", "collectionViewContentSize"]
@@ -1145,7 +1111,6 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "invalidateLayout"]
 - ["So8NSObjectC", "isCalendarLayoutLoaded"]
-- ["So8NSObjectC", "isPreparing"]
 - ["So8NSObjectC", "itemSizeWasSet"]
 - ["So8NSObjectC", "lastSetCollectionViewSize"]
 - ["So8NSObjectC", "lastWrittenCellAttribute"]
@@ -1177,6 +1142,7 @@ depends-member:
 - ["So8NSObjectC", "setMinVisibleDate"]
 - ["So8NSObjectC", "setupDataFromDelegate"]
 - ["So8NSObjectC", "shouldClearCacheOnInvalidate"]
+- ["So8NSObjectC", "shouldInvalidateLayout"]
 - ["So8NSObjectC", "sizeForitemAtIndexPath"]
 - ["So8NSObjectC", "sizeOfContentForSection"]
 - ["So8NSObjectC", "startIndexBinarySearch"]
@@ -1185,7 +1151,6 @@ depends-member:
 - ["So8NSObjectC", "stride"]
 - ["So8NSObjectC", "supplementaryAttributeFor"]
 - ["So8NSObjectC", "targetContentOffset"]
-- ["So8NSObjectC", "targetContentOffsetForProposedContentOffset"]
 - ["So8NSObjectC", "thereAreDecorationViews"]
 - ["So8NSObjectC", "thereAreHeaders"]
 - ["So8NSObjectC", "updatedLayoutCellSize"]
@@ -1206,6 +1171,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "allowsDateCellStretching"]
 - !private ["So16NSObjectProtocolP", "bounds"]
 - !private ["So16NSObjectProtocolP", "cachedHeaderHeightForSection"]
+- !private ["So16NSObjectProtocolP", "cachedValue"]
 - !private ["So16NSObjectProtocolP", "cellAttributeFor"]
 - !private ["So16NSObjectProtocolP", "cellCache"]
 - !private ["So16NSObjectProtocolP", "cellSize"]
@@ -1268,7 +1234,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "strictBoundaryRulesShouldApply"]
 - !private ["So16NSObjectProtocolP", "stride"]
 - !private ["So16NSObjectProtocolP", "supplementaryAttributeFor"]
-- ["So16NSObjectProtocolP", "targetContentOffsetForProposedContentOffset"]
+- ["So16NSObjectProtocolP", "targetContentOffset"]
 - !private ["So16NSObjectProtocolP", "thereAreDecorationViews"]
 - !private ["So16NSObjectProtocolP", "thereAreHeaders"]
 - !private ["So16NSObjectProtocolP", "updatedLayoutCellSize"]
@@ -1381,9 +1347,11 @@ depends-member:
 - !private ["So22UICollectionViewLayoutC", "abs"]
 - ["So22UICollectionViewLayoutC", "allowsDateCellStretching"]
 - ["So22UICollectionViewLayoutC", "cachedHeaderHeightForSection"]
+- ["So22UICollectionViewLayoutC", "cachedValue"]
 - ["So22UICollectionViewLayoutC", "cellAttributeFor"]
 - ["So22UICollectionViewLayoutC", "cellCache"]
 - ["So22UICollectionViewLayoutC", "cellSize"]
+- ["So22UICollectionViewLayoutC", "cellSizeWasUpdated"]
 - ["So22UICollectionViewLayoutC", "clearCache"]
 - !private ["So22UICollectionViewLayoutC", "collectionView"]
 - ["So22UICollectionViewLayoutC", "collectionViewContentSize"]
@@ -1409,7 +1377,6 @@ depends-member:
 - ["So22UICollectionViewLayoutC", "init"]
 - ["So22UICollectionViewLayoutC", "invalidateLayout"]
 - ["So22UICollectionViewLayoutC", "isCalendarLayoutLoaded"]
-- ["So22UICollectionViewLayoutC", "isPreparing"]
 - ["So22UICollectionViewLayoutC", "itemSizeWasSet"]
 - ["So22UICollectionViewLayoutC", "lastSetCollectionViewSize"]
 - ["So22UICollectionViewLayoutC", "lastWrittenCellAttribute"]
@@ -1438,6 +1405,7 @@ depends-member:
 - ["So22UICollectionViewLayoutC", "setMinVisibleDate"]
 - ["So22UICollectionViewLayoutC", "setupDataFromDelegate"]
 - ["So22UICollectionViewLayoutC", "shouldClearCacheOnInvalidate"]
+- ["So22UICollectionViewLayoutC", "shouldInvalidateLayout"]
 - ["So22UICollectionViewLayoutC", "sizeForitemAtIndexPath"]
 - ["So22UICollectionViewLayoutC", "sizeOfContentForSection"]
 - ["So22UICollectionViewLayoutC", "startIndexBinarySearch"]
@@ -1446,7 +1414,6 @@ depends-member:
 - ["So22UICollectionViewLayoutC", "stride"]
 - ["So22UICollectionViewLayoutC", "supplementaryAttributeFor"]
 - ["So22UICollectionViewLayoutC", "targetContentOffset"]
-- ["So22UICollectionViewLayoutC", "targetContentOffsetForProposedContentOffset"]
 - ["So22UICollectionViewLayoutC", "thereAreDecorationViews"]
 - ["So22UICollectionViewLayoutC", "thereAreHeaders"]
 - ["So22UICollectionViewLayoutC", "updatedLayoutCellSize"]
@@ -1609,6 +1576,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "allowsDateCellStretching"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cachedHeaderHeightForSection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cachedValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cellAttributeFor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cellCache"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cellSize"]
@@ -1671,7 +1639,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "strictBoundaryRulesShouldApply"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "stride"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "supplementaryAttributeFor"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "targetContentOffsetForProposedContentOffset"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "targetContentOffset"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "thereAreDecorationViews"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "thereAreHeaders"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updatedLayoutCellSize"]
@@ -1878,4 +1846,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/unextended-module.modulemap"
-interface-hash: "c39167693211d1aceaa26c63a0d16e27"
+interface-hash: "f18dba957cbd4ad4d49e6e22d59ed537"
