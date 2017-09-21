@@ -9,30 +9,26 @@ provides-top-level:
 - "MonthsOfYear"
 - "SelectionRangePosition"
 - "DaysOfWeek"
-- "=="
-- "=="
-- "=="
-- "=="
 provides-nominal:
-- "O15JTAppleCalendar18SegmentDestination"
-- "O15JTAppleCalendar21OutDateCellGeneration"
-- "O15JTAppleCalendar20InDateCellGeneration"
-- "O15JTAppleCalendar18ReadingOrientation"
-- "O15JTAppleCalendar13ScrollingMode"
-- "O15JTAppleCalendar9DateOwner"
-- "O15JTAppleCalendar12MonthsOfYear"
-- "O15JTAppleCalendar22SelectionRangePosition"
-- "O15JTAppleCalendar10DaysOfWeek"
+- "15JTAppleCalendar18SegmentDestinationO"
+- "15JTAppleCalendar21OutDateCellGenerationO"
+- "15JTAppleCalendar20InDateCellGenerationO"
+- "15JTAppleCalendar18ReadingOrientationO"
+- "15JTAppleCalendar13ScrollingModeO"
+- "15JTAppleCalendar9DateOwnerO"
+- "15JTAppleCalendar12MonthsOfYearO"
+- "15JTAppleCalendar22SelectionRangePositionO"
+- "15JTAppleCalendar10DaysOfWeekO"
 provides-member:
-- ["O15JTAppleCalendar18SegmentDestination", ""]
-- ["O15JTAppleCalendar21OutDateCellGeneration", ""]
-- ["O15JTAppleCalendar20InDateCellGeneration", ""]
-- ["O15JTAppleCalendar18ReadingOrientation", ""]
-- ["O15JTAppleCalendar13ScrollingMode", ""]
-- ["O15JTAppleCalendar9DateOwner", ""]
-- ["O15JTAppleCalendar12MonthsOfYear", ""]
-- ["O15JTAppleCalendar22SelectionRangePosition", ""]
-- ["O15JTAppleCalendar10DaysOfWeek", ""]
+- ["15JTAppleCalendar18SegmentDestinationO", ""]
+- ["15JTAppleCalendar21OutDateCellGenerationO", ""]
+- ["15JTAppleCalendar20InDateCellGenerationO", ""]
+- ["15JTAppleCalendar18ReadingOrientationO", ""]
+- ["15JTAppleCalendar13ScrollingModeO", ""]
+- ["15JTAppleCalendar9DateOwnerO", ""]
+- ["15JTAppleCalendar12MonthsOfYearO", ""]
+- ["15JTAppleCalendar22SelectionRangePositionO", ""]
+- ["15JTAppleCalendar10DaysOfWeekO", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
@@ -41,8 +37,10 @@ depends-top-level:
 - "CGFloat"
 - "DateOwner"
 - "DaysOfWeek"
+- "FloatLiteralType"
 - "InDateCellGeneration"
 - "Int"
+- "IntegerLiteralType"
 - "MonthsOfYear"
 - "OutDateCellGeneration"
 - "ReadingOrientation"
@@ -51,207 +49,199 @@ depends-top-level:
 - "SelectionRangePosition"
 - !private "~="
 depends-member:
-- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["s13BinaryIntegerP", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Ps7CVarArg", "hashValue"]
-- !private ["Ps10Comparable", "hashValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
-- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
-- !private ["Ps17CustomReflectable", "hashValue"]
-- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps23CustomStringConvertible", "hashValue"]
-- ["O15JTAppleCalendar9DateOwner", "RawValue"]
-- ["O15JTAppleCalendar9DateOwner", "_toAnyHashable"]
-- ["O15JTAppleCalendar9DateOwner", "deinit"]
-- ["O15JTAppleCalendar9DateOwner", "followingMonthOutsideBoundary"]
-- ["O15JTAppleCalendar9DateOwner", "followingMonthWithinBoundary"]
-- ["O15JTAppleCalendar9DateOwner", "hashValue"]
-- ["O15JTAppleCalendar9DateOwner", "init"]
-- ["O15JTAppleCalendar9DateOwner", "previousMonthOutsideBoundary"]
-- ["O15JTAppleCalendar9DateOwner", "previousMonthWithinBoundary"]
-- ["O15JTAppleCalendar9DateOwner", "rawValue"]
-- ["O15JTAppleCalendar9DateOwner", "thisMonth"]
-- ["O15JTAppleCalendar10DaysOfWeek", "RawValue"]
-- ["O15JTAppleCalendar10DaysOfWeek", "_toAnyHashable"]
-- ["O15JTAppleCalendar10DaysOfWeek", "deinit"]
-- ["O15JTAppleCalendar10DaysOfWeek", "friday"]
-- ["O15JTAppleCalendar10DaysOfWeek", "hashValue"]
-- ["O15JTAppleCalendar10DaysOfWeek", "init"]
-- ["O15JTAppleCalendar10DaysOfWeek", "monday"]
-- ["O15JTAppleCalendar10DaysOfWeek", "rawValue"]
-- ["O15JTAppleCalendar10DaysOfWeek", "saturday"]
-- ["O15JTAppleCalendar10DaysOfWeek", "sunday"]
-- ["O15JTAppleCalendar10DaysOfWeek", "thursday"]
-- ["O15JTAppleCalendar10DaysOfWeek", "tuesday"]
-- ["O15JTAppleCalendar10DaysOfWeek", "wednesday"]
-- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
-- ["Ps9Equatable", "_toAnyHashable"]
-- ["Ps9Equatable", "hashValue"]
-- ["Ps9Equatable", "init"]
-- ["Ps9Equatable", "rawValue"]
-- ["Ps9Equatable", ""]
-- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
-- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
-- ["Ps8Hashable", "_toAnyHashable"]
-- ["Ps8Hashable", "hashValue"]
-- ["Ps8Hashable", "init"]
-- ["Ps8Hashable", "rawValue"]
-- ["Ps8Hashable", ""]
-- ["O15JTAppleCalendar20InDateCellGeneration", "=="]
-- ["O15JTAppleCalendar20InDateCellGeneration", "_toAnyHashable"]
-- ["O15JTAppleCalendar20InDateCellGeneration", "deinit"]
-- ["O15JTAppleCalendar20InDateCellGeneration", "forAllMonths"]
-- ["O15JTAppleCalendar20InDateCellGeneration", "forFirstMonthOnly"]
-- ["O15JTAppleCalendar20InDateCellGeneration", "hashValue"]
-- ["O15JTAppleCalendar20InDateCellGeneration", "off"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["15JTAppleCalendar9DateOwnerO", "RawValue"]
+- ["15JTAppleCalendar9DateOwnerO", "deinit"]
+- ["15JTAppleCalendar9DateOwnerO", "followingMonthOutsideBoundary"]
+- ["15JTAppleCalendar9DateOwnerO", "followingMonthWithinBoundary"]
+- ["15JTAppleCalendar9DateOwnerO", "hashValue"]
+- ["15JTAppleCalendar9DateOwnerO", "init"]
+- ["15JTAppleCalendar9DateOwnerO", "previousMonthOutsideBoundary"]
+- ["15JTAppleCalendar9DateOwnerO", "previousMonthWithinBoundary"]
+- ["15JTAppleCalendar9DateOwnerO", "rawValue"]
+- ["15JTAppleCalendar9DateOwnerO", "thisMonth"]
+- ["15JTAppleCalendar10DaysOfWeekO", "RawValue"]
+- ["15JTAppleCalendar10DaysOfWeekO", "deinit"]
+- ["15JTAppleCalendar10DaysOfWeekO", "friday"]
+- ["15JTAppleCalendar10DaysOfWeekO", "hashValue"]
+- ["15JTAppleCalendar10DaysOfWeekO", "init"]
+- ["15JTAppleCalendar10DaysOfWeekO", "monday"]
+- ["15JTAppleCalendar10DaysOfWeekO", "rawValue"]
+- ["15JTAppleCalendar10DaysOfWeekO", "saturday"]
+- ["15JTAppleCalendar10DaysOfWeekO", "sunday"]
+- ["15JTAppleCalendar10DaysOfWeekO", "thursday"]
+- ["15JTAppleCalendar10DaysOfWeekO", "tuesday"]
+- ["15JTAppleCalendar10DaysOfWeekO", "wednesday"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", ""]
+- ["15JTAppleCalendar20InDateCellGenerationO", "__derived_enum_equals"]
+- ["15JTAppleCalendar20InDateCellGenerationO", "deinit"]
+- ["15JTAppleCalendar20InDateCellGenerationO", "forAllMonths"]
+- ["15JTAppleCalendar20InDateCellGenerationO", "forFirstMonthOnly"]
+- ["15JTAppleCalendar20InDateCellGenerationO", "hashValue"]
+- ["15JTAppleCalendar20InDateCellGenerationO", "off"]
 - !private ["Si", "hashValue"]
-- !private ["Ps7Integer", "hashValue"]
-- !private ["Ps17IntegerArithmetic", "hashValue"]
-- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps10MirrorPath", "hashValue"]
-- ["O15JTAppleCalendar12MonthsOfYear", "RawValue"]
-- ["O15JTAppleCalendar12MonthsOfYear", "_toAnyHashable"]
-- ["O15JTAppleCalendar12MonthsOfYear", "apr"]
-- ["O15JTAppleCalendar12MonthsOfYear", "aug"]
-- ["O15JTAppleCalendar12MonthsOfYear", "dec"]
-- ["O15JTAppleCalendar12MonthsOfYear", "deinit"]
-- ["O15JTAppleCalendar12MonthsOfYear", "feb"]
-- ["O15JTAppleCalendar12MonthsOfYear", "hashValue"]
-- ["O15JTAppleCalendar12MonthsOfYear", "init"]
-- ["O15JTAppleCalendar12MonthsOfYear", "jan"]
-- ["O15JTAppleCalendar12MonthsOfYear", "jul"]
-- ["O15JTAppleCalendar12MonthsOfYear", "jun"]
-- ["O15JTAppleCalendar12MonthsOfYear", "mar"]
-- ["O15JTAppleCalendar12MonthsOfYear", "may"]
-- ["O15JTAppleCalendar12MonthsOfYear", "nov"]
-- ["O15JTAppleCalendar12MonthsOfYear", "oct"]
-- ["O15JTAppleCalendar12MonthsOfYear", "rawValue"]
-- ["O15JTAppleCalendar12MonthsOfYear", "sep"]
-- ["O15JTAppleCalendar21OutDateCellGeneration", "=="]
-- ["O15JTAppleCalendar21OutDateCellGeneration", "_toAnyHashable"]
-- ["O15JTAppleCalendar21OutDateCellGeneration", "deinit"]
-- ["O15JTAppleCalendar21OutDateCellGeneration", "hashValue"]
-- ["O15JTAppleCalendar21OutDateCellGeneration", "off"]
-- ["O15JTAppleCalendar21OutDateCellGeneration", "tillEndOfGrid"]
-- ["O15JTAppleCalendar21OutDateCellGeneration", "tillEndOfRow"]
-- ["Ps16RawRepresentable", "_toAnyHashable"]
-- ["Ps16RawRepresentable", "hashValue"]
-- ["Ps16RawRepresentable", "init"]
-- ["Ps16RawRepresentable", "rawValue"]
-- ["Ps16RawRepresentable", ""]
-- ["O15JTAppleCalendar18ReadingOrientation", "=="]
-- ["O15JTAppleCalendar18ReadingOrientation", "_toAnyHashable"]
-- ["O15JTAppleCalendar18ReadingOrientation", "deinit"]
-- ["O15JTAppleCalendar18ReadingOrientation", "hashValue"]
-- ["O15JTAppleCalendar18ReadingOrientation", "leftToRight"]
-- ["O15JTAppleCalendar18ReadingOrientation", "rightToLeft"]
-- ["O15JTAppleCalendar13ScrollingMode", "Bool"]
-- ["O15JTAppleCalendar13ScrollingMode", "CGFloat"]
-- ["O15JTAppleCalendar13ScrollingMode", "nonStopTo"]
-- ["O15JTAppleCalendar13ScrollingMode", "nonStopToCell"]
-- ["O15JTAppleCalendar13ScrollingMode", "nonStopToSection"]
-- ["O15JTAppleCalendar13ScrollingMode", "none"]
-- ["O15JTAppleCalendar13ScrollingMode", "pagingIsEnabled"]
-- ["O15JTAppleCalendar13ScrollingMode", "stopAtEach"]
-- ["O15JTAppleCalendar13ScrollingMode", "stopAtEachCalendarFrameWidth"]
-- ["O15JTAppleCalendar13ScrollingMode", "stopAtEachSection"]
-- ["O15JTAppleCalendar18SegmentDestination", "=="]
-- ["O15JTAppleCalendar18SegmentDestination", "_toAnyHashable"]
-- ["O15JTAppleCalendar18SegmentDestination", "deinit"]
-- ["O15JTAppleCalendar18SegmentDestination", "end"]
-- ["O15JTAppleCalendar18SegmentDestination", "hashValue"]
-- ["O15JTAppleCalendar18SegmentDestination", "next"]
-- ["O15JTAppleCalendar18SegmentDestination", "previous"]
-- ["O15JTAppleCalendar18SegmentDestination", "start"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "RawValue"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "_toAnyHashable"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "deinit"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "full"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "hashValue"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "init"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "left"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "middle"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "none"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "rawValue"]
-- ["O15JTAppleCalendar22SelectionRangePosition", "right"]
-- !private ["Ps13SignedInteger", "hashValue"]
-- !private ["Ps12SignedNumber", "hashValue"]
-- !private ["Ps10Strideable", "hashValue"]
-- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
-- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
-- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
-- ["Ps9_Hashable", "_toAnyHashable"]
-- ["Ps9_Hashable", "hashValue"]
-- ["Ps9_Hashable", "init"]
-- ["Ps9_Hashable", "rawValue"]
-- ["Ps9_Hashable", ""]
-- !private ["Ps14_Incrementable", "hashValue"]
-- !private ["Ps8_Integer", "hashValue"]
-- !private ["Ps18_IntegerArithmetic", "hashValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
-- !private ["Ps14_SignedInteger", "hashValue"]
-- !private ["Ps11_Strideable", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["15JTAppleCalendar12MonthsOfYearO", "RawValue"]
+- ["15JTAppleCalendar12MonthsOfYearO", "apr"]
+- ["15JTAppleCalendar12MonthsOfYearO", "aug"]
+- ["15JTAppleCalendar12MonthsOfYearO", "dec"]
+- ["15JTAppleCalendar12MonthsOfYearO", "deinit"]
+- ["15JTAppleCalendar12MonthsOfYearO", "feb"]
+- ["15JTAppleCalendar12MonthsOfYearO", "hashValue"]
+- ["15JTAppleCalendar12MonthsOfYearO", "init"]
+- ["15JTAppleCalendar12MonthsOfYearO", "jan"]
+- ["15JTAppleCalendar12MonthsOfYearO", "jul"]
+- ["15JTAppleCalendar12MonthsOfYearO", "jun"]
+- ["15JTAppleCalendar12MonthsOfYearO", "mar"]
+- ["15JTAppleCalendar12MonthsOfYearO", "may"]
+- ["15JTAppleCalendar12MonthsOfYearO", "nov"]
+- ["15JTAppleCalendar12MonthsOfYearO", "oct"]
+- ["15JTAppleCalendar12MonthsOfYearO", "rawValue"]
+- ["15JTAppleCalendar12MonthsOfYearO", "sep"]
+- !private ["s7NumericP", "hashValue"]
+- ["15JTAppleCalendar21OutDateCellGenerationO", "__derived_enum_equals"]
+- ["15JTAppleCalendar21OutDateCellGenerationO", "deinit"]
+- ["15JTAppleCalendar21OutDateCellGenerationO", "hashValue"]
+- ["15JTAppleCalendar21OutDateCellGenerationO", "off"]
+- ["15JTAppleCalendar21OutDateCellGenerationO", "tillEndOfGrid"]
+- ["15JTAppleCalendar21OutDateCellGenerationO", "tillEndOfRow"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", ""]
+- ["15JTAppleCalendar18ReadingOrientationO", "__derived_enum_equals"]
+- ["15JTAppleCalendar18ReadingOrientationO", "deinit"]
+- ["15JTAppleCalendar18ReadingOrientationO", "hashValue"]
+- ["15JTAppleCalendar18ReadingOrientationO", "leftToRight"]
+- ["15JTAppleCalendar18ReadingOrientationO", "rightToLeft"]
+- ["15JTAppleCalendar13ScrollingModeO", "Bool"]
+- ["15JTAppleCalendar13ScrollingModeO", "CGFloat"]
+- ["15JTAppleCalendar13ScrollingModeO", "nonStopTo"]
+- ["15JTAppleCalendar13ScrollingModeO", "nonStopToCell"]
+- ["15JTAppleCalendar13ScrollingModeO", "nonStopToSection"]
+- ["15JTAppleCalendar13ScrollingModeO", "none"]
+- ["15JTAppleCalendar13ScrollingModeO", "pagingIsEnabled"]
+- ["15JTAppleCalendar13ScrollingModeO", "stopAtEach"]
+- ["15JTAppleCalendar13ScrollingModeO", "stopAtEachCalendarFrameWidth"]
+- ["15JTAppleCalendar13ScrollingModeO", "stopAtEachSection"]
+- ["15JTAppleCalendar18SegmentDestinationO", "__derived_enum_equals"]
+- ["15JTAppleCalendar18SegmentDestinationO", "deinit"]
+- ["15JTAppleCalendar18SegmentDestinationO", "end"]
+- ["15JTAppleCalendar18SegmentDestinationO", "hashValue"]
+- ["15JTAppleCalendar18SegmentDestinationO", "next"]
+- ["15JTAppleCalendar18SegmentDestinationO", "previous"]
+- ["15JTAppleCalendar18SegmentDestinationO", "start"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "RawValue"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "deinit"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "full"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "hashValue"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "init"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "left"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "middle"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "none"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "rawValue"]
+- ["15JTAppleCalendar22SelectionRangePositionO", "right"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s11_StrideableP", "hashValue"]
 depends-nominal:
-- !private "Ps17BitwiseOperations"
+- !private "s13BinaryIntegerP"
 - !private "Sb"
-- !private "Ps7CVarArg"
-- !private "Ps10Comparable"
-- !private "Ps29CustomPlaygroundQuickLookable"
-- !private "Ps17CustomReflectable"
-- !private "Ps23CustomStringConvertible"
-- "O15JTAppleCalendar9DateOwner"
-- "O15JTAppleCalendar10DaysOfWeek"
-- "Ps9Equatable"
-- !private "Ps27ExpressibleByBooleanLiteral"
-- !private "Ps27ExpressibleByIntegerLiteral"
-- "Ps8Hashable"
-- "O15JTAppleCalendar20InDateCellGeneration"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "15JTAppleCalendar9DateOwnerO"
+- "15JTAppleCalendar10DaysOfWeekO"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "15JTAppleCalendar20InDateCellGenerationO"
 - !private "Si"
-- !private "Ps7Integer"
-- !private "Ps17IntegerArithmetic"
-- !private "Ps25LosslessStringConvertible"
-- !private "Ps10MirrorPath"
-- "O15JTAppleCalendar12MonthsOfYear"
-- "O15JTAppleCalendar21OutDateCellGeneration"
-- "Ps16RawRepresentable"
-- "O15JTAppleCalendar18ReadingOrientation"
-- "O15JTAppleCalendar13ScrollingMode"
-- "O15JTAppleCalendar18SegmentDestination"
-- "O15JTAppleCalendar22SelectionRangePosition"
-- !private "Ps13SignedInteger"
-- !private "Ps12SignedNumber"
-- !private "Ps10Strideable"
-- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
-- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
-- "Ps9_Hashable"
-- !private "Ps14_Incrementable"
-- !private "Ps8_Integer"
-- !private "Ps18_IntegerArithmetic"
-- !private "Ps21_ObjectiveCBridgeable"
-- !private "Ps14_SignedInteger"
-- !private "Ps11_Strideable"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "15JTAppleCalendar12MonthsOfYearO"
+- !private "s7NumericP"
+- "15JTAppleCalendar21OutDateCellGenerationO"
+- "s16RawRepresentableP"
+- "15JTAppleCalendar18ReadingOrientationO"
+- "15JTAppleCalendar13ScrollingModeO"
+- "15JTAppleCalendar18SegmentDestinationO"
+- "15JTAppleCalendar22SelectionRangePositionO"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s11_StrideableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Pods/Target Support Files/JTAppleCalendar/JTAppleCalendar-umbrella.h"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Pods.build/Debug-iphoneos/JTAppleCalendar.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "b334001e0a20cb2b3cfa74009236fb9b"

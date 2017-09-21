@@ -29,7 +29,7 @@ extension JTAppleCalendarView: UIScrollViewDelegate {
         scrollViewDidEndDecelerating(self)
     }
 
-    public func saveLastContentOffset(_ offset: CGPoint) {
+    @objc public func saveLastContentOffset(_ offset: CGPoint) {
         self.lastSavedContentOffset = scrollDirection == .horizontal ? offset.x : offset.y
     }
     

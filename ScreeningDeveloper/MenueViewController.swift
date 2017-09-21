@@ -17,11 +17,11 @@ class MenueViewController: UIViewController {
 
     @IBOutlet weak var openSettings: UIBarButtonItem!
 
-    var dataRef: DatabaseReference! {
+    @objc var dataRef: DatabaseReference! {
         return Database.database().reference()
     }
 
-    var storageRef: Storage {
+    @objc var storageRef: Storage {
         return Storage.storage()
     }
     
@@ -51,7 +51,7 @@ class MenueViewController: UIViewController {
     }
     
 
-    func loadUserInfo() {
+    @objc func loadUserInfo() {
         let ref = Database.database().reference()
         
         ref.child("users").queryOrderedByKey().observeSingleEvent(of: .value, with: { (snapshot) in
@@ -92,7 +92,7 @@ class MenueViewController: UIViewController {
     
     
 
-    func checkIfUserIsLoggedIn() {
+    @objc func checkIfUserIsLoggedIn() {
         if Auth.auth().currentUser == nil {
             self.presentLogingController()
         } else {
@@ -107,12 +107,12 @@ class MenueViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func presentLogingController() {
+    @objc func presentLogingController() {
         let loginController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loginVC") as! LoginViewController
         self.present(loginController, animated: true, completion: nil)
     }
 
-    func handleLogout() {
+    @objc func handleLogout() {
         if Auth.auth().currentUser?.uid != nil {
             do {
                 try Auth.auth().signOut()
@@ -139,7 +139,7 @@ class MenueViewController: UIViewController {
 }
 
 extension UIImageView {
-    func downloadImage(from imgURL: String!) {
+    @objc func downloadImage(from imgURL: String!) {
         let url = URLRequest(url: URL(string:imgURL)!)
         
         let task = URLSession.shared.dataTask(with: url) {

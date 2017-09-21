@@ -25,9 +25,9 @@ class CreateViewController: UIViewController, UIImagePickerControllerDelegate,UI
     @IBOutlet weak var createButton: UIButton!
 
 
-    let picker = UIImagePickerController()
-    var userStorage: StorageReference!
-    var ref: DatabaseReference!
+    @objc let picker = UIImagePickerController()
+    @objc var userStorage: StorageReference!
+    @objc var ref: DatabaseReference!
 
 
 
@@ -44,7 +44,7 @@ class CreateViewController: UIViewController, UIImagePickerControllerDelegate,UI
 
     }
 
-    func handleDone() {
+    @objc func handleDone() {
         dismiss(animated: true, completion: nil)
     }
 

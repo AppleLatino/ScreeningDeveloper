@@ -15,7 +15,7 @@ import FBSDKLoginKit
 
 class LoginViewController: UIViewController {
 
-    let loginButton = FBSDKLoginButton()
+    @objc let loginButton = FBSDKLoginButton()
 
     @IBOutlet weak var emailField: HoshiTextField!
     @IBOutlet weak var passwordField: HoshiTextField!
@@ -53,7 +53,7 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError?) {
+    @objc func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError?) {
         if let error = error {
             let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
             Auth.auth().signIn(with: credential) { (user, error) in
@@ -131,7 +131,7 @@ class LoginViewController: UIViewController {
         
     }
 
-    func presentMenueController() {
+    @objc func presentMenueController() {
         let menueController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "menueVC") as! SWRevealViewController
         self.present(menueController, animated: true, completion: nil)
     }

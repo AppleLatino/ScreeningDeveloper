@@ -262,11 +262,11 @@ extension ImageView {
      Cancel the image download task bounded to the image view if it is running.
      Nothing will happen if the downloading has already finished.
      */
-    @available(*, deprecated, message: "Extensions directly on image views are deprecated. Use `imageView.kf.cancelDownloadTask` instead.", renamed: "kf.cancelDownloadTask")
+    @objc @available(*, deprecated, message: "Extensions directly on image views are deprecated. Use `imageView.kf.cancelDownloadTask` instead.", renamed: "kf.cancelDownloadTask")
     public func kf_cancelDownloadTask() { kf.cancelDownloadTask() }
     
     /// Get the image URL binded to this image view.
-    @available(*, deprecated, message: "Extensions directly on image views are deprecated. Use `imageView.kf.webURL` instead.", renamed: "kf.webURL")
+    @objc @available(*, deprecated, message: "Extensions directly on image views are deprecated. Use `imageView.kf.webURL` instead.", renamed: "kf.webURL")
     public var kf_webURL: URL? { return kf.webURL }
     
     /// Holds which indicator type is going to be used.
@@ -293,8 +293,8 @@ extension ImageView {
     @available(*, deprecated, message: "Extensions directly on image views are deprecated.", renamed: "kf.setWebURL")
     fileprivate func kf_setWebURL(_ url: URL) { kf.setWebURL(url) }
 
-    func shouldPreloadAllAnimation() -> Bool { return true }
+    @objc func shouldPreloadAllAnimation() -> Bool { return true }
 
-    @available(*, deprecated, renamed: "shouldPreloadAllAnimation")
+    @objc @available(*, deprecated, renamed: "shouldPreloadAllAnimation")
     func shouldPreloadAllGIF() -> Bool { return true }
 }

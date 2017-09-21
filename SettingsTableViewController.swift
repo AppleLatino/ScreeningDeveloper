@@ -11,8 +11,8 @@ import UIKit
 class SettingsTableViewController: UITableViewController {
 
 
-    var listOfSettings = [String]()
-    let cellImages = UIImage()
+    @objc var listOfSettings = [String]()
+    @objc let cellImages = UIImage()
 
     override func viewDidLoad() {
         super.viewDidLoad()

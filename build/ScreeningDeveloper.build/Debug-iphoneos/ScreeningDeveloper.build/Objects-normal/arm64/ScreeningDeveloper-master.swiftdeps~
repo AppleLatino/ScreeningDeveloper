@@ -1,8 +1,8 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "dbcee7116435b03bbd6702cdb782c28a"
-build_time: [557985380, 823510000]
+build_time: [557987348, 402351000]
 inputs:
-  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/LoginViewController.swift": [557985311, 0]
+  "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/LoginViewController.swift": [557987237, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/TextFieldEffects/YoshikoTextField.swift": [544100110, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/DesignableX/Spring.swift": [552025898, 0]
   "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/ScreeningDeveloper/UserListTableViewCell.swift": [552356764, 0]

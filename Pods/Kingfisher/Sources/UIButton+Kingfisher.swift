@@ -313,7 +313,7 @@ extension UIButton {
      Cancel the image download task bounded to the image view if it is running.
      Nothing will happen if the downloading has already finished.
      */
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on UIButton are deprecated. Use `button.kf.cancelImageDownloadTask` instead.",
     renamed: "kf.cancelImageDownloadTask")
     public func kf_cancelImageDownloadTask() { kf.cancelImageDownloadTask() }
@@ -353,7 +353,7 @@ extension UIButton {
      Cancel the background image download task bounded to the image view if it is running.
      Nothing will happen if the downloading has already finished.
      */
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on UIButton are deprecated. Use `button.kf.cancelBackgroundImageDownloadTask` instead.",
     renamed: "kf.cancelBackgroundImageDownloadTask")
     public func kf_cancelBackgroundImageDownloadTask() { kf.cancelBackgroundImageDownloadTask() }
@@ -365,7 +365,7 @@ extension UIButton {
      
      - returns: Current URL for image.
      */
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
         message: "Extensions directly on UIButton are deprecated. Use `button.kf.webURL` instead.",
         renamed: "kf.webURL")
     public func kf_webURL(for state: UIControlState) -> URL? { return kf.webURL(for: state) }
@@ -392,7 +392,7 @@ extension UIButton {
      
      - returns: Current URL for background image.
      */
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on UIButton are deprecated. Use `button.kf.backgroundWebURL` instead.",
     renamed: "kf.backgroundWebURL")
     public func kf_backgroundWebURL(for state: UIControlState) -> URL? { return kf.backgroundWebURL(for: state) }

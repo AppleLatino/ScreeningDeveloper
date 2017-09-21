@@ -12,7 +12,7 @@ class UserListMessageVC: UIViewController {
 
     
 
-    let usersArray: [String] = []
+    @objc let usersArray: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()

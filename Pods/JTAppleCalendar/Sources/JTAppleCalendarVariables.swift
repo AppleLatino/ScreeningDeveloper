@@ -53,7 +53,7 @@ extension JTAppleCalendarView {
     }
     
     /// Returns all selected dates
-    open var selectedDates: [Date] {
+    @objc open var selectedDates: [Date] {
         return Array(Set(theSelectedDates)).sorted()
     }
     
@@ -62,15 +62,15 @@ extension JTAppleCalendarView {
         set { theData.months = monthInfo }
     }
     
-    var numberOfMonths: Int {
+    @objc var numberOfMonths: Int {
         return monthInfo.count
     }
     
-    var totalDays: Int {
+    @objc var totalDays: Int {
         return theData.totalDays
     }
     
-    var calendarViewLayout: JTAppleCalendarLayout {
+    @objc var calendarViewLayout: JTAppleCalendarLayout {
         guard let layout = collectionViewLayout as? JTAppleCalendarLayout else {
             developerError(string: "Calendar layout is not of type JTAppleCalendarLayout.")
             return JTAppleCalendarLayout(withDelegate: self)
@@ -78,14 +78,14 @@ extension JTAppleCalendarView {
         return layout
     }
     
-    var functionIsUnsafeSafeToRun: Bool {
+    @objc var functionIsUnsafeSafeToRun: Bool {
         return !isCalendarLayoutLoaded || isScrollInProgress || isReloadDataInProgress
     }
     
-    var isCalendarLayoutLoaded: Bool { return calendarViewLayout.isCalendarLayoutLoaded }
-    var startDateCache: Date         { return cachedConfiguration.startDate }
-    var endDateCache: Date           { return cachedConfiguration.endDate }
-    var calendar: Calendar           { return cachedConfiguration.calendar }
+    @objc var isCalendarLayoutLoaded: Bool { return calendarViewLayout.isCalendarLayoutLoaded }
+    @objc var startDateCache: Date         { return cachedConfiguration.startDate }
+    @objc var endDateCache: Date           { return cachedConfiguration.endDate }
+    @objc var calendar: Calendar           { return cachedConfiguration.calendar }
 
     
 

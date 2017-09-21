@@ -50,14 +50,14 @@ open class JTAppleCalendarView: UICollectionView {
     open var scrollDirection: UICollectionViewScrollDirection!
     
     /// Enables/Disables the stretching of date cells. When enabled cells will stretch to fit the width of a month in case of a <= 5 row month.
-    open var allowsDateCellStretching = true
+    @objc open var allowsDateCellStretching = true
     
     /// Alerts the calendar that range selection will be checked. If you are
     /// not using rangeSelection and you enable this,
     /// then whenever you click on a datecell, you may notice a very fast
     /// refreshing of the date-cells both left and right of the cell you
     /// just selected.
-    open var isRangeSelectionUsed: Bool = false
+    @objc open var isRangeSelectionUsed: Bool = false
     
     /// The object that acts as the delegate of the calendar view.
     weak open var calendarDelegate: JTAppleCalendarViewDelegate? {
@@ -71,10 +71,10 @@ open class JTAppleCalendarView: UICollectionView {
         }
     }
     
-    var lastSavedContentOffset: CGFloat    = 0.0
+    @objc var lastSavedContentOffset: CGFloat    = 0.0
     var triggerScrollToDateDelegate: Bool? = true
-    var isScrollInProgress                 = false
-    var isReloadDataInProgress             = false
+    @objc var isScrollInProgress                 = false
+    @objc var isReloadDataInProgress             = false
     
     var delayedExecutionClosure: [(() -> Void)] = []
     let dateGenerator = JTAppleDateConfigGenerator()
@@ -99,7 +99,7 @@ open class JTAppleCalendarView: UICollectionView {
     }
 
     /// Notifies the container that the size of its view is about to change.
-    public func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator, focusDateIndexPathAfterRotate: IndexPath? = nil) {
+    @objc public func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator, focusDateIndexPathAfterRotate: IndexPath? = nil) {
         calendarViewLayout.focusIndexPath = focusDateIndexPathAfterRotate
         coordinator.animate(alongsideTransition: { (context) -> Void in
             self.performBatchUpdates(nil, completion: nil)
@@ -124,21 +124,21 @@ open class JTAppleCalendarView: UICollectionView {
         }
     }
     
-    func setupMonthInfoAndMap() {
+    @objc func setupMonthInfoAndMap() {
         theData = setupMonthInfoDataForStartAndEndDate()
     }
     
     // Configuration parameters from the dataSource
     var cachedConfiguration: ConfigurationParameters!
     // Set the start of the month
-    var startOfMonthCache: Date!
+    @objc var startOfMonthCache: Date!
     // Set the end of month
-    var endOfMonthCache: Date!
-    var theSelectedIndexPaths: [IndexPath] = []
-    var theSelectedDates: [Date] = []
-    var initialScrollDate: Date?
+    @objc var endOfMonthCache: Date!
+    @objc var theSelectedIndexPaths: [IndexPath] = []
+    @objc var theSelectedDates: [Date] = []
+    @objc var initialScrollDate: Date?
     
-    func firstContentOffset() -> CGPoint {
+    @objc func firstContentOffset() -> CGPoint {
         var retval: CGPoint = .zero
         guard let date  = initialScrollDate else { return retval }
         
@@ -174,17 +174,17 @@ open class JTAppleCalendarView: UICollectionView {
         return retval
     }
     
-    open var sectionInset: UIEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0)
-    open var minimumInteritemSpacing: CGFloat = 0
-    open var minimumLineSpacing: CGFloat = 0
+    @objc open var sectionInset: UIEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0)
+    @objc open var minimumInteritemSpacing: CGFloat = 0
+    @objc open var minimumLineSpacing: CGFloat = 0
     
     lazy var theData: CalendarData = {
         return self.setupMonthInfoDataForStartAndEndDate()
     }()
     
-    var lastMonthSize: [AnyHashable:CGFloat] = [:]
+    @objc var lastMonthSize: [AnyHashable:CGFloat] = [:]
     
-    var monthMap: [Int: Int] {
+    @objc var monthMap: [Int: Int] {
         get { return theData.sectionToMonthMap }
         set { theData.sectionToMonthMap = monthMap }
     }
@@ -215,7 +215,7 @@ open class JTAppleCalendarView: UICollectionView {
         }
     }
     
-    func developerError(string: String) {
+    @objc func developerError(string: String) {
         print(string)
         print(developerErrorMessage)
         assert(false)
@@ -254,7 +254,7 @@ open class JTAppleCalendarView: UICollectionView {
         #endif
     }
     
-    func validForwardAndBackwordSelectedIndexes(forIndexPath indexPath: IndexPath) -> [IndexPath] {
+    @objc func validForwardAndBackwordSelectedIndexes(forIndexPath indexPath: IndexPath) -> [IndexPath] {
         var retval: [IndexPath] = []
         if let validForwardIndex = calendarViewLayout.indexPath(direction: .next, of: indexPath.section, item: indexPath.item),
             theSelectedIndexPaths.contains(validForwardIndex) {
@@ -268,7 +268,7 @@ open class JTAppleCalendarView: UICollectionView {
         return retval
     }
     
-    func scrollTo(indexPath: IndexPath, triggerScrollToDateDelegate: Bool, isAnimationEnabled: Bool, position: UICollectionViewScrollPosition, extraAddedOffset: CGFloat, completionHandler: (() -> Void)?) {
+    @objc func scrollTo(indexPath: IndexPath, triggerScrollToDateDelegate: Bool, isAnimationEnabled: Bool, position: UICollectionViewScrollPosition, extraAddedOffset: CGFloat, completionHandler: (() -> Void)?) {
         isScrollInProgress = true
         if let validCompletionHandler = completionHandler {
             self.delayedExecutionClosure.append(validCompletionHandler)
@@ -319,7 +319,7 @@ open class JTAppleCalendarView: UICollectionView {
         return CGPoint(x: x, y: y)
     }
     
-    func calendarOffsetIsAlreadyAtScrollPosition(forOffset offset: CGPoint) -> Bool {
+    @objc func calendarOffsetIsAlreadyAtScrollPosition(forOffset offset: CGPoint) -> Bool {
         var retval = false
         // If the scroll is set to animate, and the target content
         // offset is already on the screen, then the
@@ -336,7 +336,7 @@ open class JTAppleCalendarView: UICollectionView {
         return retval
     }
     
-    func calendarOffsetIsAlreadyAtScrollPosition(forIndexPath indexPath: IndexPath) -> Bool {
+    @objc func calendarOffsetIsAlreadyAtScrollPosition(forIndexPath indexPath: IndexPath) -> Bool {
         var retval = false
         // If the scroll is set to animate, and the target content offset
         // is already on the screen, then the didFinishScrollingAnimation
@@ -359,7 +359,7 @@ open class JTAppleCalendarView: UICollectionView {
         return retval
     }
     
-    func scrollToHeaderInSection(_ section: Int,
+    @objc func scrollToHeaderInSection(_ section: Int,
                                  triggerScrollToDateDelegate: Bool = false,
                                  withAnimation animation: Bool = true,
                                  extraAddedOffset: CGFloat,
@@ -392,7 +392,7 @@ open class JTAppleCalendarView: UICollectionView {
         super.reloadData()
     }
     
-    func executeDelayedTasks() {
+    @objc func executeDelayedTasks() {
         let tasksToExecute = delayedExecutionClosure
         delayedExecutionClosure.removeAll()
         
@@ -402,7 +402,7 @@ open class JTAppleCalendarView: UICollectionView {
     }
     
     // Only reload the dates if the datasource information has changed
-    func reloadDelegateDataSource() -> Bool {
+    @objc func reloadDelegateDataSource() -> Bool {
         var retval = false
         if let
             newDateBoundary = calendarDataSource?.configureCalendar(self) {
@@ -462,7 +462,7 @@ open class JTAppleCalendarView: UICollectionView {
         }
         return retval
     }
-    func restoreSelectionStateForCellAtIndexPath(_ indexPath: IndexPath) {
+    @objc func restoreSelectionStateForCellAtIndexPath(_ indexPath: IndexPath) {
         if theSelectedIndexPaths.contains(indexPath) {
             selectItem(at: indexPath, animated: false, scrollPosition: UICollectionViewScrollPosition() )
         }
@@ -658,7 +658,7 @@ extension JTAppleCalendarView {
         return data
     }
     
-    func sizesForMonthSection() -> [AnyHashable:CGFloat] {
+    @objc func sizesForMonthSection() -> [AnyHashable:CGFloat] {
         var retval: [AnyHashable:CGFloat] = [:]
         guard
             let headerSizes = calendarDelegate?.calendarSizeForMonths(self),
@@ -691,7 +691,7 @@ extension JTAppleCalendarView {
         return retval
     }
     
-    func pathsFromDates(_ dates: [Date]) -> [IndexPath] {
+    @objc func pathsFromDates(_ dates: [Date]) -> [IndexPath] {
         var returnPaths: [IndexPath] = []
         for date in dates {
             if calendar.startOfDay(for: date) >= startOfMonthCache! && calendar.startOfDay(for: date) <= endOfMonthCache! {
@@ -780,7 +780,7 @@ extension JTAppleCalendarView {
     }
     
     
-    func batchReloadIndexPaths(_ indexPaths: [IndexPath]) {
+    @objc func batchReloadIndexPaths(_ indexPaths: [IndexPath]) {
         let visiblePaths = indexPathsForVisibleItems
         
         var visiblePathsToReload: [IndexPath] = []
@@ -812,7 +812,7 @@ extension JTAppleCalendarView {
         }
     }
     
-    func selectDate(indexPath: IndexPath, date: Date, shouldTriggerSelecteionDelegate: Bool) -> Set<IndexPath> {
+    @objc func selectDate(indexPath: IndexPath, date: Date, shouldTriggerSelecteionDelegate: Bool) -> Set<IndexPath> {
         var allIndexPathsToReload: Set<IndexPath> = []
         selectItem(at: indexPath, animated: false, scrollPosition: [])
         allIndexPathsToReload.insert(indexPath)
@@ -840,7 +840,7 @@ extension JTAppleCalendarView {
         return allIndexPathsToReload
     }
     
-    func deselectDate(oldIndexPath: IndexPath, shouldTriggerSelecteionDelegate: Bool) -> Set<IndexPath> {
+    @objc func deselectDate(oldIndexPath: IndexPath, shouldTriggerSelecteionDelegate: Bool) -> Set<IndexPath> {
         var allIndexPathsToReload: Set<IndexPath> = []
         
         if let index = self.theSelectedIndexPaths.index(of: oldIndexPath) {
@@ -874,14 +874,14 @@ extension JTAppleCalendarView {
     }
 
     
-    func addCellToSelectedSetIfUnselected(_ indexPath: IndexPath, date: Date) {
+    @objc func addCellToSelectedSetIfUnselected(_ indexPath: IndexPath, date: Date) {
         if self.theSelectedIndexPaths.contains(indexPath) == false {
             self.theSelectedIndexPaths.append(indexPath)
             self.theSelectedDates.append(date)
         }
     }
     
-    func deleteCellFromSelectedSetIfSelected(_ indexPath: IndexPath) {
+    @objc func deleteCellFromSelectedSetIfSelected(_ indexPath: IndexPath) {
         if let index = self.theSelectedIndexPaths.index(of: indexPath) {
             self.theSelectedIndexPaths.remove(at: index)
             self.theSelectedDates.remove(at: index)

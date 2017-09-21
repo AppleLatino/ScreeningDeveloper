@@ -74,14 +74,14 @@ extension JTAppleCalendarView {
     
     /// Deselect all selected dates
     /// - Parameter: this funciton triggers a delegate call by default. Set this to false if you do not want this
-    public func deselectAllDates(triggerSelectionDelegate: Bool = true) {
+    @objc public func deselectAllDates(triggerSelectionDelegate: Bool = true) {
         deselect(dates: selectedDates, triggerSelectionDelegate: triggerSelectionDelegate)
     }
     
     /// Deselect dates
     /// - Parameter: Dates - The dates to deselect
     /// - Parameter: triggerSelectionDelegate - this funciton triggers a delegate call by default. Set this to false if you do not want this
-    public func deselect(dates: [Date], triggerSelectionDelegate: Bool = true) {
+    @objc public func deselect(dates: [Date], triggerSelectionDelegate: Bool = true) {
         if allowsMultipleSelection {
             selectDates(dates, triggerSelectionDelegate: triggerSelectionDelegate)
         } else {
@@ -98,7 +98,7 @@ extension JTAppleCalendarView {
     /// Parameter endDate: End date to generate dates to
     /// returns:
     ///     - An array of the successfully generated dates
-    public func generateDateRange(from startDate: Date, to endDate: Date) -> [Date] {
+    @objc public func generateDateRange(from startDate: Date, to endDate: Date) -> [Date] {
         if startDate > endDate {
             return []
         }
@@ -125,7 +125,7 @@ extension JTAppleCalendarView {
     }
     
     /// Dequeues re-usable calendar cells
-    public func dequeueReusableJTAppleSupplementaryView(withReuseIdentifier identifier: String, for indexPath: IndexPath) -> JTAppleCollectionReusableView {
+    @objc public func dequeueReusableJTAppleSupplementaryView(withReuseIdentifier identifier: String, for indexPath: IndexPath) -> JTAppleCollectionReusableView {
         guard let headerView = dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader,
                                                                 withReuseIdentifier: identifier,
                                                                 for: indexPath) as? JTAppleCollectionReusableView else {
@@ -136,15 +136,15 @@ extension JTAppleCalendarView {
     }
     
     /// Registers a nib for use in creating Decoration views for the collection view.
-    public func registerDecorationView(nib: UINib?) {
+    @objc public func registerDecorationView(nib: UINib?) {
         calendarViewLayout.register(nib, forDecorationViewOfKind: decorationViewID)
     }
     /// Registers a class for use in creating Decoration views for the collection view.
-    public func register(viewClass className: AnyClass?, forDecorationViewOfKind kind: String) {
+    @objc public func register(viewClass className: AnyClass?, forDecorationViewOfKind kind: String) {
         calendarViewLayout.register(className, forDecorationViewOfKind: decorationViewID)
     }
     /// Dequeues a reuable calendar cell
-    public func dequeueReusableJTAppleCell(withReuseIdentifier identifier: String, for indexPath: IndexPath) -> JTAppleCell {
+    @objc public func dequeueReusableJTAppleCell(withReuseIdentifier identifier: String, for indexPath: IndexPath) -> JTAppleCell {
         guard let cell = dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as? JTAppleCell else {
             developerError(string: "Error initializing Cell View with identifier: '\(identifier)'")
             return JTAppleCell()
@@ -159,7 +159,7 @@ extension JTAppleCalendarView {
     /// - Parameter animation: Scroll is animated if this is set to true
     /// - Parameter completionHandler: This closure will run after
     ///                                the reload is complete
-    public func reloadData(completionHandler: (() -> Void)? = nil) {
+    @objc public func reloadData(completionHandler: (() -> Void)? = nil) {
         if isScrollInProgress || isReloadDataInProgress {
             delayedExecutionClosure.append {[unowned self] in
                 self.reloadData(completionHandler: completionHandler)
@@ -202,7 +202,7 @@ extension JTAppleCalendarView {
     /// Reload the date of specified date-cells on the calendar-view
     /// - Parameter dates: Date-cells with these specified
     ///                    dates will be reloaded
-    public func reloadDates(_ dates: [Date]) {
+    @objc public func reloadDates(_ dates: [Date]) {
         var paths = [IndexPath]()
         for date in dates {
             let aPath = pathsFromDates([date])
@@ -233,14 +233,14 @@ extension JTAppleCalendarView {
     ///   applicable in allowedMultiSelection = true.
     /// This overrides the default toggle behavior of selection.
     /// If true, selected cells will remain selected.
-    public func selectDates(from startDate: Date, to endDate: Date, triggerSelectionDelegate: Bool = true, keepSelectionIfMultiSelectionAllowed: Bool = false) {
+    @objc public func selectDates(from startDate: Date, to endDate: Date, triggerSelectionDelegate: Bool = true, keepSelectionIfMultiSelectionAllowed: Bool = false) {
         selectDates(generateDateRange(from: startDate, to: endDate),
                     triggerSelectionDelegate: triggerSelectionDelegate,
                     keepSelectionIfMultiSelectionAllowed: keepSelectionIfMultiSelectionAllowed)
     }
     
     /// Deselect all selected dates within a range
-    public func deselectDates(from start: Date, to end: Date? = nil, triggerSelectionDelegate: Bool = true) {
+    @objc public func deselectDates(from start: Date, to end: Date? = nil, triggerSelectionDelegate: Bool = true) {
         if selectedDates.isEmpty { return }
         let end = end ?? selectedDates.last!
         let dates = selectedDates.filter { $0 >= start && $0 <= end }
@@ -255,7 +255,7 @@ extension JTAppleCalendarView {
     /// Sometimes it is necessary to setup some dates without triggereing
     /// the delegate e.g. For instance, when youre initally setting up data
     /// in your viewDidLoad
-    public func selectDates(_ dates: [Date], triggerSelectionDelegate: Bool = true, keepSelectionIfMultiSelectionAllowed: Bool = false) {
+    @objc public func selectDates(_ dates: [Date], triggerSelectionDelegate: Bool = true, keepSelectionIfMultiSelectionAllowed: Bool = false) {
         if dates.isEmpty { return }
         if (!isCalendarLayoutLoaded || isReloadDataInProgress) {
             // If the calendar is not yet fully loaded.
@@ -500,7 +500,7 @@ extension JTAppleCalendarView {
     /// If the calendar has no headers registered, then this function does nothing
     /// - Paramater date: The calendar view will scroll to the header of
     /// a this provided date
-    public func scrollToHeaderForDate(_ date: Date,
+    @objc public func scrollToHeaderForDate(_ date: Date,
                                       triggerScrollToDateDelegate: Bool = false,
                                       withAnimation animation: Bool = false,
                                       extraAddedOffset: CGFloat = 0,

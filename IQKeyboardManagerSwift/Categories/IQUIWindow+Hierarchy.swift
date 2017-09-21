@@ -40,7 +40,7 @@ public extension UIWindow {
     }
     
     /** @return Returns the topViewController in stack of topMostController.    */
-    public func currentViewController()->UIViewController? {
+    @objc public func currentViewController()->UIViewController? {
         
         var currentViewController = topMostController()
         

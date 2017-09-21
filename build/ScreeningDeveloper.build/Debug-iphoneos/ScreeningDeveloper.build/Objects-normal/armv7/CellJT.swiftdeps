@@ -2,9 +2,9 @@
 provides-top-level:
 - "CellJT"
 provides-nominal:
-- "C18ScreeningDeveloper6CellJT"
+- "18ScreeningDeveloper6CellJTC"
 provides-member:
-- ["C18ScreeningDeveloper6CellJT", ""]
+- ["18ScreeningDeveloper6CellJTC", ""]
 provides-dynamic-lookup:
 - "dateLabel"
 - "selectedView"
@@ -14,129 +14,126 @@ depends-top-level:
 - "UILabel"
 - "UIView"
 depends-member:
-- !private ["Ps9AnyObject", "init"]
-- ["Ps9AnyObject", ""]
-- !private ["PSo15CALayerDelegate", "init"]
-- ["PSo15CALayerDelegate", ""]
-- !private ["Ps7CVarArg", "init"]
-- ["Ps7CVarArg", ""]
-- ["C18ScreeningDeveloper6CellJT", "UILabel"]
-- ["C18ScreeningDeveloper6CellJT", "UIView"]
-- ["C18ScreeningDeveloper6CellJT", "dateLabel"]
-- ["C18ScreeningDeveloper6CellJT", "deinit"]
-- ["C18ScreeningDeveloper6CellJT", "init"]
-- ["C18ScreeningDeveloper6CellJT", "selectedView"]
-- !private ["Ps28CustomDebugStringConvertible", "init"]
-- ["Ps28CustomDebugStringConvertible", ""]
-- !private ["Ps23CustomStringConvertible", "init"]
-- ["Ps23CustomStringConvertible", ""]
-- !private ["Ps9Equatable", "init"]
-- ["Ps9Equatable", ""]
-- !private ["Ps8Hashable", "init"]
-- ["Ps8Hashable", ""]
-- ["C15JTAppleCalendar11JTAppleCell", "UILabel"]
-- ["C15JTAppleCalendar11JTAppleCell", "UIView"]
-- ["C15JTAppleCalendar11JTAppleCell", "dateLabel"]
-- ["C15JTAppleCalendar11JTAppleCell", "init"]
-- ["C15JTAppleCalendar11JTAppleCell", "selectedView"]
-- ["C15JTAppleCalendar11JTAppleCell", ""]
-- !private ["PSo8NSCoding", "init"]
-- ["PSo8NSCoding", ""]
-- ["CSo8NSObject", "UILabel"]
-- ["CSo8NSObject", "UIView"]
-- ["CSo8NSObject", "dateLabel"]
-- ["CSo8NSObject", "init"]
-- ["CSo8NSObject", "selectedView"]
-- !private ["PSo16NSObjectProtocol", "init"]
-- ["PSo16NSObjectProtocol", ""]
-- !private ["PSo29UIAccessibilityIdentification", "init"]
-- ["PSo29UIAccessibilityIdentification", ""]
-- !private ["PSo12UIAppearance", "init"]
-- ["PSo12UIAppearance", ""]
-- !private ["PSo21UIAppearanceContainer", "init"]
-- ["PSo21UIAppearanceContainer", ""]
-- ["CSo24UICollectionReusableView", "UILabel"]
-- ["CSo24UICollectionReusableView", "UIView"]
-- ["CSo24UICollectionReusableView", "dateLabel"]
-- ["CSo24UICollectionReusableView", "init"]
-- ["CSo24UICollectionReusableView", "selectedView"]
-- ["CSo20UICollectionViewCell", "UILabel"]
-- ["CSo20UICollectionViewCell", "UIView"]
-- ["CSo20UICollectionViewCell", "dateLabel"]
-- ["CSo20UICollectionViewCell", "init"]
-- ["CSo20UICollectionViewCell", "selectedView"]
-- !private ["PSo17UICoordinateSpace", "init"]
-- ["PSo17UICoordinateSpace", ""]
-- !private ["PSo13UIDynamicItem", "init"]
-- ["PSo13UIDynamicItem", ""]
-- !private ["PSo18UIFocusEnvironment", "init"]
-- ["PSo18UIFocusEnvironment", ""]
-- !private ["PSo11UIFocusItem", "init"]
-- ["PSo11UIFocusItem", ""]
-- ["CSo11UIResponder", "UILabel"]
-- ["CSo11UIResponder", "UIView"]
-- ["CSo11UIResponder", "dateLabel"]
-- ["CSo11UIResponder", "init"]
-- ["CSo11UIResponder", "selectedView"]
-- !private ["PSo30UIResponderStandardEditActions", "init"]
-- ["PSo30UIResponderStandardEditActions", ""]
-- !private ["PSo18UITraitEnvironment", "init"]
-- ["PSo18UITraitEnvironment", ""]
-- ["CSo6UIView", "UILabel"]
-- ["CSo6UIView", "UIView"]
-- ["CSo6UIView", "dateLabel"]
-- ["CSo6UIView", "init"]
-- ["CSo6UIView", "selectedView"]
-- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
-- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
-- !private ["Ps9_Hashable", "init"]
-- ["Ps9_Hashable", ""]
+- !private ["So15CALayerDelegateP", "init"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", ""]
+- ["18ScreeningDeveloper6CellJTC", "UILabel"]
+- ["18ScreeningDeveloper6CellJTC", "UIView"]
+- ["18ScreeningDeveloper6CellJTC", "dateLabel"]
+- ["18ScreeningDeveloper6CellJTC", "deinit"]
+- ["18ScreeningDeveloper6CellJTC", "init"]
+- ["18ScreeningDeveloper6CellJTC", "selectedView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", ""]
+- ["15JTAppleCalendar0A4CellC", "UILabel"]
+- ["15JTAppleCalendar0A4CellC", "UIView"]
+- ["15JTAppleCalendar0A4CellC", "dateLabel"]
+- ["15JTAppleCalendar0A4CellC", "init"]
+- ["15JTAppleCalendar0A4CellC", "selectedView"]
+- ["15JTAppleCalendar0A4CellC", ""]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "dateLabel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "selectedView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- ["So24UICollectionReusableViewC", "UIView"]
+- ["So24UICollectionReusableViewC", "dateLabel"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "selectedView"]
+- ["So20UICollectionViewCellC", "UILabel"]
+- ["So20UICollectionViewCellC", "UIView"]
+- ["So20UICollectionViewCellC", "dateLabel"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "selectedView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "init"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "init"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "dateLabel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "selectedView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", "dateLabel"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "selectedView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 depends-nominal:
-- "Ps9AnyObject"
-- "PSo15CALayerDelegate"
-- "Ps7CVarArg"
-- "C18ScreeningDeveloper6CellJT"
-- "Ps28CustomDebugStringConvertible"
-- "Ps23CustomStringConvertible"
-- "Ps9Equatable"
-- "Ps8Hashable"
-- "C15JTAppleCalendar11JTAppleCell"
-- "PSo8NSCoding"
-- "CSo8NSObject"
-- "PSo16NSObjectProtocol"
-- "PSo29UIAccessibilityIdentification"
-- "PSo12UIAppearance"
-- "PSo21UIAppearanceContainer"
-- "CSo24UICollectionReusableView"
-- "CSo20UICollectionViewCell"
-- "PSo17UICoordinateSpace"
-- "PSo13UIDynamicItem"
-- "PSo18UIFocusEnvironment"
-- "PSo11UIFocusItem"
-- "CSo11UIResponder"
-- "PSo30UIResponderStandardEditActions"
-- "PSo18UITraitEnvironment"
-- "CSo6UIView"
-- "Ps37_DefaultCustomPlaygroundQuickLookable"
-- "Ps9_Hashable"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "18ScreeningDeveloper6CellJTC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "15JTAppleCalendar0A4CellC"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Accelerate.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/JTAppleCalendar.swiftmodule/arm.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
@@ -266,4 +263,5 @@ depends-external:
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 interface-hash: "3a629929276775cb0ecf08140046b351"

@@ -608,7 +608,7 @@ extension Kingfisher where Base: Image {
         #if os(watchOS)
             return base
         #else
-            return apply(.colorControl(brightness, contrast, saturation, inputEV))
+            return apply(.colorControl((brightness, contrast, saturation, inputEV)))
         #endif
     }
 }
@@ -932,7 +932,7 @@ extension Image {
      
      - returns: The image itself.
      */
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on Image are deprecated. Use `kf.normalized` instead.",
     renamed: "kf.normalized")
     public func kf_normalized() -> Image {
@@ -950,7 +950,7 @@ extension Image {
     /// - returns: An image with round corner of `self`.
     ///
     /// - Note: This method only works for CG-based image.
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on Image are deprecated. Use `kf.image(withRoundRadius:fit:scale:)` instead.",
     renamed: "kf.image")
     public func kf_image(withRoundRadius radius: CGFloat, fit size: CGSize, scale: CGFloat) -> Image {
@@ -965,7 +965,7 @@ extension Image {
     /// - returns: An image with new size.
     ///
     /// - Note: This method only works for CG-based image.
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on Image are deprecated. Use `kf.resize(to:)` instead.",
     renamed: "kf.resize")
     public func kf_resize(to size: CGSize) -> Image {
@@ -980,7 +980,7 @@ extension Image {
     /// - returns: An image with blur effect applied.
     ///
     /// - Note: This method only works for CG-based image.
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on Image are deprecated. Use `kf.blurred(withRadius:)` instead.",
     renamed: "kf.blurred")
     public func kf_blurred(withRadius radius: CGFloat) -> Image {
@@ -996,7 +996,7 @@ extension Image {
     /// - returns: An image with a color overlay applied.
     ///
     /// - Note: This method only works for CG-based image.
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on Image are deprecated. Use `kf.overlaying(with:fraction:)` instead.",
     renamed: "kf.overlaying")
     public func kf_overlaying(with color: Color, fraction: CGFloat) -> Image {
@@ -1010,7 +1010,7 @@ extension Image {
     /// - parameter color: The color should be used to tint `self`
     ///
     /// - returns: An image with a color tint applied.
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on Image are deprecated. Use `kf.tinted(with:)` instead.",
     renamed: "kf.tinted")
     public func kf_tinted(with color: Color) -> Image {
@@ -1027,7 +1027,7 @@ extension Image {
     /// - parameter inputEV:    InputEV changing to image.
     ///
     /// - returns: An image with color control applied.
-    @available(*, deprecated,
+    @objc @available(*, deprecated,
     message: "Extensions directly on Image are deprecated. Use `kf.adjusted` instead.",
     renamed: "kf.adjusted")
     public func kf_adjusted(brightness: CGFloat, contrast: CGFloat, saturation: CGFloat, inputEV: CGFloat) -> Image {

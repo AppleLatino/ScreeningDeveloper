@@ -20,12 +20,12 @@ class OptionViewController: UIViewController{
 
     }
 
-    func presentLogingController() {
+    @objc func presentLogingController() {
         let loginController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loginVC") as! LoginViewController
         self.present(loginController, animated: true, completion: nil)
     }
 
-    func goToMenue()  {
+    @objc func goToMenue()  {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "menueVC")
         self.present(vc, animated: true, completion: nil)
     }

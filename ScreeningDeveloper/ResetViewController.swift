@@ -28,7 +28,7 @@ class ResetViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    func handleResetField() {
+    @objc func handleResetField() {
         guard let email = emailTextField.text, let password = passwordTextField.text, let confPassword = confirmTextField.text else {
             let message = "Please verify that all fields are completed. Thanks"
             let alertController = UIAlertController(title: "Ooops you forgot something!", message: message, preferredStyle: .alert)
@@ -52,7 +52,7 @@ class ResetViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func handleDone() {
+    @objc func handleDone() {
         dismiss(animated: true, completion: nil)
     }
     

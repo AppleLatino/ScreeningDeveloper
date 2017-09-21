@@ -3,13 +3,13 @@ provides-top-level:
 - "Resource"
 - "ImageResource"
 provides-nominal:
-- "P10Kingfisher8Resource"
-- "V10Kingfisher13ImageResource"
-- "V10Foundation3URL"
+- "10Kingfisher8ResourceP"
+- "10Kingfisher13ImageResourceV"
+- "10Foundation3URLV"
 provides-member:
-- ["P10Kingfisher8Resource", ""]
-- ["V10Kingfisher13ImageResource", ""]
-- ["V10Foundation3URL", ""]
+- ["10Kingfisher8ResourceP", ""]
+- ["10Kingfisher13ImageResourceV", ""]
+- ["10Foundation3URLV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "??"
@@ -19,79 +19,81 @@ depends-top-level:
 - "String"
 - "URL"
 depends-member:
-- !private ["Ps28CustomDebugStringConvertible", "absoluteString"]
-- ["Ps28CustomDebugStringConvertible", "cacheKey"]
-- ["Ps28CustomDebugStringConvertible", "downloadURL"]
-- !private ["Ps29CustomPlaygroundQuickLookable", "absoluteString"]
-- ["Ps29CustomPlaygroundQuickLookable", "cacheKey"]
-- ["Ps29CustomPlaygroundQuickLookable", "downloadURL"]
-- !private ["Ps23CustomStringConvertible", "absoluteString"]
-- ["Ps23CustomStringConvertible", "cacheKey"]
-- ["Ps23CustomStringConvertible", "downloadURL"]
-- !private ["Ps9Equatable", "absoluteString"]
-- ["Ps9Equatable", "cacheKey"]
-- ["Ps9Equatable", "downloadURL"]
-- !private ["Ps8Hashable", "absoluteString"]
-- ["Ps8Hashable", "cacheKey"]
-- ["Ps8Hashable", "downloadURL"]
-- ["V10Kingfisher13ImageResource", "String"]
-- ["V10Kingfisher13ImageResource", "URL"]
-- ["V10Kingfisher13ImageResource", "cacheKey"]
-- ["V10Kingfisher13ImageResource", "deinit"]
-- ["V10Kingfisher13ImageResource", "downloadURL"]
-- ["V10Kingfisher13ImageResource", "init"]
-- !private ["P10Foundation20ReferenceConvertible", "absoluteString"]
-- ["P10Foundation20ReferenceConvertible", "cacheKey"]
-- ["P10Foundation20ReferenceConvertible", "downloadURL"]
-- ["P10Kingfisher8Resource", "String"]
-- ["P10Kingfisher8Resource", "URL"]
-- !private ["P10Kingfisher8Resource", "absoluteString"]
-- ["P10Kingfisher8Resource", "cacheKey"]
-- ["P10Kingfisher8Resource", "downloadURL"]
-- ["P10Kingfisher8Resource", ""]
-- ["V10Foundation3URL", "String"]
-- ["V10Foundation3URL", "URL"]
-- !private ["V10Foundation3URL", "absoluteString"]
-- ["V10Foundation3URL", "cacheKey"]
-- ["V10Foundation3URL", "deinit"]
-- ["V10Foundation3URL", "downloadURL"]
-- !private ["Ps34_ExpressibleByFileReferenceLiteral", "absoluteString"]
-- ["Ps34_ExpressibleByFileReferenceLiteral", "cacheKey"]
-- ["Ps34_ExpressibleByFileReferenceLiteral", "downloadURL"]
-- !private ["Ps9_Hashable", "absoluteString"]
-- ["Ps9_Hashable", "cacheKey"]
-- ["Ps9_Hashable", "downloadURL"]
-- !private ["Ps21_ObjectiveCBridgeable", "absoluteString"]
-- ["Ps21_ObjectiveCBridgeable", "cacheKey"]
-- ["Ps21_ObjectiveCBridgeable", "downloadURL"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- ["s28CustomDebugStringConvertibleP", "cacheKey"]
+- ["s28CustomDebugStringConvertibleP", "downloadURL"]
+- !private ["s29CustomPlaygroundQuickLookableP", "absoluteString"]
+- ["s29CustomPlaygroundQuickLookableP", "cacheKey"]
+- ["s29CustomPlaygroundQuickLookableP", "downloadURL"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- ["s23CustomStringConvertibleP", "cacheKey"]
+- ["s23CustomStringConvertibleP", "downloadURL"]
+- !private ["s9DecodableP", "absoluteString"]
+- ["s9DecodableP", "cacheKey"]
+- ["s9DecodableP", "downloadURL"]
+- !private ["s9EncodableP", "absoluteString"]
+- ["s9EncodableP", "cacheKey"]
+- ["s9EncodableP", "downloadURL"]
+- !private ["s9EquatableP", "absoluteString"]
+- ["s9EquatableP", "cacheKey"]
+- ["s9EquatableP", "downloadURL"]
+- !private ["s8HashableP", "absoluteString"]
+- ["s8HashableP", "cacheKey"]
+- ["s8HashableP", "downloadURL"]
+- ["10Kingfisher13ImageResourceV", "String"]
+- ["10Kingfisher13ImageResourceV", "URL"]
+- ["10Kingfisher13ImageResourceV", "cacheKey"]
+- ["10Kingfisher13ImageResourceV", "deinit"]
+- ["10Kingfisher13ImageResourceV", "downloadURL"]
+- ["10Kingfisher13ImageResourceV", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- ["10Foundation20ReferenceConvertibleP", "cacheKey"]
+- ["10Foundation20ReferenceConvertibleP", "downloadURL"]
+- ["10Kingfisher8ResourceP", "String"]
+- ["10Kingfisher8ResourceP", "URL"]
+- !private ["10Kingfisher8ResourceP", "absoluteString"]
+- ["10Kingfisher8ResourceP", "cacheKey"]
+- ["10Kingfisher8ResourceP", "downloadURL"]
+- ["10Kingfisher8ResourceP", ""]
+- ["10Foundation3URLV", "String"]
+- ["10Foundation3URLV", "URL"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- ["10Foundation3URLV", "cacheKey"]
+- ["10Foundation3URLV", "deinit"]
+- ["10Foundation3URLV", "downloadURL"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "cacheKey"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "downloadURL"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- ["s21_ObjectiveCBridgeableP", "cacheKey"]
+- ["s21_ObjectiveCBridgeableP", "downloadURL"]
 depends-nominal:
-- "Ps28CustomDebugStringConvertible"
-- "Ps29CustomPlaygroundQuickLookable"
-- "Ps23CustomStringConvertible"
-- "Ps9Equatable"
-- "Ps8Hashable"
-- "V10Kingfisher13ImageResource"
-- "P10Foundation20ReferenceConvertible"
-- "P10Kingfisher8Resource"
-- "V10Foundation3URL"
-- "Ps34_ExpressibleByFileReferenceLiteral"
-- "Ps9_Hashable"
-- "Ps21_ObjectiveCBridgeable"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "10Kingfisher13ImageResourceV"
+- "10Foundation20ReferenceConvertibleP"
+- "10Kingfisher8ResourceP"
+- "10Foundation3URLV"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Accelerate.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"

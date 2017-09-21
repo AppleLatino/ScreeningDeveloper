@@ -2,9 +2,9 @@
 provides-top-level:
 - "UserSettings"
 provides-nominal:
-- "V18ScreeningDeveloper12UserSettings"
+- "18ScreeningDeveloper12UserSettingsV"
 provides-member:
-- ["V18ScreeningDeveloper12UserSettings", ""]
+- ["18ScreeningDeveloper12UserSettingsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "DatabaseReference"
@@ -12,38 +12,35 @@ depends-top-level:
 - "String"
 - "UserSettings"
 depends-member:
-- ["V18ScreeningDeveloper12UserSettings", "DatabaseReference"]
-- ["V18ScreeningDeveloper12UserSettings", "StorageReference"]
-- ["V18ScreeningDeveloper12UserSettings", "String"]
-- ["V18ScreeningDeveloper12UserSettings", "init"]
-- ["V18ScreeningDeveloper12UserSettings", "key"]
-- ["V18ScreeningDeveloper12UserSettings", "ref"]
-- ["V18ScreeningDeveloper12UserSettings", "userPhotoURL"]
-- ["V18ScreeningDeveloper12UserSettings", "userStorage"]
-- ["V18ScreeningDeveloper12UserSettings", "useremail"]
-- ["V18ScreeningDeveloper12UserSettings", "username"]
-- ["V18ScreeningDeveloper12UserSettings", "userpassword"]
-- ["V18ScreeningDeveloper12UserSettings", "useruid"]
+- ["18ScreeningDeveloper12UserSettingsV", "DatabaseReference"]
+- ["18ScreeningDeveloper12UserSettingsV", "StorageReference"]
+- ["18ScreeningDeveloper12UserSettingsV", "String"]
+- ["18ScreeningDeveloper12UserSettingsV", "init"]
+- ["18ScreeningDeveloper12UserSettingsV", "key"]
+- ["18ScreeningDeveloper12UserSettingsV", "ref"]
+- ["18ScreeningDeveloper12UserSettingsV", "userPhotoURL"]
+- ["18ScreeningDeveloper12UserSettingsV", "userStorage"]
+- ["18ScreeningDeveloper12UserSettingsV", "useremail"]
+- ["18ScreeningDeveloper12UserSettingsV", "username"]
+- ["18ScreeningDeveloper12UserSettingsV", "userpassword"]
+- ["18ScreeningDeveloper12UserSettingsV", "useruid"]
 depends-nominal:
-- "V18ScreeningDeveloper12UserSettings"
+- "18ScreeningDeveloper12UserSettingsV"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Accelerate.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AudioToolbox.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Accelerate.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/JTAppleCalendar/JTAppleCalendar.framework/Modules/JTAppleCalendar.swiftmodule/arm.swiftmodule"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/build/Debug-iphoneos/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/arm.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
@@ -173,4 +170,5 @@ depends-external:
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/Bolts.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/Jotaceo13/Developer/Proyects files/XcodeProjects/Master Proyects Examples/ScreeningDeveloper/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 interface-hash: "be46cd072418688a23c7f487559e9150"

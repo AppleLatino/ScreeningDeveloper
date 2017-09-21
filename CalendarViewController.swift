@@ -15,14 +15,14 @@ class CalendarViewController: UIViewController {
     
     @IBOutlet weak var notificationTableView: UITableView!
 
-    let tableNotificationUpdateLabel = ["Your schedual for today is","Tomorrow schedual is","For this week schedual is","This month","For the 15 days"]
+    @objc let tableNotificationUpdateLabel = ["Your schedual for today is","Tomorrow schedual is","For this week schedual is","This month","For the 15 days"]
 
-    let outsideMonthColor = UIColor(colorWithHexValue: 0x346AA1)
-    let monthColor = UIColor.white
-    let selectedMonthColor = UIColor(colorWithHexValue: 0xEA142D)
-    let currentDateSelectedViewColor = UIColor(colorWithHexValue: 0xEA142D)
+    @objc let outsideMonthColor = UIColor(colorWithHexValue: 0x346AA1)
+    @objc let monthColor = UIColor.white
+    @objc let selectedMonthColor = UIColor(colorWithHexValue: 0xEA142D)
+    @objc let currentDateSelectedViewColor = UIColor(colorWithHexValue: 0xEA142D)
 
-    let formatter = DateFormatter()
+    @objc let formatter = DateFormatter()
 
     @IBOutlet weak var calendarView: JTAppleCalendarView!
     override func viewDidLoad() {
@@ -71,7 +71,7 @@ class CalendarViewController: UIViewController {
         self.monthLabelCalendar.text = self.formatter.string(from: date)
     }
 
-    func setupCalendarView() {
+    @objc func setupCalendarView() {
         calendarView.minimumLineSpacing = 0
         calendarView.minimumInteritemSpacing = 0
 
@@ -158,7 +158,7 @@ extension CalendarViewController: JTAppleCalendarViewDelegate {
 }
 
 extension UIColor {
-    convenience init(colorWithHexValue value: Int, alpha:CGFloat = 1.0) {
+    @objc convenience init(colorWithHexValue value: Int, alpha:CGFloat = 1.0) {
         self.init(
             red: CGFloat((value & 0xFF0000) >> 16) / 255.0,
             green:CGFloat((value & 0x00FF00) >> 8) / 255.0,

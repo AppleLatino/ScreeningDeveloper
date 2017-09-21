@@ -27,7 +27,7 @@ import UIKit
 
 open class IQTitleBarButtonItem: IQBarButtonItem {
    
-    open var titleFont : UIFont? {
+    @objc open var titleFont : UIFont? {
     
         didSet {
             if let unwrappedFont = titleFont {
@@ -47,7 +47,7 @@ open class IQTitleBarButtonItem: IQBarButtonItem {
     /**
      selectableTextColor to be used for displaying button text when button is enabled.
      */
-    open var selectableTextColor : UIColor? {
+    @objc open var selectableTextColor : UIColor? {
         
         didSet {
             if let color = selectableTextColor {
@@ -87,7 +87,7 @@ open class IQTitleBarButtonItem: IQBarButtonItem {
         super.init()
     }
     
-    convenience init(title : String?) {
+    @objc convenience init(title : String?) {
 
         self.init(title: nil, style: UIBarButtonItemStyle.plain, target: nil, action: nil)
         
@@ -108,16 +108,16 @@ open class IQTitleBarButtonItem: IQBarButtonItem {
         
         if #available(iOS 11, *) {
             _titleView?.translatesAutoresizingMaskIntoConstraints = false;
-            _titleView?.setContentHuggingPriority(UILayoutPriorityDefaultLow-1, for: .vertical)
-            _titleView?.setContentHuggingPriority(UILayoutPriorityDefaultLow-1, for: .horizontal)
-            _titleView?.setContentCompressionResistancePriority(UILayoutPriorityDefaultHigh-1, for: .vertical)
-            _titleView?.setContentCompressionResistancePriority(UILayoutPriorityDefaultHigh-1, for: .horizontal)
+            _titleView?.setContentHuggingPriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultLow.rawValue)-1)), for: .vertical)
+            _titleView?.setContentHuggingPriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultLow.rawValue)-1)), for: .horizontal)
+            _titleView?.setContentCompressionResistancePriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultHigh.rawValue)-1)), for: .vertical)
+            _titleView?.setContentCompressionResistancePriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultHigh.rawValue)-1)), for: .horizontal)
             
             _titleButton?.translatesAutoresizingMaskIntoConstraints = false;
-            _titleButton?.setContentHuggingPriority(UILayoutPriorityDefaultLow-1, for: .vertical)
-            _titleButton?.setContentHuggingPriority(UILayoutPriorityDefaultLow-1, for: .horizontal)
-            _titleButton?.setContentCompressionResistancePriority(UILayoutPriorityDefaultHigh-1, for: .vertical)
-            _titleButton?.setContentCompressionResistancePriority(UILayoutPriorityDefaultHigh-1, for: .horizontal)
+            _titleButton?.setContentHuggingPriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultLow.rawValue)-1)), for: .vertical)
+            _titleButton?.setContentHuggingPriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultLow.rawValue)-1)), for: .horizontal)
+            _titleButton?.setContentCompressionResistancePriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultHigh.rawValue)-1)), for: .vertical)
+            _titleButton?.setContentCompressionResistancePriority(UILayoutPriority(rawValue: UILayoutPriority.RawValue(Int(UILayoutPriority.defaultHigh.rawValue)-1)), for: .horizontal)
 
             let top = NSLayoutConstraint.init(item: _titleButton!, attribute: .top, relatedBy: .equal, toItem: _titleView, attribute: .top, multiplier: 1, constant: 0)
             let bottom = NSLayoutConstraint.init(item: _titleButton!, attribute: .bottom, relatedBy: .equal, toItem: _titleView, attribute: .bottom, multiplier: 1, constant: 0)
